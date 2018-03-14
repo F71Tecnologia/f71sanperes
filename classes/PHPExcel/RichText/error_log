@@ -1,0 +1,6 @@
+[20-Jun-2017 09:40:22 America/Chicago] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/Run.php on line 34
+[20-Jun-2017 09:40:22 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/TextElement.php on line 35
+[20-Jun-2017 10:17:41 America/Chicago] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/Run.php on line 34
+[20-Jun-2017 10:18:34 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/TextElement.php on line 35
+[20-Jun-2017 10:22:54 America/Chicago] PHP Fatal error:  Class 'PHPExcel_RichText_TextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/Run.php on line 34
+[20-Jun-2017 10:22:54 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/RichText/TextElement.php on line 35

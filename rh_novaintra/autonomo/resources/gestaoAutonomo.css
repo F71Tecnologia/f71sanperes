@@ -1,0 +1,44 @@
+.panel-heading span {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.icon-danger {
+    color: #ff0000;
+}
+
+.icon-success {
+    color: #00d000;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.ui-datepicker-calendar {
+    font-size: 12px;
+}
+
+.ui-datepicker-title select {
+    margin-top: 5px;
+}
+
+.boxDependentes label {
+    font-weight: normal;
+}
+
+.boxDependentes .checkInp {
+    background-color: #fff;;
+}
+
+.boxDependentes .checkLabel {
+    background-color: #eee;
+    font-weight: normal;
+}

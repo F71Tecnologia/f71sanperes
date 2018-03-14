@@ -1,0 +1,2 @@
+[25-Jul-2017 14:33:17 America/Chicago] PHP Fatal error:  Call to undefined function montaSelcet() in /home/f71sanperes/public_html/intranet/finan/caixinha/form_caixinha.php on line 170
+[25-Jul-2017 14:47:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/f71sanperes/public_html/intranet/finan/caixinha/index.php on line 93

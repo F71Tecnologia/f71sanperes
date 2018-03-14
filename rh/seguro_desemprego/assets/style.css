@@ -1,0 +1,196 @@
+@media print {
+    .noprint {display: none}
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+/* http://codepen.io/rafaelcastrocouto/pen/LFAes */
+body {
+  background: rgb(204,204,204); 
+  margin: 0;
+  text-transform: capitalize;
+}
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  /*margin: 0 auto;*/
+  margin: 0;
+  margin-bottom: 16px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+.img_background {
+    position: absolute;
+    opacity: 0.8; 
+    width: 768px;
+    top: 32px;
+    margin-left: 12px;
+}
+#requerimento p {
+    margin: 17px 0 0 0;
+}
+ /*p { display: none; }
+.img_background {
+    margin: -38px 0 0 -34px;
+    padding: 0;
+    width: 913px;
+}*
+
+/*Size : 8.27in and 11.69 inches*/
+
+/* @page Section1 {
+    size:8.27in 11.69in;
+    size:8.27in 30.69in; 
+    margin:.5in .5in .5in .5in; 
+    mso-header-margin:.5in; 
+    mso-footer-margin:.5in; 
+    mso-paper-source:0;
+}
+
+
+
+div.Section1 {
+    page:Section1;
+}
+*/
+
+.requerimento p {
+    
+    /*border: #CCC dashed 1px;*/
+    position: absolute;
+    left: 69px;
+}
+.requerimento p:nth-child(1){
+    top: 0;
+}
+.requerimento p:nth-child(2){
+    top: 108px;
+}
+.requerimento p:nth-child(3){
+    top: 152px;
+}
+.requerimento p:nth-child(4){
+    top: 204px;
+}
+.requerimento p:nth-child(5){
+    top: 200px;
+}
+.requerimento p:nth-child(6){
+    top: 248px;
+    left: 355px;
+}
+.requerimento p:nth-child(7){
+    top: 245px;
+    left: 523px;
+}
+.requerimento p:nth-child(8){
+    top: 350px;
+}
+.requerimento p:nth-child(9){
+    top: 296px;
+}
+.requerimento p:nth-child(10){
+    left: 303px;
+    top: 298px;
+}
+.requerimento p:nth-child(11){
+    top: 500px;
+}
+.requerimento p:nth-child(12){
+    top: 495px;
+    left: 472px;
+}
+.requerimento p:nth-child(13){
+    top: 247px;
+    left: 576px;
+}
+.requerimento p:nth-child(14){
+    left: 152px;
+    top: 355px;
+}
+.requerimento p:nth-child(15){
+    top: 356px;
+    left: 189px;
+}
+.requerimento p:nth-child(16){
+    top: 414px;
+    left: 109px;
+}
+.requerimento p:nth-child(17){
+    top: 414px;
+    left: 188px;
+}
+.requerimento p:nth-child(18){
+    top: 494px;
+}
+.requerimento p:nth-child(19){
+    top: 493px;
+    left: 196px;
+}
+.requerimento p:nth-child(20){
+    top: 495px;
+    left: 405px;
+}
+.requerimento p:nth-child(21){
+    top: 1050px;
+}
+.requerimento p:nth-child(22){
+    top: 1100px;
+}
+.requerimento p:nth-child(23){
+    top: 1150px;
+}
+.requerimento p:nth-child(24){
+    top: 1200px;
+}
+.requerimento p:nth-child(25){
+    top: 1250px;
+}
+.requerimento p:nth-child(26){
+    top: 1300px;
+}
+.requerimento p:nth-child(27){
+    top: 1350px;
+}
+.requerimento p:nth-child(28){
+    top: 1400px;
+}
+.requerimento p:nth-child(29){
+    top: 1450px;
+}
+.requerimento p:nth-child(30){
+    top: 1500px;
+}
+
+.requerimento p span {
+    width: 17px;
+    display: inline-block;
+
+}
+
+.requerimento p.phover:hover {
+    cursor: pointer;
+    border: #333 dashed 1px;
+}
+/*.requerimento p:hover {
+    
+}*/
+.requerimento p.pSelected {
+    border: #FF0 dashed 1px;
+}
+
+

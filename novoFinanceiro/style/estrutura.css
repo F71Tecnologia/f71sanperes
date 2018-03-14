@@ -1,0 +1,114 @@
+@charset "utf-8";
+#base {
+	border: 1px solid #CCC;
+	width: 800px;
+	margin: 20px auto;
+	background-color: #FFF;
+	text-align:center;
+     
+}
+#base div{
+	margin-bottom: 3px;
+}
+
+.Cadastro{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width:750px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align:left;
+}
+
+.submit-go {
+	overflow:hidden;
+	cursor:pointer !important;
+	padding:0.15em;
+	width:10em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+
+}
+.submit-go:hover {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+}
+
+select{
+    
+    width:230px;
+    font-size: 11px;
+    
+}
+
+input {
+	padding:0.15em;
+	width:10em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+input.descricao{
+    
+    width: 300px;
+}
+
+input:hover, input:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+} 
+fieldset {
+	border:1px solid #ddd;
+	padding:0 0.5em 0.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+input.date  {
+	background-image:url(../image/calendar-small.gif);
+	background-repeat:no-repeat;
+	background-position:100% 50%;
+}
+label {
+	float:left;
+	width:13em;
+	text-align:right;
+	margin-right:1em;
+	font-weight: normal;
+	font-size: 14px;
+	
+}
+#loading {
+	top: 30%;
+	position: absolute;
+	left: 40%;
+	display: none;
+	z-index:1000;
+	text-align:center;
+	background-color:#FFF;
+	border: solid 1px #E2E2E2;
+	padding:10px;
+}
+#cadastro_nomes{
+	width: 300px;
+}
+#barra_upload{
+	margin: 0px auto;
+	width:250px;
+}
+
+.anexos{
+    font-size:12px;
+    
+}
+h3{
+    
+    font-size: 13px;
+}

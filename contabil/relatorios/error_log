@@ -1,0 +1,4 @@
+[21-Jun-2017 09:44:49 America/Chicago] PHP Fatal error:  Call to undefined method c_classificacaoClass::carregarProjeto() in /home/f71sanperes/public_html/intranet/contabil/relatorios/balancete.php on line 48
+[21-Jun-2017 09:58:12 America/Chicago] PHP Fatal error:  Call to undefined method c_classificacaoClass::carregarProjeto() in /home/f71sanperes/public_html/intranet/contabil/relatorios/balancete.php on line 48
+[21-Jun-2017 09:58:14 America/Chicago] PHP Fatal error:  Call to undefined method c_classificacaoClass::carregarProjeto() in /home/f71sanperes/public_html/intranet/contabil/relatorios/balancete.php on line 48
+[21-Jun-2017 10:16:52 America/Chicago] PHP Fatal error:  Call to undefined method c_classificacaoClass::carregarProjeto() in /home/f71sanperes/public_html/intranet/contabil/relatorios/balancete.php on line 48

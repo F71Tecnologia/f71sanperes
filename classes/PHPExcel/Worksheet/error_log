@@ -1,0 +1,12 @@
+[20-Jun-2017 09:40:33 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/BaseDrawing.php on line 37
+[20-Jun-2017 09:40:34 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/Drawing.php on line 36
+[20-Jun-2017 09:40:35 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_Drawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/HeaderFooterDrawing.php on line 36
+[20-Jun-2017 09:40:36 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/MemoryDrawing.php on line 36
+[20-Jun-2017 10:17:37 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/BaseDrawing.php on line 37
+[20-Jun-2017 10:18:38 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/Drawing.php on line 36
+[20-Jun-2017 10:18:39 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_Drawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/HeaderFooterDrawing.php on line 36
+[20-Jun-2017 10:18:39 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/MemoryDrawing.php on line 36
+[20-Jun-2017 10:23:02 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/BaseDrawing.php on line 37
+[20-Jun-2017 10:23:03 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/Drawing.php on line 36
+[20-Jun-2017 10:23:03 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_Drawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/HeaderFooterDrawing.php on line 36
+[20-Jun-2017 10:23:03 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/Worksheet/MemoryDrawing.php on line 36

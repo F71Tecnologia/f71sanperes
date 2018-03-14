@@ -1,0 +1,9 @@
+[20-Jun-2017 09:38:54 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 09:38:54 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 09:38:54 America/Chicago] PHP Fatal error:  Class 'TCPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdi2tcpdf_bridge.php on line 29
+[20-Jun-2017 10:18:58 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 10:18:58 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 10:18:59 America/Chicago] PHP Fatal error:  Class 'TCPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdi2tcpdf_bridge.php on line 29
+[20-Jun-2017 10:23:40 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 10:23:40 America/Chicago] PHP Fatal error:  Class 'FPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdf_tpl.php on line 20
+[20-Jun-2017 10:23:41 America/Chicago] PHP Fatal error:  Class 'TCPDF' not found in /home/f71sanperes/public_html/intranet/classes/fpdfi/fpdi2tcpdf_bridge.php on line 29

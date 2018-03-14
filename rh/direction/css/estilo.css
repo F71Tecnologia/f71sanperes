@@ -1,0 +1,180 @@
+#dados_mapa{
+    margin: 30px 0 0 0;
+    width: 910px;                
+    height: 400px;
+}
+
+#mapa{
+    width: 600px;                                
+    height: 400px;                
+    float: left;
+    box-shadow: -2px -2px 3px #999, 2px 2px 3px #999;
+}
+
+.field_mapa{
+    width: 910px;
+    float: left;
+    min-height: 300px;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+#field_unidade, #field_unidade2{
+    border: 0;
+}
+
+#geo_mapa{
+    height: 380px;
+    width: 270px;
+    float: right;    
+    border: 1px solid #D5D3D3;
+    min-height: 638px;
+    overflow: auto;
+    padding: 5px;
+}
+
+#esquerda{        
+    width: 45%;
+    float: left; 
+}
+
+#direita{
+    margin: 0 25px 0 0;
+    width: 45%;
+    float: right;
+}
+
+#content #form1 fieldset{
+    padding: 30px 0 10px 0;
+}
+
+#titulo_mapa1{
+    background: #6FBA33 url('../../../imagens/icones/icon-fun.png') no-repeat left;
+    padding: 10px 0 6px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#titulo_mapa2{
+    background: #F7685C url('../../../imagens/icones/icon-business.png') no-repeat left;
+    padding: 10px 0 6px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#titulo_mapa3{
+    background: #D5D3D3 url('../../../imagens/icones/icon-maps.png') no-repeat left;
+    padding: 10px 0 6px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.novaintra #content2{
+    width: 910px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 22px 28px 28px 28px;
+}
+
+#quadro_info{
+    width: 600px;            
+}
+
+#quadro_a{
+    width: 600px;    
+    border: 1px solid #D5D3D3;    
+    margin: 0 0 30px 0;
+}
+
+#quadro_b{
+    width: 600px;         
+    border: 1px solid #D5D3D3;    
+}
+
+#dados_mapa1{    
+    width: 419px;
+    margin: 10px auto;      
+}
+
+.dados_mapa{
+    padding: 0 0 10px 0;
+}
+
+.dados_mapa fieldset{
+    border: 0;
+}
+
+.first_a{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: top;
+    float: left;
+}
+
+.fleft h3{
+    color: #817C7C;
+}
+
+.cont_ende{
+    float: right;
+    width: 490px;
+}
+
+.cont_ende a{
+    color: blue;
+}
+
+#colE{    
+    width: 600px;
+    float: left;
+}
+
+.foto_fun{    
+    float: right;
+    border: 1px solid #D5D3D3;
+}
+
+.foto_fun img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+/*api directions*/
+.adp-agencies, .warnbox-content, .adp-legal{
+    display: none;    
+}
+
+.warnbox-c1, .warnbox-c2{
+    background: none;
+}
+
+.adp-summary {
+    padding: 0 3px 8px;
+}
+
+.adp-step, .adp-substep{
+    padding: 7px 3px;
+}
+
+.rota, .rota2{
+    display: none;    
+}
+
+.fleft h3{
+    max-width: 600px;
+}
+
+#centro{
+    margin: 30px 0 0 0;
+}
+
+.tipo_percurso{
+    background: beige;
+    padding: 5px;   
+    text-align: center;
+    margin: 11px 0 0 0;
+}

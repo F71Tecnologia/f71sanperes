@@ -1,0 +1,183 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe versao="2.00" Id="NFe35140600776574000822550010008552561800447143">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>80044714</cNF>
+        <natOp>Venda de mercadoria adquir. de terceiros</natOp>
+        <indPag>0</indPag>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>855256</nNF>
+        <dEmi>2014-06-11</dEmi>
+        <dSaiEnt>2014-06-11</dSaiEnt>
+        <hSaiEnt>02:31:42</hSaiEnt>
+        <tpNF>1</tpNF>
+        <cMunFG>3509205</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>3</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <procEmi>0</procEmi>
+        <verProc>ELDOC</verProc>
+      </ide>
+      <emit>
+        <CNPJ>00776574000822</CNPJ>
+        <xNome>B2W - Companhia Global do Varejo</xNome>
+        <enderEmit>
+          <xLgr>Rodovia Anhanguera Km 37,5</xLgr>
+          <nro>Galpoes 04, 05, 06 e 07</nro>
+          <xBairro>Jordanesia</xBairro>
+          <cMun>3509205</cMun>
+          <xMun>CAJAMAR</xMun>
+          <UF>SP</UF>
+          <CEP>07760000</CEP>
+        </enderEmit>
+        <IE>241044964112</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>08798023756</CPF>
+        <xNome>Jose Antonio Sabino Junior</xNome>
+        <enderDest>
+          <xLgr>RUA do Carmo</xLgr>
+          <nro>9</nro>
+          <xCpl>7 ANDAR 702</xCpl>
+          <xBairro>Centro</xBairro>
+          <cMun>3304557</cMun>
+          <xMun>RIO DE JANEIRO</xMun>
+          <UF>RJ</UF>
+          <CEP>20011020</CEP>
+          <fone>2136381005</fone>
+        </enderDest>
+        <IE/>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>117775176</cProd>
+          <cEAN>7899283802547</cEAN>
+          <xProd>Quadriciclo Bk-Atv503Hw 110Cc Vermelho - Bull Motors</xProd>
+          <NCM>87112010</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>5999.00</vUnCom>
+          <vProd>5999.00</vProd>
+          <cEANTrib>7899283802547</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>5999.00</vUnTrib>
+          <vFrete>59.99</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>2</modBC>
+              <vBC>6058.99</vBC>
+              <pICMS>18.00</pICMS>
+              <vICMS>1090.62</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>6058.99</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>99.97</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>6058.99</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>460.48</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>6058.99</vBC>
+          <vICMS>1090.62</vICMS>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>5999.00</vProd>
+          <vFrete>59.99</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>99.97</vPIS>
+          <vCOFINS>460.48</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>6058.99</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>1</modFrete>
+        <transporta>
+          <CNPJ>15121491000287</CNPJ>
+          <xNome>CLICK - RODO ENTREGAS LTDA 0002-SP</xNome>
+          <IE/>
+          <xEnder>Alameda Mercurio</xEnder>
+          <xMun>INDAIATUBA</xMun>
+          <UF>SP</UF>
+        </transporta>
+        <vol>
+          <qVol>1</qVol>
+          <pesoL>105.000</pesoL>
+          <pesoB>105.000</pesoB>
+        </vol>
+      </transp>
+      <infAdic>
+        <infCpl>Desconto Condicional Concedido de R$ 299.95  Impostos Pagos: ICMS: R$ 1.090,62 (18,00%) PIS: R$ 99,97 (1,65%) COFINS: R$ 460,48 (7,60%);    N. Pedido: 02-566281872 N. Entrega: 349345655.</infCpl>
+        <obsCont xCampo="SiglaERP">
+          <xTexto>ORACLE</xTexto>
+        </obsCont>
+        <obsCont xCampo="Logo">
+          <xTexto>ACOM</xTexto>
+        </obsCont>
+        <obsCont xCampo="NomedaMarca">
+          <xTexto>Americanas.com</xTexto>
+        </obsCont>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35140600776574000822550010008552561800447143">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>rWRun0HyijjLSxEJVPLZuTZ6IlE=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>kQRr+SWNaj5+C3UsvjGvw0HgnpuWVyLFC3FM9UG2mdZVtTufE5Vt746Vqhu8vAEjWQI1Y1IRsPPmFX8g+B+wKLng9OU2GkSOTo9VtFaKkdjVoe+U6og129tIAIXbHXcjg13hL46Ce+DcON8rttdoY2FQtLdtPYrAdG2/FgtY9/bKE8FY8IFgXGQf4xx0BVzUe1Z9TB3EgQygtk/aInWIiiAZRtyRM9gQ9+pHtNGwiv5h/1XHcihinCrY+duDwpXE50goEFO1KayEIKqEMgorxT4iGzzmBhlk7d+IGx3nGc8g0JkUpn/n0KhYOgEGpJf0EQ7+YFLfhjRyrIKSNczZEQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="2.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL_006q</verAplic>
+      <chNFe>35140600776574000822550010008552561800447143</chNFe>
+      <dhRecbto>2014-06-11T02:32:01</dhRecbto>
+      <nProt>135140359456185</nProt>
+      <digVal>rWRun0HyijjLSxEJVPLZuTZ6IlE=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

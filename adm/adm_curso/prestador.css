@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2013, 11:28:03
+    Author     : Ramon
+*/
+
+#modal_moldura{
+    /*border: 1px solid #C1C100;*/
+    width: 610px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#modal_geral{
+    /*border: 1px solid #D43737;*/
+    width: 1200px;
+    height: 100%;
+    position: relative;
+}
+
+#modal_lado1{
+    width: 590px;
+    height: 440px;
+    float: left;
+    margin-right: 10px;
+}
+
+#modal_lado2{
+    width: 570px;
+    height: 440px;
+    float: left;
+}
+
+/*
+CSS do Formulario de upload de documentos
+Author: Leonardo
+*/
+
+.formUpDoc fieldset{
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+.formUpDoc fieldset legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+.formUpDoc fieldset label{
+    width: 100px;
+    padding: 5px;
+    text-align: right;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.formUpDoc fieldset .upDoc-control{
+    padding: 10px 113px;
+    margin: 0;
+    border-top: 1px dashed #ccc;
+}

@@ -1,0 +1,139 @@
+
+*{
+    font-family: arial;
+    color: #333;
+    font-size: 12px;
+
+}
+
+#content{
+    min-width: 1220px;
+}
+
+#head h2{
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.first_old label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.padding_50{
+    padding: 0px 50px !important;
+    box-sizing: border-box;
+}
+
+.novaintra select, .input{
+    width: 60%;
+    height: 30px;
+    padding: 5px;
+}
+
+.textarea{
+    width: 60%;
+    height: 117px;
+    min-height: 50px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #B2B2B2;
+}
+
+.min-height{
+    min-height: 1002px;
+}
+
+.controls{
+    clear: both;
+}
+
+.box-cadastro, .margin-top, .box-listagem {
+    margin-top: 20px;
+}
+
+.padding-bottom{
+    padding-bottom: 28px !important;
+}
+
+.col-esq, .col-dir{
+    width: 30%;
+    border: 0px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.col-esq{
+    margin-right: 10px;
+}
+
+.col-esq-cad, .col-dir-cad{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 20px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.button{
+    background: #EAEAEA;
+    border: 1px solid #DDD;
+    padding: 10px 33px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #666;
+    box-shadow: 5px 5px 6px #f8f8f8;
+    cursor: pointer;
+}
+
+#tbNotas th{
+    font-size: 11px;
+    color: #666;
+}
+
+.edit_nota, .remove_nota{
+    cursor: pointer;
+}
+
+#cad_prestador{
+    display: none;
+    width: 57.8% !important;
+    margin-left: 35px !important;
+}
+
+.box-status{
+    padding-left: 30px;
+}
+
+.tipo_empresa{
+    display: none;
+}
+
+.mostrar{
+    display: block !important;
+}
+
+.vermelha{
+    background: rgb(255, 220, 220);
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media print
+{
+    fieldset{display: none;}
+    .h2page{display: none;}
+    .grAdm{display: none;}
+    #message-box{display: none;}
+    input{display: none;}
+}
+@media screen
+{
+    #headerPrint{display: none;}
+}

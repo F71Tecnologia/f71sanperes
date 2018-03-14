@@ -1,0 +1,221 @@
+A.link {font-size: 11px; COLOR: #676767; TEXT-DECORATION: line-through; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+A.link:link {font-size: 10px; COLOR: #676767; TEXT-DECORATION: none; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+A.link:visited {font-size: 10px; COLOR: #676767; TEXT-DECORATION: none; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+A.link:hover {font-size: 10px; COLOR: #0000FF; TEXT-DECORATION: none; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.igreja {
+	font-family: "Verdana", Times, serif;
+	font-size: 10px;
+	color: #000000;
+}
+.igreja2 {
+	font-family: "Verdana", Times, serif;
+	font-size: 10px;
+	color: #003300
+}
+.fontWhite {
+	font-family: "Verdana", Times, serif;
+	font-size: 10px;
+	color: #FFF;
+}
+.formularios{;
+	font-family: "Verdana", Times, serif;
+	font-size: 10px;
+	color: #000000;
+	border:1px solid #666;
+}
+
+.formTextBox{;
+	font:10px verdana, arial, helvetica, sans-serif;
+	border:1px solid #666;
+	color:#000;
+}
+.formselect { 
+	border:1px solid #666;
+	font:10px verdana, arial, helvetica, sans-serif;
+	color:#000000;
+}
+.style2 {
+ 	color: #FF0000; 
+	font-size: 12px;
+	font-family: "Verdana", Times, serif;
+	font-weight: bold;
+}
+.style3 {
+ 	color: #676767; 
+	font-size: 10px;
+	font-family: "Verdana", Times, serif;
+	font-weight: bold;
+}
+.niver {
+	color: #0000CC;
+}
+TABLE.panel {
+	BORDER-RIGHT: #FFFFFF 1px solid; BORDER-TOP: #FFFFFF 1px solid; BORDER-LEFT: #FFFFFF 1px solid; BORDER-BOTTOM: #FFFFFF 1px solid; BACKGROUND-COLOR: #66CCFF
+}
+TABLE.teste {
+	BORDER-RIGHT: #FFFFFF 1px solid; BORDER-TOP: #FFFFFF 1px solid; BORDER-LEFT: #FFFFFF 1px solid; BORDER-BOTTOM: #FFFFFF 1px solid; BACKGROUND-COLOR: #99CCFF
+}
+.panelHeader {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; TEXT-TRANSFORM: lowercase; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Sans-Serif; HEIGHT: 20px; BACKGROUND-COLOR: #e5ecf4; TEXT-ALIGN: center
+}
+.panelHeaderNote {
+	FONT-WEIGHT: normal
+}
+TD.panel {
+	PADDING-RIGHT: 5px; PADDING-LBODY {
+	FONT-SIZE: 84%; MARGIN: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans-serif; BACKGROUND-COLOR: #FFFFFF
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+.rowLabel {
+	VERTICAL-ALIGN: top; COLOR: #676767; TEXT-ALIGN: right
+}
+.row1 {
+	BACKGROUND-COLOR: #bfd0ea
+}
+.row0 {
+	BACKGROUND-COLOR: #c9d6eb
+}
+.row2 {
+	BACKGROUND-COLOR: #B9DCFF
+}
+.row3 {
+	BACKGROUND-COLOR: #CCEBFD
+}
+.tabPanel {
+	BORDER-RIGHT: #a1bbe4 1px solid; BORDER-TOP: medium none; BORDER-LEFT: #a1bbe4 1px solid; BORDER-BOTTOM: #a1bbe4 1px solid; BACKGROUND-COLOR: #c9d6eb
+}
+FORM {
+	MARGIN: 0px
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Sans-Serif
+}
+FORM {
+	MARGIN: 0px
+}
+TABLE #profileTop {
+	BACKGROUND-COLOR: #ffffff
+}
+TABLE.communityTop {
+	BACKGROUND-COLOR: #ffffff
+}
+.textarea {
+	BORDER-RIGHT: #00a3e4 1px solid; BORDER-TOP: #00a3e4 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; MARGIN-LEFT: 1px; BORDER-LEFT: #00a3e4 1px solid; COLOR: black; BORDER-BOTTOM: #00a3e4 1px solid; FONT-FAMILY: arial, verdana, ms sans serif; BACKGROUND-COLOR: #a0dcf5
+}
+.campotexto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+.campotexto2 {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #000000;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+
+.linha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	font-color: #006600;
+}
+.linha2 {
+	font-family: "Verdana", Times, serif;
+	font-size: 10px;
+	color: #000000;
+}
+.linhan {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	font-color: #006600;
+	background-color: #ECF2EC;
+}
+.tabelalogin {
+	border: 1px solid #CCCCCC;
+}
+.teste2{
+	border: 1px solid #cccccc;
+}
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.style6 {color: #FFFFFF}
+.style7 {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; }
+body {
+	background-color: #e2e2e2;
+}
+body2 {
+	background-color: #e2e2e2;
+}
+.styleobs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003300;
+	background-color: #99CC99;
+	font-weight: bold;
+}
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.style5 {color: #FF0000}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style11 {font-weight: bold}
+.style13 {font-weight: bold}
+.style15 {font-weight: bold}
+.style17 {font-weight: bold}
+.style19 {font-weight: bold}
+.style23 {font-weight: bold}
+body {
+	background-color: #e2e2e2;
+}
+.style24 {
+	font-size: 10px;
+	font-weight: bold;
+	color: #003300;
+}
+.style25 {color: #003300}
+.style26 {
+	color: #FFFFFF;
+	font-size: 10px;
+}
+.style27 {color: #FFFFFF; 
+}
+.alter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 9px;
+}
+.font_tabela {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.table_over {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #FFCC66;
+}
+.table_out {
+	font-weight: normal;
+	border: 1px solid #666666;
+}
+P.quebra-aqui {page-break-before: always}
+

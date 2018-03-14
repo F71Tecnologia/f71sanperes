@@ -1,0 +1,13 @@
+.input_dias_uteis { width: 30px; padding: 2px; }
+
+input.money {
+    width: 64px;
+}
+th.total {
+    width: 64px;
+}
+
+tr.disabled { background: #F2F2F2; }
+tr.invalid, tr.invalid td { color: #C7254E !important; background: #F0DDDD !important; }
+tr.valid, tr.valid td { background: #EBF9FF !important; }
+

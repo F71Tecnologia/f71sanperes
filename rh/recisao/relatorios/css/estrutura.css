@@ -1,0 +1,185 @@
+body {
+	background-color:#F0F0F0;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0;
+	text-align:center;
+}
+
+img {
+	border:0px;
+}
+
+ul, li, p {
+	margin:0px;
+	padding:0px;
+}
+
+h1 {
+	font-size:16px;
+	margin:20px 0px 10px 0px;
+	padding:0px;
+	font-weight:normal;
+}
+
+h1 span {
+	color:#F63;
+}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+#corpo {
+	margin:0px auto;
+	width:822px;
+	background-color:#FFF;
+	text-align:left;
+}
+
+#topo {
+	border-bottom:1px solid #aaa;
+	background-color:#f5f5f5;
+	text-align:center; 
+	padding:8px;
+}
+
+#conteudo {
+	width:100%;
+	text-align:center;
+	font-size:12px;
+}
+
+td.top {
+	background-color:#036;
+	text-align:center;
+}
+
+table.relacao {
+	border:1px solid #ddd;
+	font-weight:bold;
+	margin:0px auto;
+	font-size:12px;
+}
+
+table.relacao table.relacao td {
+	padding-left:5px;
+}
+
+tr.secao_pai {
+	background-color:#444;
+	color:#FFF;
+	font-weight:bold;
+}
+
+tr.secao {
+	background-color:#eaeaea;
+	color:#111;
+	font-weight:bold;
+}
+
+td.secao {
+	text-align:right;
+	background-color:#F8F8F8;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+tr.linha_um, tr.linha_dois {
+	font-size:13px;
+	padding:4px; 
+	font-weight:normal;
+}
+
+.linha_um {
+	background-color:#FAFAFA;
+}
+
+.linha_dois {
+	background-color:#F3F3F3;
+}
+
+input.botao {
+	background-color:#EFEFEF;
+	border:1px solid #555;
+	padding:2px;
+	font-weight:bold;
+	color:#111;
+	text-decoration:none;
+	margin-top:5px;
+	cursor:pointer;
+}
+
+input.botao:hover {
+	background-color:#DFDFDF;
+}
+
+.descricao {
+	background-color:#fafafa;
+	border:1px solid #ccc;
+	padding:8px;
+	margin:0px auto;
+	margin-top:40px;
+	margin-bottom:1px;
+	width:98%;
+	font-size:12px;
+	text-align:center;
+}
+
+td.documento {
+	vertical-align:bottom;
+	width:22px;
+	text-align:center;
+}
+
+td.ativo {
+	background-color:#75A0C0;
+	text-align:center;
+}
+
+td.desativado {
+	background-color:#DA8B8B;
+	text-align:center;
+}
+
+#navegacao {
+	background-color:#F0F0F0; 
+	width:100%;
+	color:#111;
+	font-weight:bold;
+}
+
+#navegacao a {
+	color:#666;
+	text-decoration:none;
+}
+
+#navegacao a:hover {
+	color:#222;
+}
+
+#rodape {
+	margin-top:100px;
+	padding:10px 20px 10px 10px;
+	font-size:11px;
+}
+
+
+h3.titulo{
+	
+background-color:   #036;
+border: solid 3px #C1C1C1;
+color:#FFF;
+width:300px;
+padding:5px;
+margin-top:40px;
+margin-bottom:0;		
+}

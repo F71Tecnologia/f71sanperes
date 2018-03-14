@@ -1,0 +1,1 @@
+[20-Jul-2017 12:52:47 America/Chicago] PHP Fatal error:  Call to undefined method c_planodecontasClass::getPlanoAcesso() in /home/f71sanperes/public_html/intranet/contabil/plano_de_contas/associacao_de_contas/form_assoc_despesa.php on line 37

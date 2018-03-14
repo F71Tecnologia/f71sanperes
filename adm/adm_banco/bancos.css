@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2013, 11:28:03
+    Author     : Ramon
+*/
+
+#modal_moldura{
+    /*border: 1px solid #C1C100;*/
+    width: 610px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#modal_geral{
+    /*border: 1px solid #D43737;*/
+    width: 1200px;
+    height: 100%;
+    position: relative;
+}
+
+#modal_lado1{
+    width: 590px;
+    height: 440px;
+    float: left;
+    margin-right: 10px;
+}
+
+#modal_lado2{
+    width: 570px;
+    height: 440px;
+    float: left;
+}
+
+/*
+CSS do Formulario de upload de documentos
+Author: Leonardo
+*/
+
+.formUpDoc fieldset{
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+.formUpDoc fieldset legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+.formUpDoc fieldset label{
+    width: 100px;
+    padding: 5px;
+    text-align: right;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.formUpDoc fieldset .upDoc-control{
+    padding: 10px 113px;
+    margin: 0;
+    border-top: 1px dashed #ccc;
+}
+
+.tr_contratacao{
+    background: #F0F0F7;
+    text-align: center;
+}
+
+#esquerda{        
+    width: 54%;
+    float: left; 
+}
+
+#direita{
+    margin: 0 25px 0 0;
+    width: 43%;
+    float: right;
+    text-align: right;
+}
+
+#func1, .horario{
+    margin: 20px 0;
+}
+
+.span_horario{
+    background: #E7E7E7;
+    padding: 3px; 
+    margin: 0 5px 0 0;
+}
+
+.edita_valor{
+    margin: 0 0 0 8px;
+    cursor: pointer;
+}
+
+#diferenca{
+    border: 0;
+}
+
+#box_salario{
+    display: none;
+}
+
+#erro{
+    margin: 0 0 0 84px;
+}
+
+#add_hor{
+    text-align: right;
+    margin: 0 0 20px 0;
+    cursor: pointer;    
+    width: 163px;    
+}
+
+#add_hor img{
+    margin: 0 0 0 5px;
+}
+
+.folgas{
+    display: inline-block;
+    /* width: 200px; */
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.colunaDir{
+    width: auto;
+    min-width: 800px;
+    margin-left: 210px;
+    /* min-height: 400px;*/
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+}
+
+.colunaEsq{
+    width: 200px;    
+    float: left;    
+    width: 50%;
+    margin-top: -10px;
+}
+
+.preenche{
+    background: #DDD;
+    padding: 3px;
+    margin: 0 10px 0 2px;
+}
+
+#del_hor{
+    float: right;
+    margin: -10px 8px 0 0;
+    cursor: pointer;
+    display: none;
+}
+
+.td_img{
+    text-align: center;
+}
+
+.legenda{
+    font-size: 10px;
+    color: #999;
+}
+
+.img_banco{
+    margin: 0 0 16px 0;
+}

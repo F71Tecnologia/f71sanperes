@@ -1,0 +1,6 @@
+[20-Jun-2017 09:42:18 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/CJKdata.php on line 18
+[20-Jun-2017 09:42:22 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/upperCase.php on line 2
+[20-Jun-2017 10:09:09 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/CJKdata.php on line 18
+[20-Jun-2017 10:16:38 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/CJKdata.php on line 18
+[20-Jun-2017 10:24:58 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/CJKdata.php on line 18
+[20-Jun-2017 10:25:02 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/f71sanperes/public_html/intranet/classes/mpdf54/includes/upperCase.php on line 2

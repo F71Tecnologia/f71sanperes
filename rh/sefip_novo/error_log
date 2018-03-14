@@ -1,0 +1,4 @@
+[05-Apr-2016 15:16:59 America/Sao_Paulo] PHP Fatal error:  Call to undefined function data() in /home/f71iabassp/public_html/intranet/rh/sefip_novo/controle.php on line 215
+[05-Apr-2016 15:17:27 America/Sao_Paulo] PHP Fatal error:  Call to undefined function data() in /home/f71iabassp/public_html/intranet/rh/sefip_novo/controle.php on line 215
+[06-Jul-2016 22:13:52 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/rh/sefip_novo/delete_sefip.php on line 8
+[06-Jul-2016 22:14:07 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/rh/sefip_novo/delete_sefip.php on line 8

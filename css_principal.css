@@ -1,0 +1,407 @@
+body{
+	background-color:#EAEAEA;
+	margin:0 auto;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif
+}
+
+#corpo {
+	width:998px;
+	margin:0 auto;
+	text-align:left;
+}	
+
+#conteudo {
+	background-color: #FFF;
+
+}
+
+
+.conteudo_aba ul{
+		
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	
+}
+
+
+.conteudo_aba ul li{
+	float:left;
+	list-style:none;
+	margin-left:5px;
+	margin-top:5px;
+	padding:0;
+	text-align:center;
+	width:150px;
+	height:80px;
+}
+
+.conteudo_aba ul li a{
+
+	text-decoration:none;	
+	margin:3px;
+	font-size:12px;
+	opacity:0.65;
+	moz-opacity: 0.65;
+	
+	display:block;
+	color: #000;
+}
+
+
+.conteudo_aba ul li a img{
+
+border:0;
+}
+
+.conteudo_aba ul li a:hover{
+
+	opacity:1;
+	moz-opacity: 1;
+	filter: alpha(opacity=100);
+	background-color:#F9F9F9;
+	
+ 
+}
+
+#topo {
+	width:998px;
+	position:relative;
+	font-size:12px;
+}
+
+
+#menu_principal{
+	
+	float:left;
+	width:200px;
+	margin:0;
+}
+
+#menu_principal ul{
+	
+list-style:none;
+padding:0;
+margin:0;
+	
+}
+
+
+#menu_principal ul li a{
+
+	
+	margin-bottom:2px;
+	padding:10px;
+	text-align:left;
+	text-decoration:none;
+	display:block;
+	background-color:#F4F4F4;
+	border-top:1px solid #999;
+	border-bottom:2px solid #999;
+	position:relative;
+	border-left:3px solid #999;
+	border-right:3px solid #999;
+}
+
+#menu_principal ul li a:hover {
+
+	background-color: #CACACA;
+	border-left:3px solid   #999;
+	border-bottom:2px solid #999;
+	border-right:3px solid   #999;
+	color:#000;
+	
+}
+
+.container{
+    text-align: left;
+}
+
+
+
+
+
+#submenu{
+	margin:0;
+	width:790px;
+	float:left;
+}
+
+
+
+
+.clear{	
+	
+		clear:left;
+	}
+	
+
+
+
+table.tabela{
+	
+font-size:10px;
+text-transform:uppercase;
+}
+
+table.tabela2{
+	
+font-size:12px;
+text-transform:uppercase;
+}
+
+
+table.relacao {
+	width:95%;
+	text-transform: uppercase;
+	margin:0px auto;
+	font-size:10px;
+	text-align:center;
+}
+
+		
+td.titulo_tabela {
+	border-bottom:solid 1px  #CCC;
+	background-color:#E8E8E8;
+	border-left: 2px solid #999;
+	border-bottom: 2px solid #999;
+	padding:3px 10px 3px 3px;
+	
+}	
+
+
+
+tr.secao {
+	text-align:center; 
+	background-color:  #F9F9F9;
+	color: #666; 
+	font-weight:bold; 
+	line-height:24px; 
+	font-size:10px;
+	text-transform:uppercase;
+}
+
+td.secao {
+	text-align:right;
+	padding-right:8px;
+	font-style:italic;
+	font-weight:bold;
+	width:200px;
+}
+
+
+.titulo{
+	background-color: #E2E2E2;
+	font-size:13px;
+	color:#000;
+	padding:4px 8px;
+	width:180px;
+	margin:20px auto;
+	
+	}
+
+.texto  { 
+position:absolute;
+top:-1px;
+left:-1px;
+font-size:10px;
+color:  #000;
+font-weight:bold;
+
+}
+
+.sombra1 {
+position:relative;
+font-size:10px;
+color:  #FFF;
+font-weight:bold;
+
+}	
+
+
+.rodape2{
+	width:100%;
+	display:block;	
+	margin:0 auto;
+	background-color:  #E7E7E7;	
+	color:#000;
+	text-align:center;
+	font-size:10px;
+}	
+
+
+.quadro_tarefas{
+	background-image:url(imagens/quadro_tarefa.gif);
+	background-repeat:no-repeat;
+	padding-top:45px;
+	width:132px;
+	display:block;
+	height:70px;
+}
+
+
+.quadro_email{
+	background-image:url(imagens/quadro_email.png);
+	background-repeat:no-repeat;
+	margin-top:10PX;
+	padding-top:25px;
+	width:132px; 
+	display:block;
+	height:70px;
+}
+
+
+
+
+
+
+
+
+
+
+.sair{
+		
+	font-size:12px;
+	display:block;
+
+}
+
+
+.sair a{
+	width:80px;
+	text-decoration:none;
+	border-left: 2px solid #999;
+	border-bottom: 2px solid #999;
+	background-color:#E8E8E8;
+	color:#999;
+margin-left:-30px;
+padding:3px  6px  3px 6px;
+
+
+}
+
+
+
+.sair  a:hover{
+	background-color:#F3F3F3;
+	border-left:solid 2px #999;
+	border-bottom:solid 2px #999;
+	color:#000;
+
+}
+
+
+
+
+.linha_um {
+	
+	background-color:#FAFAFA;
+	cursor:pointer;
+}
+
+.linha_dois {
+	background-color:#F3F3F3;
+	cursor:pointer;
+}
+
+.linha_tres {
+	background-color:#FAFA00;
+	cursor:pointer;
+}
+
+.botao{
+	text-align:center;
+	width:180px;
+	height:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:   #F3F3F3;	
+	font-size:12px;
+	border:1px solid  #CCC;
+	cursor:pointer;
+	text-decoration:none;
+	color:#000;
+	padding:2px;
+}
+
+
+
+.botao:hover{
+	
+	background-color: #ACACAC;	
+	color:#FFF;
+	border:1px solid #CCC;
+	
+}
+
+.linha_um {
+	background-color:#FAFAFA;
+}
+
+.linha_dois {
+	background-color:#F3F3F3;
+}
+
+body.fundo_juridico{
+
+background-color:   #BCDEDE;
+}
+
+body.fundo_contabil{
+
+background-color:   #00CCCC;
+}
+
+
+
+
+div.fonte_tarefas{
+	
+	font-size:10px;
+}
+
+
+.barra{
+	background-color:  #EBEBEB;
+	font-size:10px;
+	font-weight:bold;
+	
+	}
+
+
+
+
+
+
+
+table tr.secao_nova{
+font-size:11px;
+color: #FFF	;
+background-color:#AAA;
+text-transform: uppercase;
+
+	
+}
+
+
+
+.alerta_email {
+width:100%;
+heigth: 30px;
+text-align:center;
+color:#747474;
+background-color:#F3F3F3;
+border: 1px solid #FFF;
+}
+
+.msg_aviso{
+
+width: 100%;
+height:auto;
+text-align:center;
+background-color: #EAEAEA;
+color: #616161;
+font-weight:bold;
+padding:5px;
+}

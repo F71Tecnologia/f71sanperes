@@ -1,0 +1,31 @@
+<?php
+/*
+ * PHP-DOC - RhMovimentosClass.php
+ * 
+ * Classe de intragração dos movimentos
+ * 
+ * 03-12-2015  
+ * 
+ * @name Movimentos
+ * @package RhMovimentosClass
+ * @access public  
+ * 
+ * @version
+ *  
+ * Versão: 3.0.0000 - 01/12/2015 - Jacques - Versão Inicial
+ * Versão: 3.0.8856 - 08/04/2016 - Jacques - Alterado o método select para selectExt da clásse dinâmica
+ * 
+ * @author jacques
+ * 
+ * @copyright www.f71.com.br
+ *  
+ */
+            
+        
+class RhMovimentosClass { 
+
+    public function selectExt($collection){
+        
+    }
+            
+}

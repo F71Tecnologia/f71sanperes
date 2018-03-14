@@ -1,0 +1,10 @@
+[29-Mar-2016 15:41:18 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_fetch_aay() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1106
+[29-Mar-2016 15:43:03 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_fetch_aay() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1106
+[29-Mar-2016 15:43:04 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_fetch_aay() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1106
+[28-Jul-2016 17:16:56 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_p() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 941
+[29-Dec-2016 12:40:26 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1233
+[19-Jan-2017 11:20:22 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[14-Feb-2017 11:28:08 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1422
+[14-Feb-2017 11:28:10 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 1422
+[22-Feb-2017 09:41:05 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 470
+[12-May-2017 16:57:23 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/folha/sintetica/calculos_folha.php on line 2371

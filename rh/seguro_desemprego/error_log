@@ -1,0 +1,2 @@
+[07-Dec-2016 12:37:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function str_len() in /home/f71iabassp/public_html/intranet/rh/seguro_desemprego/controlador.php on line 84
+[07-Dec-2016 12:38:18 America/Sao_Paulo] PHP Fatal error:  Call to undefined function str_len() in /home/f71iabassp/public_html/intranet/rh/seguro_desemprego/controlador.php on line 84

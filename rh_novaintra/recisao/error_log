@@ -1,0 +1,36 @@
+[02-Jun-2016 10:59:40 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/f71iabassp/public_html/intranet/rh_novaintra/recisao/nova_rescisao.php on line 525
+[02-Jun-2016 10:59:46 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/f71iabassp/public_html/intranet/rh_novaintra/recisao/nova_rescisao.php on line 525
+[02-Jun-2016 11:00:49 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/f71iabassp/public_html/intranet/rh_novaintra/recisao/nova_rescisao.php on line 525
+[02-Jun-2016 11:00:58 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/f71iabassp/public_html/intranet/rh_novaintra/recisao/nova_rescisao.php on line 525
+[04-Jan-2017 14:05:41 America/Sao_Paulo] PHP Fatal error:  Class 'FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[19-Jan-2017 10:47:05 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:47:09 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:47:32 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:48:17 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:51:33 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:53 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:56 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:56 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:57 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:57 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:57 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:52:58 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:55:04 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:56:43 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[19-Jan-2017 10:57:34 America/Sao_Paulo] PHP Fatal error:  Class 'Log' not found in /home/f71iabassp/public_html/intranet/classes/MovimentoClass.php on line 4
+[10-Mar-2017 10:30:42 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:42 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:47 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:47 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:52 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:52 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:55 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:55 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:30:59 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:31:17 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116
+[10-Mar-2017 10:31:43 America/Sao_Paulo] PHP Fatal error:  Class 'hub\FwClass' not found in /home/f71iabassp/public_html/framework/class/RhClass.php on line 116

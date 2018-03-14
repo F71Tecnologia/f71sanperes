@@ -1,0 +1,9 @@
+[14-Jun-2017 07:56:14 America/Chicago] PHP Fatal error:  Call to undefined method Entrada::getArquivos2() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_entrada_saida.php on line 35
+[21-Jul-2017 12:18:39 America/Chicago] PHP Fatal error:  Call to undefined method Entrada::getArquivos2() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_entrada_saida.php on line 35
+[21-Jul-2017 14:23:04 America/Chicago] PHP Fatal error:  Call to undefined function getBanco() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_fluxo_caixa.php on line 102
+[21-Jul-2017 14:27:35 America/Chicago] PHP Fatal error:  Call to undefined function Banco() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_fluxo_caixa.php on line 19
+[21-Jul-2017 14:27:57 America/Chicago] PHP Fatal error:  Call to undefined method Banco::getBanco() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_fluxo_caixa.php on line 105
+[21-Jul-2017 14:28:23 America/Chicago] PHP Fatal error:  Call to undefined method Banco::getBanco() in /home/f71sanperes/public_html/intranet/finan/relatorios/rel_fluxo_caixa.php on line 105
+[15-Aug-2017 12:33:43 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20121212/php_curl.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20121212/php_curl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2017 12:33:43 America/Chicago] PHP Warning:  include_once(/home/f71sanperes/f71framework/lib\const.php): failed to open stream: No such file or directory in /home/f71sanperes/f71framework/lib/web.class.php on line 60
+[15-Aug-2017 12:33:43 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/f71sanperes/f71framework/lib\const.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/f71sanperes/f71framework/lib/web.class.php on line 60

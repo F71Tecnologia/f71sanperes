@@ -1,0 +1,16 @@
+[20-Jun-2017 09:39:21 America/Chicago] PHP Fatal error:  Uncaught exception 'DOMPDF_Exception' with message 'An input file is required (i.e. input_file _GET variable).' in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php on line 227
+[20-Jun-2017 10:08:56 America/Chicago] PHP Fatal error:  Uncaught exception 'DOMPDF_Exception' with message 'An input file is required (i.e. input_file _GET variable).' in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php on line 227
+[20-Jun-2017 10:16:24 America/Chicago] PHP Fatal error:  Uncaught exception 'DOMPDF_Exception' with message 'An input file is required (i.e. input_file _GET variable).' in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php on line 227
+[20-Jun-2017 10:25:36 America/Chicago] PHP Fatal error:  Uncaught exception 'DOMPDF_Exception' with message 'An input file is required (i.e. input_file _GET variable).' in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/f71sanperes/public_html/intranet/classes/pdf/dompdf.php on line 227

@@ -1,0 +1,1 @@
+<?php include_once 'table_'.$key.'.php'; ?>

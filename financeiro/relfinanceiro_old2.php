@@ -1,0 +1,705 @@
+<?php
+include ("include/restricoes.php");
+include "../conn.php";
+//--VERIFICANDO MASTER -----------------
+$id_user = $_COOKIE['logado'];
+$REuser = mysql_query("SELECT * FROM funcionario where id_funcionario = '$id_user'");
+$row_user = mysql_fetch_array($REuser);
+$REMaster = mysql_query("SELECT * FROM master where id_master = '$row_user[id_master]'");
+$row_master = mysql_fetch_array($REMaster);
+// ---- FINALIZANDO MASTER -----------------
+$regiao = $_REQUEST['regiao'];
+$mes2 = date('F');
+$dia_h = date('d');
+$mes_h = date('m');
+$ano = date('Y');
+$mes_q_vem = $mes_h + 1;
+$meses = array('Erro','Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro');
+$MesInt = (int)$mes_h;
+$mes = $meses[$MesInt];
+$data_hoje = "$dia_h/$mes_h/$ano";
+//EMBELEZAMENTO
+$bord = "style='border-bottom:#000 solid 1px; font-size: 12px; font-face:Arial;'";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>:: Financeiro ::</title>
+
+<!-- highslide -->
+<link rel="stylesheet" type="text/css" href="../js/highslide.css" />
+<script type="text/javascript" src="../js/highslide-with-html.js"></script>
+<script type="text/javascript" >
+	hs.graphicsDir = '../images-box/graphics/';
+	hs.outlineType = 'rounded-white';
+	hs.showCredits = false;
+	hs.wrapperClassName = 'draggable-header';
+</script>
+<!-- highslide -->
+
+<script>
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+<link href="../jquery/datepicker-lite/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../jquery/datepicker-lite/jquery-ui-1.8.4.custom.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.date').datepicker({
+		dateFormat: 'dd/mm/yy',
+		changeMonth: true,
+		changeYear: true
+	});
+	
+	$('.ano').parent().next().hide();
+	$(".ano").click(function(){
+		$(this).parent().next().slideToggle();
+		$('.ano').parent().next().hide();
+	});
+	$('.dataautonomos').parent().next().hide();
+	$('.dataautonomos').click(function(){
+		$(this).parent().next().slideToggle();
+		$('.dataautonomos').parent().next().hide();
+	});
+	$('a.recisao').click(function(){
+		$(this).next().toggle();
+	});
+
+});
+</script>
+<style type="text/css">
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	background:#F0F0F0;
+}
+#baseCentral{
+	width:980px;
+	margin:0px auto;
+}
+#topo{
+	position:fixed;
+	top:0px;
+	background-color:#FFF;
+	z-index:1000;
+	width:978px;
+	height:135px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-left-color: #666;
+}
+#conteudo {
+	position:relative;
+	top:135px;
+	background-color:#FFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+}
+*html #conteudo {
+	top:0px;
+}
+<!--
+.style2 {font-size: 12px}
+.style3 {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+}
+.style6 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style9 {color: #FF0000}
+.style12 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #003300;
+}
+.style29 {color: #000000}
+.style31 {	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FF0000;
+}
+.style32 {font-size: 10px}
+.style33 {font-family: Verdana, Arial, Sans-Serif}
+.style27 {color:#FFF}
+-->
+
+#geral h1{
+	font-size: 14px;
+	color: #F00;
+	font-variant: small-caps;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+.linha_um {
+ background-color:#f5f5f5;
+}
+.linha_dois {
+ background-color:#ebebeb;
+}
+.linha_um td, .linha_dois td {
+ 	border-bottom:1px solid #ccc;
+}
+</style>
+<link href="../novoFinanceiro/style/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="baseCentral">
+<div id="topo">
+<?php 
+	$query_master = mysql_query("SELECT id_master FROM regioes WHERE id_regiao = '$regiao'");
+	$query_regiao = mysql_query("SELECT regiao FROM regioes WHERE id_regiao = '$regiao'");
+?>
+	<table width="980">
+    	<tr>
+<td width="110" rowspan="3">
+                  <img src="../imagens/logomaster<?=@mysql_result($query_master,0)?>.gif" width="110" height="79">
+          </td>
+          <td align="left" valign="top">
+          	<br />
+                Data:&nbsp;<strong><?=date("d/m/Y");?></strong>&nbsp;<br />
+        voc&ecirc; est&aacute; visualizando a Regi&atilde;o:&nbsp;<strong><?=@mysql_result($query_regiao,0);?></strong></td>
+        	<td>
+            <br />
+            <?php 
+        $usuarios_permitidos = array('75','5','9','27','64','77');
+        if(in_array($id_user,$usuarios_permitidos)):
+        $qr_id_master = mysql_query("SELECT id_master FROM funcionario WHERE id_funcionario = '$id_user'");
+        $id_master = mysql_result($qr_id_master,0);
+        ?>
+        <!--Controle de regiao -->
+        <div>
+        <form name="formRegiao" id="formRegiao" method="get">
+        <table>
+        <tr>
+            <td><span style="color:#000">Região</span></td>
+            <td><select name="regiao" onchange="MM_jumpMenu('parent',this,0)">
+            <?php
+            $qr_selecao_regiao = mysql_query("SELECT * FROM regioes WHERE status = '1' AND id_master = '$row_user[id_master]'");
+            while($row_selecao_regiao = mysql_fetch_assoc($qr_selecao_regiao)){
+                if($_GET['regiao'] == $row_selecao_regiao['id_regiao']) {
+                print "<option selected=\"selected\" value=\"?regiao=$row_selecao_regiao[id_regiao]\">$row_selecao_regiao[id_regiao] - $row_selecao_regiao[regiao]</option>";
+                } else {
+                    print "<option value=\"?regiao=$row_selecao_regiao[id_regiao]\">$row_selecao_regiao[id_regiao] - $row_selecao_regiao[regiao]</option>";
+                }
+            }
+            ?>
+                </select>
+            </td>
+        </tr>
+        </table>
+        </form>
+        </div>
+           <!--Controle de regiao -->
+        <?php endif;// Fim do if de controle de regiao ?>
+            </td>
+      </tr>          
+    </table>
+      <center>
+        <img src="imagensfinanceiro/relatorio-32.png" alt="fornecedor" width="32" height="32" />&nbsp;<span class="style31">RELATO&#769;RIOS FINANCEIROS</span>
+      </center>
+</div>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"  id="conteudo"> 
+
+  <tr>
+    <td height="26" align="center" valign="middle" bgcolor="#E8E8E8">      
+    <div align="center" class="style6"> 
+        <div align="left">&nbsp;&nbsp;<span class="style2"><img src="imagensfinanceiro/entradas-up-32.png" alt="fornecedor" width="32" height="32" align="absmiddle">&nbsp;<span class="style3">ENTRADAS</span></span></div>
+      </div></td>
+    <td height="26" valign="middle" bgcolor="#E8E8E8"><div align="left"><span class="style2"> &nbsp;&nbsp;<img src="imagensfinanceiro/saida-32.png" alt="fornecedor" width="32" height="32" align="absmiddle"><span class="style31">&nbsp;</span></span><span class="style3">SAI&#769;DAS</span></div></td>
+  </tr>
+  <tr>
+    <td height="16" valign="top">
+    <form action="relfinanceiro2.php" method="post" name="for1">
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">Selecione o Projeto:</span>
+    <?php
+$result_projeto = mysql_query("SELECT * FROM projeto where id_regiao = '$regiao' AND status_reg = '1'");
+print "<select name='projeto' class='textarea2'>";
+while($row_projeto = mysql_fetch_array($result_projeto)){
+print "<option value=$row_projeto[0]>$row_projeto[0] -  $row_projeto[nome] </option>";
+}
+print "</select>";
+?>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visualizar Entradas de 
+    <input name="data_ini" type="text" id="data_ini" size="10" maxlength='10' class='date'>
+    at&eacute; 
+    <input name="data_fim" type="text" id="data_fim" size="10" maxlength='10' class='date'>
+     </span><span class="style12 style29"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+     <br />
+     &nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" class="submit-go" value="Gerar">
+<input type="hidden" value="1" name="id">
+<input type="hidden" value="<?=$regiao;?>" name="regiao">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    </form>   
+    </td>
+    
+    
+    <td height="16" valign="top"><form action="relfinanceiro2.php" method="post" name="for2">
+  &nbsp;&nbsp;&nbsp;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">Selecione o Projeto:</span>
+  <?php
+$result_projeto = mysql_query("SELECT * FROM projeto where id_regiao = '$regiao' AND status_reg = '1'");
+print "<select name='projeto' class='textarea2'>";
+while($row_projeto = mysql_fetch_array($result_projeto)){
+print "<option value=$row_projeto[0]>$row_projeto[0] - $row_projeto[nome] </option>";
+}
+print "</select>";
+?>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visualizar Sa&iacute;das de
+  <input name="data_ini" type="text" size="10" maxlength='10' class='date'>
+    at&eacute;
+  <input name="data_fim" type="text" size="10" maxlength='10' class='date'>
+  </span><span class="style12 style29"> <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" class="submit-go" value="Gerar">
+  <input type="hidden" value="2" name="id">
+  <input type="hidden" value="<?=$regiao;?>" name="regiao">
+  <br>
+    </form></td>
+  </tr>
+  <tr bgcolor="#E8E8E8">
+  	<td><div align="left">&nbsp;&nbsp;<span class="style9">&nbsp;<span class="style2"><img src="imagensfinanceiro/entradas-up-32.png" alt="fornecedor" width="32" height="32" align="absmiddle" /><span class="style31"><img src="imagensfinanceiro/saida-32.png" alt="fornecedor" width="32" height="32" align="absmiddle" /></span>&nbsp;</span></span><span class="style3"> ENTRADAS E SAI&#769;DAS</span></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="18" valign="top">
+<form action="relfinanceiro2.php" method="post" name="for5">
+  <p><span class="style12 style29">&nbsp;</span></p>
+  <p><span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selecione o Projeto:</span>
+    <?php
+$result_projeto = mysql_query("SELECT * FROM projeto where id_regiao = '$regiao' AND status_reg = '1'");
+print "<select name='projeto' class='textarea2'>";
+while($row_projeto = mysql_fetch_array($result_projeto)){
+print "<option value=$row_projeto[0]>$row_projeto[0] - $row_projeto[nome] </option>";
+}
+print "</select>";
+?>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="relfinanceiro2.php?id=5&regiao=<?=$regiao;?>&select=1" class="style12 style29" style="TEXT-DECORATION: none;">
+      <label>
+        Visualizar lan&ccedil;amentos n&atilde;o pagos&nbsp;&nbsp;
+        <input type="radio" name="select" id="select" value="1">
+        </label>
+      <br>
+      </a>
+    <br>
+    <span class="style12 style29">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label>
+        Visualizar lan&ccedil;amentos futuros&nbsp;&nbsp;
+        <input type="radio" name="select" id="select" value='2'>
+        </label>
+      </span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" class="submit-go" value="Gerar">
+    <input type="hidden" value="5" name="id">
+    <input type="hidden" value="<?=$regiao;?>" name="regiao">
+    <br>
+    &nbsp;&nbsp;&nbsp;</p>
+</form>
+</td>
+<td valign="top"><form action="relfinanceiro2.php" method="post" name="for4" id="for4">
+  &nbsp;<br />
+  <br />
+  &nbsp;&nbsp;&nbsp;<span class="style12 style29">&nbsp;Selecione a Conta:</span>
+  <?php
+$result_banco = mysql_query("SELECT * FROM bancos where id_regiao = '$regiao' and interno ='1' AND status_reg = '1'");
+print "<select name='banco' class='textarea2'>";
+while($row_banco = mysql_fetch_array($result_banco)){
+print "<option value=$row_banco[0]>$row_banco[0] - $row_banco[nome] - $row_banco[agencia] / $row_banco[conta]</option>";
+}
+print "</select>";
+?>
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">Ou marque aqui para exibir todas as contas:</span>
+  <input type="checkbox" name="todas_contas" id="todas_contas" value="1" />
+  &nbsp;&nbsp;&nbsp;&nbsp;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">Selecione o m&ecirc;s e o ano de refer&ecirc;ncia:&nbsp;&nbsp;&nbsp;
+  <select name="mes" id="mes" class='textarea2'>
+    <option value="01">Janeiro</option>
+    <option value="02">Fevereiro</option>
+    <option value="03">Mar&ccedil;o</option>
+    <option value="04">Abril</option>
+    <option value="05">Maio</option>
+    <option value="06">Junho</option>
+    <option value="07">Julho</option>
+    <option value="08">Agosto</option>
+    <option value="09">Setembro</option>
+    <option value="10">Outubro</option>
+    <option value="11">Novembro</option>
+    <option value="12">Dezembro</option>
+  </select>
+  </span> <span class="style12 style29"> &nbsp;&nbsp;&nbsp;&nbsp;
+  <select name="ano" id="ano" class='textarea2'>
+    <option>2005</option>
+    <option>2006</option>
+    <option>2007</option>
+    <option>2008</option>
+    <option selected="selected">2009</option>
+    <option>2010</option>
+    <option>2011</option>
+    <option>2012</option>
+    <option>2013</option>
+    <option>2014</option>
+  </select>
+  </span>
+  <label></label>
+  <span class="style12 style29"><br />
+  &nbsp; </span> <span class="style12 style29">&nbsp;&nbsp;</span><span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <input type="submit" class="submit-go" value="Gerar" />
+  <input type="hidden" value="4" name="id" />
+  <input type="hidden" value="<?=$regiao;?>" name="regiao" />
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</form></td>
+  </tr>
+  <tr>
+    <td height="18" align="right" valign="top" bgcolor="#E8E8E8">
+    <div align="left">&nbsp;&nbsp;<span class="style2"><img src="imagensfinanceiro/caixa-32.png" alt="fornecedor" width="32" height="32" align="absmiddle">&nbsp;<span class="style3">CAIXA</span></span></div>
+    </td>
+    <td bgcolor="#E8E8E8">&nbsp;</td>
+  </tr>
+    <tr>
+      <td height="18"  valign="top">
+        <form action="relfinanceiro2.php" method="post" name="for3">
+          &nbsp;&nbsp;&nbsp;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">Selecione o Projeto:</span>
+  <?php
+$result_projeto = mysql_query("SELECT * FROM projeto where id_regiao = '$regiao' AND status_reg = '1'");
+print "<select name='projeto' class='textarea2'>";
+while($row_projeto = mysql_fetch_array($result_projeto)){
+print "<option value=$row_projeto[0]> $row_projeto[0] - $row_projeto[nome] </option>";
+}
+print "</select>";
+?>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<span class="style12 style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visualizar Entradas de
+  <input name="data_ini" type="text" size="10" maxlength='10' class='date'>
+    at&eacute;
+  <input name="data_fim" type="text" size="10" maxlength='10' class='date'>
+  &nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+  <input type="submit" class="submit-go" value="Gerar">
+  <input type="hidden" value="3" name="id">
+  <input type="hidden" value="<?=$regiao;?>" name="regiao">
+  <br>
+  <br>
+      </form></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="33" colspan="2" bgcolor="#E8E8E8"><span class="style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DEMAIS RELATORIOS</span></td>
+    </tr>
+    <tr>
+    <td><div align="left" style="background-color:#FFF">
+      <form action="abastecimento.php" method="post" name="formabas" id="formabas">
+        <p>&nbsp;&nbsp;<img src="../imagensmenu2/c1.gif" alt="cobrinha" width="20" height="14" align="absmiddle" />&nbsp;<b>RELAT&Oacute;RIOS DE ABASTECIMENTOS</b></p>
+        <p align="center"><span class="style12 style29">
+          <label>Marque para ver o relat&oacute;rio anual:&nbsp;
+            <input type="checkbox" name="anotodo" id="anotodo" value="1" onclick="document.formabas.mes.style.display = (document.formabas.mes.style.display == 'none') ? '' : 'none' ;" />
+          </label>
+          <br />
+          <br />
+          &nbsp;
+          <select name="mes" id="mes" class='textarea'>
+            <option value="01">Janeiro</option>
+            <option value="02">Fevereiro</option>
+            <option value="03">Mar&ccedil;o</option>
+            <option value="04">Abril</option>
+            <option value="05">Maio</option>
+            <option value="06">Junho</option>
+            <option value="07">Julho</option>
+            <option value="08">Agosto</option>
+            <option value="09">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <select name="ano" id="ano" class='textarea'>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option selected="selected">2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+          </select>
+          <br />
+          <br />
+          </span>
+          <input type="submit" class="submit-go" value="Visualizar Relat&oacute;rio" />
+          <br />
+        </p>
+      </form>
+    </div></td>
+     <td valign="top"><div align="left" style="background-color:#FFF">
+       <p>&nbsp;&nbsp;<img src="../imagensmenu2/gestao.gif" alt="cobrinha" width="20" height="22" align="absmiddle" />&nbsp;<b>RELAT&Oacute;RIOS DE FECHAMENTO</b></p>
+       <p align="center"> <a onclick="MM_openBrWindow('../relsdescritivodetalhado.php?regiao=<?=$regiao;?>','','scrollbars=yes,resizable=yes,width=770,height=550')" href="#"><img alt="rel" src="../imagens/ver_detalhado.gif" align="middle" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a onclick="MM_openBrWindow('../reldescritivo.php?regiao=<?=$regiao;?>','','scrollbars=yes,resizable=yes,width=770,height=550')" href="#"><img alt="rel" src="../imagens/ver_descritivo.gif" align="middle" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="MM_openBrWindow('../reldescritivoanual.php?regiao=<?=$regiao;?>','','scrollbars=yes,resizable=yes,width=770,height=550')" href="#"><img alt="rel" src="../imagens/ver_anual.gif" align="middle" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="MM_openBrWindow('../reldesempenho.php?regiao=<?=$regiao;?>&amp;id=1','','scrollbars=yes,resizable=yes,width=770,height=550')" href="#"><img alt="rel" src="../imagens/ver_desempenho.gif" align="middle" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+         &nbsp;<br />
+       </p>
+     </div></td>
+  </tr>
+  <tr>
+    <td height="32" colspan="2" align="left" valign="middle">
+    
+    <hr>
+    <p>
+      <?php 
+// Relatorio financeiro por grupo criado por maikom 
+// filtro de usuarios
+$usuarios = array('5','77','9','64','27','75');
+if(in_array($id_user,$usuarios)):?>
+</p>
+    <div id="geral">
+      <h1>&nbsp;&nbsp;&nbsp;RELATORIO GERENCIAL</h1>
+    <form action="../novoFinanceiro/relatorio.gerencial.php" method="get" name="relatorio">
+    <table align="center">
+    	<tr>
+        	<td align="center">M&ecirc;s</td>
+            <td align="center">Ano</td>
+            <td align="center">Projeto</td>
+            </tr>
+        <tr>
+        	<td>
+        	  <select name="mes" id="mes">
+        	    <?php
+			  $query_mes = mysql_query("SELECT * FROM  ano_meses ORDER BY num_mes");
+			  while($row_mes = mysql_fetch_assoc($query_mes)){
+				  if($row_mes['num_mes'] == date('m'))
+				  	echo '<option value="'.$row_mes['num_mes'].'" selected="selected">'.$row_mes['nome_mes'].'</option>';
+				  else
+				  	echo '<option value="'.$row_mes['num_mes'].'" >'.$row_mes['nome_mes'].'</option>';
+			  }
+			   ?>
+        	    </select>
+      	  </td>
+            <td>
+              <select name="ano" id="ano">
+              <?php 
+				$ano = array(2008,2009,2010,2011,2012);
+				foreach($ano as $an){
+					if($an == date('Y'))
+						echo '<option value="'.$an.'" selected="selected">'.$an.'</option>';
+					else
+					 	echo '<option value="'.$an.'" >'.$an.'</option>';
+				}
+			  ?>
+              </select>
+            </td>
+            <td>
+              <select name="projeto" id="projeto">
+              <?php 
+			  $query_projeto = mysql_query("SELECT * FROM projeto where id_regiao = '$regiao' AND status_reg = '1'");
+				while($row_projeto = mysql_fetch_array($query_projeto)){
+					echo '<option value="'.$row_projeto[0].'">'.$row_projeto[0].' - '.$row_projeto['nome'].'</option>';
+				}
+				?>
+              </select>
+            </td>
+            </tr>
+        <tr>
+        	<td colspan="3" align="center"><input name="button" type="submit" class="submit-go" id="button" value="       GERAR RELATORIO       "></td>
+            </tr>
+    </table>
+    </form>
+</div>
+<?php endif; ?>
+<?php
+//BLOQUEIO PAULO MONTEIRO SJR 16-03 - 17hs
+if($id_user != '73') {
+?>
+</td>
+<tr>
+	<td height="32" colspan="2" bgcolor="#E8E8E8"><div align="left"><span class="style9">&nbsp;&nbsp;<span class="style2"><img src="../imagensfinanceiro/contas.gif" alt="contas" width="25" height="25" align="absmiddle" />&nbsp;</span></span><span class="style3"> &nbsp;CONTROLE DE SALDOS</span></div></td>
+</tr>
+<tr>
+<td colspan="2"><br>
+    <table width="95%" border="0" align="center" cellpadding="2" cellspacing="1" >
+      <tr class="linha_um"> 
+            <td width="5%" bgcolor="#333333"><div align="center" class="style27">CÓD</div></td>
+            <td width="25%" bgcolor="#333333"><div align="center" class="style27">BANCO</div></td>
+            <td width="9%" bgcolor="#333333"><div align="center" class="style27">AG</div></td>
+            <td width="10%" bgcolor="#333333"><div align="center" class="style27">CC</div></td>
+            <td width="30%" bgcolor="#333333"><div align="center" class="style27">PROJETO</div></td>
+            <td width="17%" bgcolor="#333333"><div align="center" class="style27">SALDO PARCIAL </div></td>
+           <td width="17%" bgcolor="#333333"><div align="center" class="style27">QUANT. SAIDAS HOJE</div></td>
+
+        </tr>
+		  <?php
+		  $cont = "0";
+		  $div = "<div align='center' class='style24'>";
+		  //1 - ramon
+		  //5 - fabio
+		  //9 - sabino
+		  //27 - silvania
+		  //32 - renato
+		  //75 -  Maikom james
+		  //$id_user == '1' or 
+		  if($id_user == '64' or $id_user == '5' or $id_user == '9' or $id_user == '27' or $id_user == '77' or $id_user == '75'){
+			  $RERegioes = mysql_query("SELECT * FROM regioes Where id_master = '$row_master[0]' and status='1'");
+			  
+			  while($RowRegioes = mysql_fetch_array($RERegioes)){
+				  $REBancos = mysql_query("SELECT * FROM bancos where id_regiao = '$RowRegioes[0]' and interno ='1' AND status_reg = '1'");
+				  $NumBancos = mysql_num_rows($REBancos);
+				  
+				  if($NumBancos != 0){
+				  //SÓ VAI PRINTAR ESSAS INFORMAÇÕES SE A REGIÃO SELECIONADA TIVER DIFERENTE DE 0
+				  echo "<tr bgcolor='#666666'>";
+				  echo "<td colspan='7' width='5%' align='center' $bord><div style='font-size:14px; color:#FFF'><b>$RowRegioes[regiao]</b></div></td>";
+				  echo "</tr>";
+				  
+				  while($RowBancos = mysql_fetch_array($REBancos)){
+					  
+					  if($cont % 2){ $color="#f0f0f0"; }else{ $color="#dddddd"; }
+					  // verificando se existem saidas confirmadas hoje
+					  $qr_saidas = mysql_query("SELECT * 
+												FROM  `saida` 
+												WHERE id_banco =  '$RowBancos[id_banco]'
+												AND DAY( data_pg ) =  '".date("d")."'
+												AND MONTH( data_pg ) =  '".date("m")."'
+												AND YEAR( data_pg ) =  '".date("Y")."'
+												AND status = '2';");
+						$quant = @mysql_num_rows($qr_saidas);
+					if(empty($quant)){
+						$color = "#FFB09D";
+					}
+					$quant = NULL;
+					$qr_saidas_hj = mysql_query("SELECT * FROM `saida` WHERE id_banco = '$RowBancos[id_banco]' AND DAY(data_vencimento) =  '".date("d")."' AND MONTH(data_vencimento) = '".date("m")."' AND YEAR(data_vencimento) = '".date("Y")."' AND status = '1'");
+			  		$saidas_hoje = @mysql_num_rows($qr_saidas_hj);
+					
+						  $REProjeto = mysql_query("SELECT * FROM projeto where id_projeto = '$RowBancos[id_projeto]' AND status_reg = '1'");
+						  $RowProjeto = mysql_fetch_array($REProjeto);
+			  
+						  $ValorBanc = str_replace(",", ".", $RowBancos['saldo']);
+			  			  $ValorBancF = number_format($ValorBanc,2,",",".");
+						  
+						  echo "<tr bgcolor='$color'>";
+						  echo "<td width='5%' $bord>$div $RowBancos[id_banco]</div></td>";
+						  echo "<td width='25%' $bord>$div $RowBancos[nome] 
+						  <a href='../novoFinanceiro/view/controle.saldo.php?id_banco=$RowBancos[id_banco]' onclick=\"return hs.htmlExpand(this, { objectType: 'iframe', width: 540 } )\" \">
+				   <img src=\"../novoFinanceiro/image/seta.gif\" />
+				   		</a></div></td>";
+						  echo "<td width='9%' $bord>$div $RowBancos[agencia]</div></td>";
+						  echo "<td width='10%' $bord>$div $RowBancos[conta]</div></td>";
+						  echo "<td width='30%' $bord>$div $RowProjeto[nome]&nbsp;</div></td>";
+						  echo "<td width='17%' $bord>$div $ValorBancF </div></td>";
+						  echo "<td width='17%' $bord>$div $saidas_hoje </div></td>";
+						  echo "</tr>";
+		  
+						  $cont ++;
+				  	  }
+				    
+			
+				  }// SÓ VAI RODAR ISSO AE EM CIMA, SE TIVER BANCO NA REGIAO
+				  
+			  }
+			  
+		  }else{
+			  $REBanc = mysql_query("SELECT * FROM bancos where id_regiao='$regiao' and interno ='1' AND status_reg = '1'");
+			  while($RowBanc = mysql_fetch_array($REBanc)){
+				  
+				  if($cont % 2){ $color="#f0f0f0"; }else{ $color="#dddddd"; }
+			  
+				  $REProjeto = mysql_query("SELECT * FROM projeto where id_projeto = '$RowBanc[id_projeto]' AND status_reg = '1'");
+				  $RowProjeto = mysql_fetch_array($REProjeto);
+			  
+				  $ValorBanc = str_replace(",", ".", $RowBanc['saldo']);
+				  $ValorBancF = number_format($ValorBanc,2,",",".");
+						  
+				  echo "<tr bgcolor='$color'>";
+				  echo "<td width='5%' $bord>$div $RowBanc[id_banco] 
+				  		
+				   </div></td>";
+				  echo "<td width='25%' $bord>$div $RowBanc[nome]</div></td>";
+				  echo "<td width='9%' $bord>$div $RowBanc[agencia]</div></td>";
+				  echo "<td width='10%' $bord>$div $RowBanc[conta]</div></td>";
+				  echo "<td width='30%' $bord>$div $RowProjeto[nome]&nbsp;</div></td>";
+				  echo "<td width='17%' $bord>$div $ValorBancF </div></td>";
+				  echo "</tr>";
+		  
+				  $cont ++;
+			  }
+		  }
+		  
+		  
+		  ?>
+      </table>  
+	  <?php 
+	  }  
+		  ?>
+         
+    <br></td>
+  </tr>
+  
+  <tr>
+    <td width="499"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" class="style3"></td>
+    <td width="499" align="center" valign="middle" class="style3"></td>
+  </tr>
+  <tr valign="top">
+    <td height="18" colspan="4">
+    </td>
+  </tr>
+  <tr valign="top">
+    <td height="18" colspan="4" bgcolor="#999999">
+<?php
+include "../empresa.php";
+$rod = new empresa();
+$rod -> rodape();
+?></td>
+  </tr>
+</table> 
+</div>
+</body>
+</html>
+<?php
+/* Liberando o resultado */
+mysql_free_result($result_projeto);
+/* Fechando a conexão */
+mysql_close($conn);
+
+?>

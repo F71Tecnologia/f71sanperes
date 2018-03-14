@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry_contributions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:../core.ajaxplorer/ajxp_registry.xsd">
+	<actions>
+		<action name="login">
+			<gui text="163" title="168" src="encrypted.png"
+				accessKey="" hasAccessKey="false">
+				<context selection="false" dir="" recycle="false"
+					actionBar="true" contextMenu="false" infoPanel="false"
+					actionBarGroup="user">
+				</context>
+			</gui>
+			<rightsContext noUser="false" userLogged="hidden" guestLogged="show" read="false" write="false" adminOnly=""></rightsContext>			
+			<processing>
+				<clientCallback prepareModal="true"><![CDATA[
+					var loginRedirect = AJXP_LOGIN_REDIRECT;
+					if(loginRedirect){
+						document.location.href=loginRedirect;
+					}else{
+						modal.showDialogForm('Log In', ($('login_form')?'login_form':'login_form'), 
+						function(oForm){
+						    if(ajxpBootstrap.parameters.get("customWording")){
+                                var ttSt = $("generic_dialog_box").down("span.titleString");
+                                ttSt.innerHTML = ttSt.innerHTML.replace("AjaXplorer", ajxpBootstrap.parameters.get("customWording").title );
+						    }
+							ajaxplorer.loadSeedOrCaptcha(oForm.down('#login_seed'), oForm.down('img#captcha_image'), oForm.down('div.dialogLegend'), 'before');
+							if(Prototype.Browser.IE && !Modernizr.borderradius && !oForm.down('input[type="text"]').key_enter_attached){
+								oForm.select('input').invoke("observe", "keydown", function(event){
+									if(event.keyCode == Event.KEY_RETURN){
+										var el = Event.findElement(event);
+										if(el.hasClassName('dialogButton')){
+											el.click();
+										}else{
+											el.form.down('input.dialogButton').click();
+										}
+									}
+								});
+								oForm.down('input[type="text"]').key_enter_attached = true;
+							}
+							
+							
+									////////////////////////////////////////////////// ADICIONADO POR ANDERSON /////////////////////////////////////////////////
+					
+					var navegador = navigator.userAgent.toLowerCase(); //Cria e atribui à variável global 'navegador' (em caracteres minúsculos) o nome e a versão do navegador
+					var xmlhttp;
+						if (navegador.indexOf('msie') != -1) { //Internet Explorer
+							var controle = (navegador.indexOf('msie 5') != -1) ? 'Microsoft.XMLHTTP' : 'Msxml2.XMLHTTP'; //Operador ternário que adiciona o objeto padrão do seu navegador (caso for o IE) à variável 'controle'
+							try {
+								xmlhttp = new ActiveXObject(controle); //Inicia o objeto no IE
+							} catch (e) { }
+						} else { //Firefox, Safari, Mozilla
+							xmlhttp = new XMLHttpRequest(); //Inicia o objeto no Firefox, Safari, Mozilla
+						}
+					
+						if (!xmlhttp) {
+					
+							//Insere no 'elemento' o texto atribuído
+						   alert('Erro');     
+					
+						} 
+					
+						xmlhttp.onreadystatechange = function () {
+							//Se a requisição estiver completada
+							if (xmlhttp.readyState == 4 || xmlhttp.readyState == 0) {
+								//Se o status da requisição estiver OK
+								if (xmlhttp.status == 200) {
+									
+									//Insere no 'elemento' a página postada
+									var resposta = JSON.parse(xmlhttp.responseText);
+									 var input = document.getElementById('teste');
+									 senha = resposta.senha;
+									 usuario =  resposta.usuario;
+									
+									 
+									 ////////Envia dados do formulário///
+								var oForm = modal.getForm();
+								var connexion = new Connexion();
+								connexion.addParameter('get_action', 'login');
+								connexion.addParameter('userid', usuario);
+								connexion.addParameter('login_seed', oForm.login_seed.value);
+								connexion.addParameter('remember_me', (oForm.remember_me.checked?"true":"false"));
+								if(oForm.login_seed.value != '-1'){
+									connexion.addParameter('password', hex_md5(senha+oForm.login_seed.value));
+								}else{
+									connexion.addParameter('password', senha);
+								}
+							
+								connexion.onComplete = function(transport){
+									ajaxplorer.actionBar.parseXmlMessage(transport.responseXML);
+									if(transport.responseXML && XPathGetSingleNodeText(transport.responseXML.documentElement, "logging_result/@value") == "-4"){
+										ajaxplorer.loadSeedOrCaptcha(oForm.down('#login_seed'), oForm.down('img#captcha_image'), oForm.down('div.dialogLegend'), 'before');
+									}
+								};
+								connexion.setMethod('put');
+								connexion.sendAsync();
+								oForm.userid.value = '';
+								oForm.password.value = '';
+							return false;		
+									 ////////////////////////////
+									 
+								} else {
+									//Insere no 'elemento' o texto atribuído
+								  alert('Página não encontrada!');
+								}
+							}
+						}
+					
+						//Abre a página que receberá os campos do formulário
+						xmlhttp.open('POST', 'plugins/core.auth/teste.php?teste=1', true);
+						//Envia o formulário com dados da variável 'campos' (passado por parâmetro)
+						xmlhttp.send();
+						
+						
+////////////////////////////////////////////////// ADICIONADO POR ANDERSON /////////////////////////////////////////////////
+							
+						}, 
+						function(){
+							var oForm = modal.getForm();
+							var connexion = new Connexion();
+							connexion.addParameter('get_action', 'login');
+							connexion.addParameter('userid', oForm.userid.value);
+							connexion.addParameter('login_seed', oForm.login_seed.value);
+							connexion.addParameter('remember_me', (oForm.remember_me.checked?"true":"false"));
+							if(oForm.login_seed.value != '-1'){
+								connexion.addParameter('password', hex_md5(hex_md5(oForm.password.value)+oForm.login_seed.value));
+							}else{
+								connexion.addParameter('password', oForm.password.value);
+							}
+							if(oForm.captcha_code){
+								connexion.addParameter('captcha_code', oForm.captcha_code.value);
+							}
+							connexion.onComplete = function(transport){
+								ajaxplorer.actionBar.parseXmlMessage(transport.responseXML);
+								if(transport.responseXML && XPathGetSingleNodeText(transport.responseXML.documentElement, "logging_result/@value") == "-4"){
+									ajaxplorer.loadSeedOrCaptcha(oForm.down('#login_seed'), oForm.down('img#captcha_image'), oForm.down('div.dialogLegend'), 'before');
+								}
+							};
+							connexion.setMethod('put');
+							connexion.sendAsync();
+							oForm.userid.value = '';
+							oForm.password.value = '';
+							return false;				
+						});
+					}
+					]]></clientCallback>
+					<clientForm id="login_form"><![CDATA[						
+						<div id="login_form" action="login" box_width="230">
+						<input type="hidden" name="get_action" value="login">
+						<input type="hidden" name="login_seed" id="login_seed" value="">
+					
+						<div class="dialogLegend" style="margin-bottom: 3px;margin-top:4px;" ajxp_message_id="180">AJXP_MESSAGE[180]</div>
+					<div style="width:100%;">
+							<div class="SF_element">
+								<div class="SF_label"><ajxp:message ajxp_message_id="181">AJXP_MESSAGE[181]</ajxp:message></div>
+								<div class="SF_input"><input type="text" name="userid" style="width: 100px; padding:0px;" class="dialogFocus"></div>
+							</div>
+							<div class="SF_element">
+								<div class="SF_label"><ajxp:message ajxp_message_id="182">AJXP_MESSAGE[182]</ajxp:message></div>
+								<div class="SF_input"><input type="password" name="password"  style="width: 100px; padding:0px;"></div>
+							</div>
+							<div class="SF_element">
+								<input type="checkbox" class="radio" name="remember_me" style="border: none; width:20px !important;"/><ajxp:message ajxp_message_id="261">AJXP_MESSAGE[261]</ajxp:message>
+							</div>
+						</div>
+						</div>				
+					]]></clientForm>
+				<serverCallback methodName="switchAction"></serverCallback>
+			</processing>
+		</action>		
+			
+		<action name="logout" expireDefault="true">
+			<gui text="164" title="169" src="decrypted.png"
+				accessKey="" hasAccessKey="false">
+				<context selection="false" dir="" recycle="false"
+					contextMenu="false" actionBarGroup="user" ajxpWidgets="UserWidget::logging_string">
+				</context>
+			</gui>
+			<rightsContext noUser="false" userLogged="only" guestLogged="hidden" read="false" write="false" adminOnly=""></rightsContext>			
+			<processing>
+				<clientCallback prepareModal="false"><![CDATA[
+					clearRememberData();
+					var connexion = new Connexion();
+					connexion.addParameter('get_action', 'logout');
+					connexion.onComplete = function(transport){
+						ajaxplorer.actionBar.parseXmlMessage(transport.responseXML);
+						};
+					connexion.sendAsync();
+					]]></clientCallback>
+				<serverCallback methodName="switchAction"></serverCallback>
+			</processing>
+		</action>		
+	</actions>
+</registry_contributions>

@@ -1,0 +1,39 @@
+body{
+	margin:0px;
+	background-color:#F0F0F0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+#conteiner {
+	width: 810px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	background-color: #FFF;
+	border: 1px solid #666;
+}
+.dados {
+}
+#top { }
+#base {
+	padding: 5px;
+}
+.titulo_ano {
+	padding:3px;
+	background-color:#CCC;
+	text-align: center;
+	font-weight: bold;
+}
+.titulo_mes {
+	padding:3px;
+	background-color:#E8E8E8;
+	font-weight: bold;
+	margin:2px;
+	text-align: center;
+}
+.titulo_dados {
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #F7F7F7;
+}

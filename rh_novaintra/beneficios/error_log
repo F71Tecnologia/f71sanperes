@@ -1,0 +1,3 @@
+[18-Nov-2016 14:31:09 America/Sao_Paulo] PHP Fatal error:  Call to undefined method ValeTransporteClass::sqlQuery() in /home/f71iabassp/public_html/intranet/classes/ValeTransporteClass.php on line 13
+[18-Nov-2016 14:31:37 America/Sao_Paulo] PHP Fatal error:  Call to undefined method ValeTransporteClass::sqlQuery() in /home/f71iabassp/public_html/intranet/classes/ValeTransporteClass.php on line 13
+[18-Nov-2016 14:31:38 America/Sao_Paulo] PHP Fatal error:  Call to undefined method ValeTransporteClass::sqlQuery() in /home/f71iabassp/public_html/intranet/classes/ValeTransporteClass.php on line 13

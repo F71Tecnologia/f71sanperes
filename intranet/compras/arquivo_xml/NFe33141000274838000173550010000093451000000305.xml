@@ -1,0 +1,2208 @@
+<nfeProc versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe33141000274838000173550010000093451000000305" versao="2.00">
+        <ide>
+            <cUF>33</cUF>
+            <cNF>00000030</cNF>
+            <natOp>VENDA DE PRODUTOS</natOp>
+            <indPag>2</indPag>
+            <mod>55</mod>
+            <serie>1</serie>
+            <nNF>9345</nNF>
+            <dEmi>2014-10-23</dEmi>
+            <dSaiEnt>2014-10-23</dSaiEnt>
+            <tpNF>1</tpNF>
+            <cMunFG>3304557</cMunFG>
+            <tpImp>1</tpImp>
+            <tpEmis>1</tpEmis>
+            <cDV>5</cDV>
+            <tpAmb>1</tpAmb>
+            <finNFe>1</finNFe>
+            <procEmi>3</procEmi>
+            <verProc>2.2.26</verProc>
+        </ide>
+        <emit>
+            <CNPJ>00274838000173</CNPJ>
+            <xNome>Lino Briote Produtos Farmaceuticos e Hospitalares Ltda</xNome>
+            <xFant>Sellerpharma</xFant>
+            <enderEmit>
+                <xLgr>Rua Dias da Cruz</xLgr>
+                <nro>203</nro>
+                <xCpl>Loja 27</xCpl>
+                <xBairro>Meier</xBairro>
+                <cMun>3304557</cMun>
+                <xMun>Rio de Janeiro</xMun>
+                <UF>RJ</UF>
+                <CEP>20720010</CEP>
+                <cPais>1058</cPais>
+                <xPais>BRASIL</xPais>
+                <fone>32731147</fone>
+            </enderEmit>
+            <IE>85075349</IE>
+            <IM>01762460</IM>
+            <CNAE>4644301</CNAE>
+            <CRT>3</CRT>
+        </emit>
+        <dest>
+            <CNPJ>07813739000404</CNPJ>
+            <xNome>INSTITUTO LAGOS RIO</xNome>
+            <enderDest>
+                <xLgr>ROD BR 493 S/Nº</xLgr>
+                <nro>-</nro>
+                <xBairro>MANILHA</xBairro>
+                <cMun>3301900</cMun>
+                <xMun>Itaborai</xMun>
+                <UF>RJ</UF>
+                <CEP>24800000</CEP>
+                <cPais>1058</cPais>
+                <xPais>BRASIL</xPais>
+                <fone>0000000000</fone>
+            </enderDest>
+            <IE />
+        </dest>
+        <det nItem="1">
+            <prod>
+                <cProd>MED-003346</cProd>
+                <cEAN />
+                <xProd>AGUA DESTILADA INJ 100ML  Lt:1411277 F:01-04-14 V:01-04-16</xProd>
+                <NCM>28530039</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>70.0000</qCom>
+                <vUnCom>4.0300</vUnCom>
+                <vProd>282.10</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>70.0000</qTrib>
+                <vUnTrib>4.0300</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>1411277</nLote>
+                    <qLote>70</qLote>
+                    <dFab>2014-04-01</dFab>
+                    <dVal>2016-04-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>282.10</vBC>
+                        <pPIS>0.65</pPIS>
+                        <vPIS>1.83</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>282.10</vBC>
+                        <pCOFINS>3</pCOFINS>
+                        <vCOFINS>8.46</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="2">
+            <prod>
+                <cProd>MED-000006</cProd>
+                <cEAN />
+                <xProd>AGUA DESTILADA INJ 250ML Lt:74HF2141 F:01-05-14 V:01-05-16</xProd>
+                <NCM>28530039</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>40.0000</qCom>
+                <vUnCom>3.6100</vUnCom>
+                <vProd>144.40</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>40.0000</qTrib>
+                <vUnTrib>3.6100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>74HF2141</nLote>
+                    <qLote>40</qLote>
+                    <dFab>2014-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>144.40</vBC>
+                        <pPIS>0.65</pPIS>
+                        <vPIS>0.94</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>144.40</vBC>
+                        <pCOFINS>3</pCOFINS>
+                        <vCOFINS>4.33</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="3">
+            <prod>
+                <cProd>MED-000110</cProd>
+                <cEAN />
+                <xProd>AGUA DESTILADA INJ. 10 ML  Lt:54075202 F:01-09-14 V:01-09-17</xProd>
+                <NCM>28530039</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>400.0000</qCom>
+                <vUnCom>0.1500</vUnCom>
+                <vProd>60.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>400.0000</qTrib>
+                <vUnTrib>0.1500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>54075202</nLote>
+                    <qLote>400</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2017-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>60.00</vBC>
+                        <pPIS>0.65</pPIS>
+                        <vPIS>0.39</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>60.00</vBC>
+                        <pCOFINS>3</pCOFINS>
+                        <vCOFINS>1.80</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="4">
+            <prod>
+                <cProd>MED-000114</cProd>
+                <cEAN />
+                <xProd>AMBROXOL XAROPE 30 MG/5 ML 100 ML ADULTO  Lt:14G776 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049039</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>2.4600</vUnCom>
+                <vProd>246.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>2.4600</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14G776</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="5">
+            <prod>
+                <cProd>MED-000081</cProd>
+                <cEAN />
+                <xProd>AMOXACILINA 500 MG Lt:14E73K F:01-05-14 V:01-05-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>480.0000</qCom>
+                <vUnCom>0.3500</vUnCom>
+                <vProd>168.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>480.0000</qTrib>
+                <vUnTrib>0.3500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14E73K</nLote>
+                    <qLote>480</qLote>
+                    <dFab>2014-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="6">
+            <prod>
+                <cProd>MED-000081</cProd>
+                <cEAN />
+                <xProd>AMOXACILINA 500 MG Lt:14I460 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>2520.0000</qCom>
+                <vUnCom>0.3500</vUnCom>
+                <vProd>882.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>2520.0000</qTrib>
+                <vUnTrib>0.3500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14I460</nLote>
+                    <qLote>2520</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="7">
+            <prod>
+                <cProd>MED-000013</cProd>
+                <cEAN />
+                <xProd>AMOXICILINA 250 MG + CLAVUNATO DE POTASSIO 75 ML (SUSPENSÃO) Lt:DJ1855 F:01-04-14 V:01-04-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>200.0000</qCom>
+                <vUnCom>21.3800</vUnCom>
+                <vProd>4276.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>200.0000</qTrib>
+                <vUnTrib>21.3800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>DJ1855</nLote>
+                    <qLote>200</qLote>
+                    <dFab>2014-04-01</dFab>
+                    <dVal>2016-04-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="8">
+            <prod>
+                <cProd>MED-000011</cProd>
+                <cEAN />
+                <xProd>AMOXICILINA 250MGML SUSP.ORAL - 150ML Lt:9024050 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>9.3300</vUnCom>
+                <vProd>933.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>9.3300</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>9024050</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="9">
+            <prod>
+                <cProd>MED-000015</cProd>
+                <cEAN />
+                <xProd>AMOXICILINA 500MG + CLAVUNATO DE POTASSIO 125MG Lt:EE3096 F:01-02-14 V:01-02-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>4000.0000</qCom>
+                <vUnCom>2.2800</vUnCom>
+                <vProd>9120.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>4000.0000</qTrib>
+                <vUnTrib>2.2800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>EE3096</nLote>
+                    <qLote>4000</qLote>
+                    <dFab>2014-02-01</dFab>
+                    <dVal>2016-02-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="10">
+            <prod>
+                <cProd>MED-000012</cProd>
+                <cEAN />
+                <xProd>AMOXICILNA 1G + CLAVULANATO DE POTASSIO 200MG  IV - PÓ INJETAVEL Lt:14080476 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30041012</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>F/A</uCom>
+                <qCom>40.0000</qCom>
+                <vUnCom>5.8100</vUnCom>
+                <vProd>232.40</vProd>
+                <cEANTrib />
+                <uTrib>F/A</uTrib>
+                <qTrib>40.0000</qTrib>
+                <vUnTrib>5.8100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14080476</nLote>
+                    <qLote>40</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="11">
+            <prod>
+                <cProd>MED-000018</cProd>
+                <cEAN />
+                <xProd>ATENOLOL 50MG Lt:13L785 F:01-12-13 V:01-12-15</xProd>
+                <NCM>30049042</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>90.0000</qCom>
+                <vUnCom>0.1200</vUnCom>
+                <vProd>10.80</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>90.0000</qTrib>
+                <vUnTrib>0.1200</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>13L785</nLote>
+                    <qLote>90</qLote>
+                    <dFab>2013-12-01</dFab>
+                    <dVal>2015-12-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="12">
+            <prod>
+                <cProd>MED-000154</cProd>
+                <cEAN />
+                <xProd>BENZILPENICILINA G BENZATINA 1.200.000UI INJ Lt:2505255 F:01-05-14 V:01-05-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>F/A</uCom>
+                <qCom>50.0000</qCom>
+                <vUnCom>1.7100</vUnCom>
+                <vProd>85.50</vProd>
+                <cEANTrib />
+                <uTrib>F/A</uTrib>
+                <qTrib>50.0000</qTrib>
+                <vUnTrib>1.7100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>2505255</nLote>
+                    <qLote>50</qLote>
+                    <dFab>2014-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="13">
+            <prod>
+                <cProd>MED-000158</cProd>
+                <cEAN />
+                <xProd>BROMOPRIDA 4 MG/ML GOTAS 20 ML Lt:14D501 F:01-04-14 V:01-04-16</xProd>
+                <NCM>30049045</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>4.8000</vUnCom>
+                <vProd>480.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>4.8000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14D501</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-04-01</dFab>
+                    <dVal>2016-04-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="14">
+            <prod>
+                <cProd>MED-000159</cProd>
+                <cEAN />
+                <xProd>BROMOPRIDA, CLORIDRATO DE, 5 MG/ML SOL.INJ. 2ML Lt:AT003/14 F:01-07-14 V:01-05-16</xProd>
+                <NCM>30049045</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>200.0000</qCom>
+                <vUnCom>1.7000</vUnCom>
+                <vProd>340.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>200.0000</qTrib>
+                <vUnTrib>1.7000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>AT003/14</nLote>
+                    <qLote>200</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="15">
+            <prod>
+                <cProd>MED-000205</cProd>
+                <cEAN />
+                <xProd>CAPTOPRIL 25MG  Lt:13L084 F:01-06-13 V:01-06-15</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>90.0000</qCom>
+                <vUnCom>0.0800</vUnCom>
+                <vProd>7.20</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>90.0000</qTrib>
+                <vUnTrib>0.0800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>13L084</nLote>
+                    <qLote>90</qLote>
+                    <dFab>2013-06-01</dFab>
+                    <dVal>2015-06-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="16">
+            <prod>
+                <cProd>MED-000236</cProd>
+                <cEAN />
+                <xProd>CETOPROFENO 100MG INJ 2ML IV Lt:1424927 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>F/A</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>5.4500</vUnCom>
+                <vProd>545.00</vProd>
+                <cEANTrib />
+                <uTrib>F/A</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>5.4500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>1424927</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="17">
+            <prod>
+                <cProd>MED-000220</cProd>
+                <cEAN />
+                <xProd>CETOPROFENO 50MG INJ 2ML IM Lt:1420657 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>200.0000</qCom>
+                <vUnCom>1.2400</vUnCom>
+                <vProd>248.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>200.0000</qTrib>
+                <vUnTrib>1.2400</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>1420657</nLote>
+                    <qLote>200</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="18">
+            <prod>
+                <cProd>MED-000221</cProd>
+                <cEAN />
+                <xProd>CIPROFLOXACINO, CLORIDRATO 500MG Lt:14H22G F:01-08-14 V:01-08-16</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>1800.0000</qCom>
+                <vUnCom>0.1700</vUnCom>
+                <vProd>306.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>1800.0000</qTrib>
+                <vUnTrib>0.1700</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14H22G</nLote>
+                    <qLote>1800</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="19">
+            <prod>
+                <cProd>MED-000224</cProd>
+                <cEAN />
+                <xProd>CLOPIDOGREL 75 MG Lt:3070340 F:01-07-13 V:01-07-15</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>60.0000</qCom>
+                <vUnCom>3.1000</vUnCom>
+                <vProd>186.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>60.0000</qTrib>
+                <vUnTrib>3.1000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>3070340</nLote>
+                    <qLote>60</qLote>
+                    <dFab>2013-07-01</dFab>
+                    <dVal>2015-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="20">
+            <prod>
+                <cProd>MED-000226</cProd>
+                <cEAN />
+                <xProd>CLORETO DE SÓDIO 0,9% SOL. INJ. - 10 ML  Lt:IEP F:01-05-14 V:01-05-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>200.0000</qCom>
+                <vUnCom>0.3200</vUnCom>
+                <vProd>64.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>200.0000</qTrib>
+                <vUnTrib>0.3200</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>IEP</nLote>
+                    <qLote>200</qLote>
+                    <dFab>2014-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="21">
+            <prod>
+                <cProd>MED-000228</cProd>
+                <cEAN />
+                <xProd>CLORETO DE SÓDIO 0,9% SOL. INJ. 500 ML Lt:14G6388 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>300.0000</qCom>
+                <vUnCom>4.5000</vUnCom>
+                <vProd>1350.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>300.0000</qTrib>
+                <vUnTrib>4.5000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14G6388</nLote>
+                    <qLote>300</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="22">
+            <prod>
+                <cProd>MED-000375</cProd>
+                <cEAN />
+                <xProd>DEXAMETASONA FOSFATO DISSÓDICO 4MG/ML SOL.INJ. 2,5 ML  Lt:14080806 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30043999</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>0.9400</vUnCom>
+                <vProd>94.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>0.9400</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14080806</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="23">
+            <prod>
+                <cProd>MED-000433</cProd>
+                <cEAN />
+                <xProd>DEXCLORFENIRAMINA, MALEATO SOL. ORAL 0,04% - 100ML Lt:14I458 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>1.8500</vUnCom>
+                <vProd>185.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>1.8500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14I458</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="24">
+            <prod>
+                <cProd>MED-000378</cProd>
+                <cEAN />
+                <xProd>DICLOFENACO DE POTASSIO 50MG  Lt:655578 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049037</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>5000.0000</qCom>
+                <vUnCom>0.0200</vUnCom>
+                <vProd>100.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>5000.0000</qTrib>
+                <vUnTrib>0.0200</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>655578</nLote>
+                    <qLote>5000</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="25">
+            <prod>
+                <cProd>MED-000385</cProd>
+                <cEAN />
+                <xProd>DIPIRONA SÓDICA 500MG GOTAS 10 ML Lt:G14349 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>300.0000</qCom>
+                <vUnCom>1.4200</vUnCom>
+                <vProd>426.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>300.0000</qTrib>
+                <vUnTrib>1.4200</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>G14349</nLote>
+                    <qLote>300</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="26">
+            <prod>
+                <cProd>MED-000385</cProd>
+                <cEAN />
+                <xProd>DIPIRONA SÓDICA 500MG GOTAS 10 ML Lt:DS14E067 F:01-05-13 V:01-05-16</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>300.0000</qCom>
+                <vUnCom>1.4200</vUnCom>
+                <vProd>426.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>300.0000</qTrib>
+                <vUnTrib>1.4200</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>DS14E067</nLote>
+                    <qLote>300</qLote>
+                    <dFab>2013-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="27">
+            <prod>
+                <cProd>MED-000384</cProd>
+                <cEAN />
+                <xProd>DIPIRONA SÓDICA 500MG/ML SOL.INJ.2 ML Lt:26581934 F:01-02-14 V:01-02-16</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>480.0000</qCom>
+                <vUnCom>0.4500</vUnCom>
+                <vProd>216.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>480.0000</qTrib>
+                <vUnTrib>0.4500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>26581934</nLote>
+                    <qLote>480</qLote>
+                    <dFab>2014-02-01</dFab>
+                    <dVal>2016-02-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="28">
+            <prod>
+                <cProd>MED-000492</cProd>
+                <cEAN />
+                <xProd>ENOXAPARINA 20 MG/0,2 ML SC  Lt:JA326X F:01-10-13 V:01-10-15</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>SER</uCom>
+                <qCom>60.0000</qCom>
+                <vUnCom>12.3800</vUnCom>
+                <vProd>742.80</vProd>
+                <cEANTrib />
+                <uTrib>SER</uTrib>
+                <qTrib>60.0000</qTrib>
+                <vUnTrib>12.3800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>JA326X</nLote>
+                    <qLote>60</qLote>
+                    <dFab>2013-10-01</dFab>
+                    <dVal>2015-10-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="29">
+            <prod>
+                <cProd>MED-000493</cProd>
+                <cEAN />
+                <xProd>ENOXAPARINA 40 MG/0,4 ML SC  Lt:JB403X F:01-02-14 V:01-01-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>SER</uCom>
+                <qCom>60.0000</qCom>
+                <vUnCom>17.0500</vUnCom>
+                <vProd>1023.00</vProd>
+                <cEANTrib />
+                <uTrib>SER</uTrib>
+                <qTrib>60.0000</qTrib>
+                <vUnTrib>17.0500</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>JB403X</nLote>
+                    <qLote>60</qLote>
+                    <dFab>2014-02-01</dFab>
+                    <dVal>2016-01-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="30">
+            <prod>
+                <cProd>MED-000511</cProd>
+                <cEAN />
+                <xProd>FUROSEMIDA 40MG  Lt:140666 F:01-02-14 V:01-02-16</xProd>
+                <NCM>30049076</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>40.0000</qCom>
+                <vUnCom>0.0900</vUnCom>
+                <vProd>3.60</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>40.0000</qTrib>
+                <vUnTrib>0.0900</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>140666</nLote>
+                    <qLote>40</qLote>
+                    <dFab>2014-02-01</dFab>
+                    <dVal>2016-02-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="31">
+            <prod>
+                <cProd>MED-000588</cProd>
+                <cEAN />
+                <xProd>GLICERINA - CLISTER 12% SOL.INJ.500ML Lt:14071080 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049027</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>10.0000</qCom>
+                <vUnCom>5.0900</vUnCom>
+                <vProd>50.90</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>10.0000</qTrib>
+                <vUnTrib>5.0900</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14071080</nLote>
+                    <qLote>10</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="32">
+            <prod>
+                <cProd>MED-000580</cProd>
+                <cEAN />
+                <xProd>GLICOSE HIPERTONICA  25% SOL.INJ. 10 ML  Lt:34283401 F:01-06-14 V:01-06-16</xProd>
+                <NCM>29400019</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>200.0000</qCom>
+                <vUnCom>0.3600</vUnCom>
+                <vProd>72.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>200.0000</qTrib>
+                <vUnTrib>0.3600</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>34283401</nLote>
+                    <qLote>200</qLote>
+                    <dFab>2014-06-01</dFab>
+                    <dVal>2016-06-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISAliq>
+                        <CST>01</CST>
+                        <vBC>72.00</vBC>
+                        <pPIS>0.65</pPIS>
+                        <vPIS>0.47</vPIS>
+                    </PISAliq>
+                </PIS>
+                <COFINS>
+                    <COFINSAliq>
+                        <CST>01</CST>
+                        <vBC>72.00</vBC>
+                        <pCOFINS>3</pCOFINS>
+                        <vCOFINS>2.16</vCOFINS>
+                    </COFINSAliq>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="33">
+            <prod>
+                <cProd>MED-000623</cProd>
+                <cEAN />
+                <xProd>HIDROCORTISONA, SUCCINATO DE, 500MG SOL.INJ. Lt:2596506 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30043999</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>4.2100</vUnCom>
+                <vProd>421.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>4.2100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>2596506</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="34">
+            <prod>
+                <cProd>MED-000651</cProd>
+                <cEAN />
+                <xProd>HIOSCINA (BROMETO DE N-BUTILESCOPOLAMINA) 10 MG/ ML GTS 10 ML Lt:14I863 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>2.6100</vUnCom>
+                <vProd>261.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>2.6100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14I863</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="35">
+            <prod>
+                <cProd>MED-000657</cProd>
+                <cEAN />
+                <xProd>IBUPROFENO 50 MG/ML (GOTAS) - 30ML Lt:28489 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30049029</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>3.0000</vUnCom>
+                <vProd>300.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>3.0000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>28489</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="36">
+            <prod>
+                <cProd>MED-000804</cProd>
+                <cEAN />
+                <xProd>METRONIDAZOL 250 MG  Lt:14F29X F:01-06-14 V:01-06-16</xProd>
+                <NCM>30049066</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>600.0000</qCom>
+                <vUnCom>0.2000</vUnCom>
+                <vProd>120.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>600.0000</qTrib>
+                <vUnTrib>0.2000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14F29X</nLote>
+                    <qLote>600</qLote>
+                    <dFab>2014-06-01</dFab>
+                    <dVal>2016-06-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="37">
+            <prod>
+                <cProd>MED-000762</cProd>
+                <cEAN />
+                <xProd>MIDAZOLAM, CLORIDRATO DE, 50MG/10ML  INJ. Lt:1419561 F:01-07-14 V:01-07-16 P:344/98 L:B1</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>50.0000</qCom>
+                <vUnCom>5.8800</vUnCom>
+                <vProd>294.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>50.0000</qTrib>
+                <vUnTrib>5.8800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>1419561</nLote>
+                    <qLote>50</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="38">
+            <prod>
+                <cProd>MED-000877</cProd>
+                <cEAN />
+                <xProd>NIFEDIPINO RETARD 20MG Lt:05264S F:01-05-14 V:01-05-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>COM</uCom>
+                <qCom>60.0000</qCom>
+                <vUnCom>0.1000</vUnCom>
+                <vProd>6.00</vProd>
+                <cEANTrib />
+                <uTrib>COM</uTrib>
+                <qTrib>60.0000</qTrib>
+                <vUnTrib>0.1000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>05264S</nLote>
+                    <qLote>60</qLote>
+                    <dFab>2014-05-01</dFab>
+                    <dVal>2016-05-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="39">
+            <prod>
+                <cProd>MED-000831</cProd>
+                <cEAN />
+                <xProd>NISTATINA 100.000 UI/ML SUSP.ORAL - 30 ML Lt:14G476 F:01-08-14 V:01-02-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>20.0000</qCom>
+                <vUnCom>2.1800</vUnCom>
+                <vProd>43.60</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>20.0000</qTrib>
+                <vUnTrib>2.1800</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14G476</nLote>
+                    <qLote>20</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-02-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="40">
+            <prod>
+                <cProd>MED-000898</cProd>
+                <cEAN />
+                <xProd>OMEPRAZOL 40MG/ML SOL.INJ. IV Lt:14091157 F:01-09-14 V:01-08-16</xProd>
+                <NCM>30049069</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>F/A</uCom>
+                <qCom>80.0000</qCom>
+                <vUnCom>8.0300</vUnCom>
+                <vProd>642.40</vProd>
+                <cEANTrib />
+                <uTrib>F/A</uTrib>
+                <qTrib>80.0000</qTrib>
+                <vUnTrib>8.0300</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14091157</nLote>
+                    <qLote>80</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="41">
+            <prod>
+                <cProd>MED-001002</cProd>
+                <cEAN />
+                <xProd>PARACETAMOL 200 MG/ML GOTAS  Lt:614275 F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049045</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>0.8100</vUnCom>
+                <vProd>81.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>0.8100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>614275</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="42">
+            <prod>
+                <cProd>MED-003717</cProd>
+                <cEAN />
+                <xProd>PERMETRINA 10MG/ML FRASCO 60ML  Lt:14G93H F:01-07-14 V:01-07-16</xProd>
+                <NCM>30049021</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>10.0000</qCom>
+                <vUnCom>3.5000</vUnCom>
+                <vProd>35.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>10.0000</qTrib>
+                <vUnTrib>3.5000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14G93H</nLote>
+                    <qLote>10</qLote>
+                    <dFab>2014-07-01</dFab>
+                    <dVal>2016-07-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="43">
+            <prod>
+                <cProd>MED-003815</cProd>
+                <cEAN />
+                <xProd>PREDNISOLONA 3MG/ML SOL.ORAL 120ML Lt:0378/14 F:01-04-14 V:01-04-16</xProd>
+                <NCM>30043999</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>50.0000</qCom>
+                <vUnCom>14.4400</vUnCom>
+                <vProd>722.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>50.0000</qTrib>
+                <vUnTrib>14.4400</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>0378/14</nLote>
+                    <qLote>50</qLote>
+                    <dFab>2014-04-01</dFab>
+                    <dVal>2016-04-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="44">
+            <prod>
+                <cProd>MED-000927</cProd>
+                <cEAN />
+                <xProd>PROMETAZINA, CLORIDRATO DE, 25MG/ML SOL.INJ. 2ML Lt:14085872 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30049075</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>1.2100</vUnCom>
+                <vProd>121.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>1.2100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14085872</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="45">
+            <prod>
+                <cProd>MED-001032</cProd>
+                <cEAN />
+                <xProd>SAIS P/ REIDRATAÇÃO ORAL - ENVELOPE Lt:14H8A1 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30049099</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>ENV</uCom>
+                <qCom>300.0000</qCom>
+                <vUnCom>0.7100</vUnCom>
+                <vProd>213.00</vProd>
+                <cEANTrib />
+                <uTrib>ENV</uTrib>
+                <qTrib>300.0000</qTrib>
+                <vUnTrib>0.7100</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14H8A1</nLote>
+                    <qLote>300</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="46">
+            <prod>
+                <cProd>MED-001035</cProd>
+                <cEAN />
+                <xProd>SULFAMETOXAZOL 4% + TRIMETOPRIMA 0,8% SUSP.ORAL 50 ML Lt:140939 F:01-08-14 V:01-08-16</xProd>
+                <NCM>30049079</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>FRA</uCom>
+                <qCom>50.0000</qCom>
+                <vUnCom>2.2000</vUnCom>
+                <vProd>110.00</vProd>
+                <cEANTrib />
+                <uTrib>FRA</uTrib>
+                <qTrib>50.0000</qTrib>
+                <vUnTrib>2.2000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>140939</nLote>
+                    <qLote>50</qLote>
+                    <dFab>2014-08-01</dFab>
+                    <dVal>2016-08-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <det nItem="47">
+            <prod>
+                <cProd>MED-001180</cProd>
+                <cEAN />
+                <xProd>VITAMINA DO COMPLEXO B INJ. Lt:14090894 F:01-09-14 V:01-09-16</xProd>
+                <NCM>30045090</NCM>
+                <CFOP>5405</CFOP>
+                <uCom>AMP</uCom>
+                <qCom>100.0000</qCom>
+                <vUnCom>0.6000</vUnCom>
+                <vProd>60.00</vProd>
+                <cEANTrib />
+                <uTrib>AMP</uTrib>
+                <qTrib>100.0000</qTrib>
+                <vUnTrib>0.6000</vUnTrib>
+                <indTot>1</indTot>
+                <med>
+                    <nLote>14090894</nLote>
+                    <qLote>100</qLote>
+                    <dFab>2014-09-01</dFab>
+                    <dVal>2016-09-01</dVal>
+                    <vPMC>0</vPMC>
+                </med>
+            </prod>
+            <imposto>
+                <ICMS>
+                    <ICMS60>
+                        <orig>0</orig>
+                        <CST>60</CST>
+                    </ICMS60>
+                </ICMS>
+                <PIS>
+                    <PISNT>
+                        <CST>04</CST>
+                    </PISNT>
+                </PIS>
+                <COFINS>
+                    <COFINSNT>
+                        <CST>04</CST>
+                    </COFINSNT>
+                </COFINS>
+            </imposto>
+        </det>
+        <total>
+            <ICMSTot>
+                <vBC>0.00</vBC>
+                <vICMS>0.00</vICMS>
+                <vBCST>0.00</vBCST>
+                <vST>0.00</vST>
+                <vProd>26735.70</vProd>
+                <vFrete>0.00</vFrete>
+                <vSeg>0.00</vSeg>
+                <vDesc>0.00</vDesc>
+                <vII>0.00</vII>
+                <vIPI>0.00</vIPI>
+                <vPIS>3.63</vPIS>
+                <vCOFINS>16.75</vCOFINS>
+                <vOutro>0.00</vOutro>
+                <vNF>26735.70</vNF>
+            </ICMSTot>
+        </total>
+        <transp>
+            <modFrete>0</modFrete>
+            <transporta>
+                <xNome>AEROMED TRANSPORTES LTDA</xNome>
+            </transporta>
+            <veicTransp>
+                <placa>AER0000</placa>
+                <UF>RJ</UF>
+                <RNTC>Rio de Janeiro</RNTC>
+            </veicTransp>
+            <vol>
+                <qVol>19610</qVol>
+                <pesoL>0.000</pesoL>
+                <pesoB>0.000</pesoB>
+            </vol>
+        </transp>
+        <cobr>
+            <fat>
+                <nFat>9345</nFat>
+                <vOrig>26735.70</vOrig>
+                <vLiq>26735.70</vLiq>
+            </fat>
+        </cobr>
+        <infAdic>
+            <infAdFisco>ICMS ST RETIDO NA FASE ANTERIOR CONFORME ARTIGO 2 DO LIVRO II DECRETO 27427/2000. PIS/COFINS ALIQUOTA ZERO CONF DECRETO 6426/2008</infAdFisco>
+            <infCpl>POR ORDEM E RESPONSABILIDADE DO DESTINATARIO, OS PRODUTOS SERAO ENTREGUES E UTILIZADOS PELA UPA 24H DE ITABORAI, LOCALIZADA NA RODOVIA BR 493 MANILHA,ITABORAI,RIO DE JANEIRO CEP 2480 PED. CLI.:20/10/14 N.N.:8029/14 L.S.:21-10-14</infCpl>
+        </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="#NFe33141000274838000173550010000093451000000305">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <DigestValue>d9vRqM5kvUSXz5NfSBQn/hOTyRA=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>OQxKQvRvuK/gTSU7JxILxxRDE82nur39ffJSIybbLLmjKhNPDABZ9+eQB0g7ORUhnSQPYviJM1rA
+C2oOhhKQ63hcRzYkvEki6Rv8Rkg8Lh4iXbhLn1MOhBU/eLwcF3ZRN1VryFgfYl67AgN9FRAWOJ5E
+Ba93NxYEBGazIqt9CPy6PU/SJzF27lR/l2ca6VkOSs08e/unBvdWJiDFNFdoqvQwpQACR6UQ01wU
+7Pk+NNUYTBL0friXwY604clMpob/5DqHKsw/6EgHdPTiFeyIIgLfymcydvAJHlo9Skl108jKCOyO
+D0stQwdWqE4mF1kax7boiRHw7A/oF+9M+sZkqQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIeTCCBmGgAwIBAgIQV5jILBk5C+JBq609XZ4aszANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRv
+cmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTQw
+NzAxMDAwMDAwWhcNMTUwNjMwMjM1OTU5WjCB/DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1C
+cmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBE
+aWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gNjQ3MjEz
+MTE/MD0GA1UEAxM2TElOTyBCUklPVEUgUFJPRFVUT1MgRkFSTUFDRVVUSUNPUyBFIEhPU1BJVEFM
+QVJFUyBMVERBMSkwJwYJKoZIhvcNAQkBFhpzZXJnaW9yYXpldmVkb0Bob3RtYWlsLmNvbTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKp/pn9SAYe5qiAEA866d/FP1PiHa205TcYtxHAa
+OTAJzDTNBTedwKdsT+ihGF+uR/l+e9pzScEW3CiiLqQCvqMIbrOFSK4XLeQmMGy/jkpoYiJiMNaI
+3ohP9KSPqPbqsIXEHRYWsT2LJTyvtXJfyBvULF3dw2LGRWpfHQROhuggI2cFE0Hk5STAINpoRXO2
+5e+WcHDIKdBFphu9+vEtgZ0Bq7vgtArCzjHH+jnX8CC379kNaaidZXRTLQlYx4qdDwQwWhHar7nL
+XqLbNU6JQfwlOU1r7j8orViSOfDLYsnkB9kPhNk8cf6cjZZdBw/0umiLfGrtK+DjEfdvvEPZiqUC
+AwEAAaOCA3wwggN4MIHCBgNVHREEgbowgbegPQYFYEwBAwSgNAQyMDMwODE5NTQzMzY3NzE3NDc5
+MTAwMDAwMDAwMDAwMDAwMDAwMDMxNzcxOTc1SUZQUkqgJgYFYEwBAwKgHQQbU0VSR0lPIFJPRFJJ
+R1VFUyBERSBBWkVWRURPoBkGBWBMAQMDoBAEDjAwMjc0ODM4MDAwMTczoBcGBWBMAQMHoA4EDDAw
+MDAwMDAwMDAwMIEac2VyZ2lvcmF6ZXZlZG9AaG90bWFpbC5jb20wCQYDVR0TBAIwADAfBgNVHSME
+GDAWgBSdUM+9/yTKr7Ez6xfiQnqOaSqOUzAOBgNVHQ8BAf8EBAMCBeAwgYkGA1UdIASBgTB/MH0G
+BmBMAQIBCzBzMHEGCCsGAQUFBwIBFmVodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJy
+L3JlcG9zaXRvcmlvL2RwYy9BQ19DZXJ0aXNpZ25fTXVsdGlwbGEvRFBDX0FDX0NlcnRpU2lnbk11
+bHRpcGxhLnBkZjCCASUGA1UdHwSCARwwggEYMFygWqBYhlZodHRwOi8vaWNwLWJyYXNpbC5jZXJ0
+aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnbk11bHRpcGxhRzUvTGF0ZXN0
+Q1JMLmNybDBboFmgV4ZVaHR0cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRv
+cmlvL2xjci9BQ0NlcnRpc2lnbk11bHRpcGxhRzUvTGF0ZXN0Q1JMLmNybDBboFmgV4ZVaHR0cDov
+L3JlcG9zaXRvcmlvLmljcGJyYXNpbC5nb3YuYnIvbGNyL0NlcnRpc2lnbi9BQ0NlcnRpc2lnbk11
+bHRpcGxhRzUvTGF0ZXN0Q1JMLmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgaAG
+CCsGAQUFBwEBBIGTMIGQMGQGCCsGAQUFBzAChlhodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24u
+Y29tLmJyL3JlcG9zaXRvcmlvL2NlcnRpZmljYWRvcy9BQ19DZXJ0aXNpZ25fTXVsdGlwbGFfRzUu
+cDdjMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5jZXJ0aXNpZ24uY29tLmJyMA0GCSqGSIb3DQEB
+CwUAA4ICAQC6d4i7jYN+88F5VxxBVMrLsmVCX4ULoPEzchSqanWbOofYEOSNBJaqU4Iwhf1JPqt0
+3j3MmYjul1/gCV49ROHJkcfl1FmSu+OJgD0JpsGXT/wgBVayjA/dujd3UA0/yrx3skuFRatIP+l5
+8F3D8sj8tHeyG6qDG51onPaHd0C6YGQNyMW4KhB1ItBftlyJZfY8VX+2IaxWZlof9+z/ggy+s2cu
+8a122ySQzx28E/+0jnxg8xokSvFfGMEn8kVSxbiXaaSj/Ya7qfUgEyEw7w36DxXoaAcqDa3N9GFf
+STnHTKG6EIAdmtoZDtMCNHqDCQ4eIABvs91ht9rlbCjn939uf8jnXj/GIDTehRIzSX6r9zLfh9RM
+VAYdPUg8LFsBMNL2Ajggnc86ed6c0pKZoImt65ynXPRJUrXBlslAvxmh6lSs7L8qLtMyfLX51Di8
+6ylk9h8DVuJUfXEb46j4MTf0j5RP600g2rrvhMgOVahmylZhB2SlZVrqGUCqLovHvpAAUHSIANpi
+AlYYsXf7qVzIh53iC+frGSUm2uF5BYLRBBGZHAYgXl3DeFVAsqyiUadeWjJCmm9uW+WQcl0yNTHZ
+DtuIyuHjBRqIk9QDQ7gftokNGmt4/DuXn2F4dNPBHJtflbGMeoNpPywFkwHOVJkF+RoouaSf9SEQ
+t8zR19PPTQ==</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe"><infProt Id="ID333140142572736"><tpAmb>1</tpAmb><verAplic>SVRS20141008155430</verAplic><chNFe>33141000274838000173550010000093451000000305</chNFe><dhRecbto>2014-10-23T13:19:54</dhRecbto><nProt>333140142572736</nProt><digVal>d9vRqM5kvUSXz5NfSBQn/hOTyRA=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>

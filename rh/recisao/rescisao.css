@@ -1,0 +1,57 @@
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color:#FFF;
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.numero {
+	border:1px solid #000;
+	padding:0 2px;
+	font-size:11px;
+}
+
+table#rescisao {
+	width:980px;
+	margin:20px auto;
+	text-align:left;
+	background-color:#000;
+}
+
+table#rescisao td {
+	background-color:#FFF;
+	padding:4px;
+	height:55px;
+}
+
+table#rescisao td.secao {
+	background-color:#C0C0C0;
+	text-align:center;
+	font-size:18px;
+	height:30px;
+}
+
+table#rescisao td.secao_filho {
+	background-color:#C0C0C0;
+	text-align:center;
+	font-size:13px;
+	height:16px;
+}
+
+table#rescisao td.secao h1 {
+	font-size:22px;
+	margin:10px 0;
+}
+
+table#rescisao td .campo {
+	
+}
+
+table#rescisao td .valor {
+	clear:both;
+	font-size:16px;
+	margin-top:5px;
+}

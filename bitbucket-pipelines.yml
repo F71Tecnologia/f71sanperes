@@ -1,0 +1,24 @@
+# This is a sample build configuration for PHP.
+# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+#image: phpunit/phpunit:5.0.3
+
+#pipelines:
+#  default:
+#    - step:
+#        script: # Modify the commands below to build your repository.
+#          - composer install # OI OIds
+image: dj0x/debian
+
+pipelines: 
+    branches:
+         testing:
+              - step:
+                 script:
+                    - ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $BIT_USER_SSH@200.196.60.94 "cd /var/www/sanperes/intranet/ && git --work-tree=/var/www/sanperes/intranet/ remote update && git --work-tree=/var/www/sanperes/intranet/ reset --hard origin/testing" 
+         master:
+              - step:
+                 script:
+                    - ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $SANPERES_USERNAME@192.169.245.133 "cd /home/f71sanperes/public_html/intranet/ && git --work-tree=/home/f71sanperes/public_html/intranet/ remote update && git --work-tree=/home/f71sanperes/public_html/intranet/ reset --hard origin/master"

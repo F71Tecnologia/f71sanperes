@@ -1,0 +1,88 @@
+body {
+	background-color:#F0F0F0;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+img {
+	border:0px;
+}
+p {
+	margin:0px;
+}
+h1 {
+	font-size:16px;
+	margin:30px 0px 10px 0px;
+	padding:0px;
+	font-weight:normal;
+}
+.destaque {
+	color:#F63;
+}
+a.especial, a.especial_ativo {  
+	display:block; 
+	cursor:pointer; 
+	font-size:13px; 
+	padding:4px; 
+	width:742px;
+	text-align:center;
+	font-weight:bold;
+}
+*a.especial, *a.especial_ativo {  
+	width:100%;
+}
+a.especial {
+	background-color:#F1F1F1;
+}
+a.especial_ativo {
+	background-color:#BBB;
+}
+table.corpo {
+	margin:0px auto;
+	width:750px;
+	background-color:#FFF;
+	padding:0px;
+	padding-bottom:50px;
+}
+table.relacao {
+	border:1px solid #ddd;
+	text-align:left; 
+	width:95%; 
+	font-weight:bold;
+	margin:10px auto;
+}
+tr.historico {
+	background-color:#eee;
+}
+.secao {
+	background-color:#ddd;
+	color:#111;
+}
+
+tr.linha_um, tr.linha_dois {
+	font-size:13px;
+	padding:4px; 
+	font-weight:normal;
+}
+tr.linha_um {
+	background-color:#FAFAFA;
+}
+tr.linha_dois {
+	background-color:#F3F3F3;
+}
+
+
+
+td.rodape {
+	padding:50px 20px 10px 10px;
+	font-size:11px;
+}

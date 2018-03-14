@@ -1,0 +1,2 @@
+[14-Jun-2016 09:29:35 America/Sao_Paulo] PHP Fatal error:  Call to undefined method ValeAlimentacaoRefeicaoClass::calculaVR() in /home/f71iabassp/public_html/intranet/rh_novaintra/beneficios/vale_refeicao/form_pedido.php on line 277
+[16-Mar-2017 09:55:03 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/f71iabassp/public_html/intranet/rh_novaintra/beneficios/vale_refeicao/form_pedido.php on line 622

@@ -1,0 +1,1 @@
+[20-Jul-2017 11:00:30 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/f71sanperes/public_html/intranet/contabil/plano_de_contas/contas_assoc.php on line 85

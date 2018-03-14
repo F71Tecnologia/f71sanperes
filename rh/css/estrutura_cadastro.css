@@ -1,0 +1,168 @@
+body {
+	background-color:#FAFAFA;
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0px;
+	text-align:center;
+}
+
+#corpo {
+	margin:0px auto;
+	width:900px;
+	background-color:#FFF;
+	text-align:left;
+}
+
+img {
+	border:0px;
+}
+
+ul, li, p, h2 {
+	margin:0;
+	padding:0;
+}
+
+a {
+	text-decoration:none;
+	color:#444;
+}
+
+h2 span.clt {
+	color:#FFAE00;
+}
+
+h2 span.aut {
+	color:#237531;
+}
+
+h2 span.projeto {
+	color:#996;
+}
+
+h2 span.coo {
+	color:#0078FF;
+}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+input {
+	border:1px solid #ccc;
+	padding:2px;
+	font-size:13px;
+}
+
+input:focus, input:hover {
+	border:1px solid #999;
+	background-color:#dee3ed;
+}
+
+input[disabled] {
+	background-color:#eee !important;
+	border:1px solid #ccc !important;
+	margin-bottom:1px;
+}
+
+input.reset {
+	border:1px solid #999;
+}
+
+select {
+	border:1px solid #ccc;
+	padding:2px;
+	font-size:13px;
+}
+
+textarea {
+	border:1px solid #ccc;
+	padding:2px;
+	font-size:13px;
+}
+
+textarea:focus {
+	border:1px solid #999;
+	background-color:#dee3ed;
+}
+
+td {
+	padding-left:10px;
+	background-color:#FFF;
+	padding:8px;
+	text-align:left;
+	font-size:13px;
+}
+
+table.secao {
+	width:100%;
+	background-color:#777;
+	font-size:12px;
+	color:#000;
+	border:0px;
+}
+
+td.secao_pai {
+	background-color:#dee3ed;
+	color:#000;
+	padding:8px;
+	text-align:left;
+	font-weight:bold;
+	font-size:13px;
+}
+
+td.secao {
+	background-color:#F4F4F4;
+	color:#000;
+	padding:2px;
+	padding-right:5px;
+	text-align:right;
+	font-weight:bold;
+	font-size:13px;
+}
+
+#finalizacao {
+	margin:20px 0px 20px 0px;
+	font-size:14px;
+	line-height:22px;
+	width:100%;
+	text-align:center;
+	background-color:#FAFAFA;
+	padding:20px 0px 20px 0px;
+}
+
+#observacao {
+	margin:20px 0px 20px 0px;
+	background-color:#FFC;
+	border:1px solid #FC0;
+	padding:4px;
+	font-size:14px;
+	text-align:center;
+}
+
+.botao {
+	background-color:#FAFAFA;
+	margin:0px auto;
+	width:150px;
+	height:28px;
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	color:#555;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #ccc;
+}
+
+.botao:hover {
+	background-color:#eee;
+	color:#333;
+	border:1px solid #aaa;
+}

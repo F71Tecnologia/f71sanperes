@@ -1,0 +1,91 @@
+body { 
+    width: 800px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/***** EMAIL HEADER *****/
+
+div.email_header           { width: 90%; color: #2b2b2b; margin-bottom: 30px; }
+div.email_header h1        { font-size: 16px; }
+div.email_header span      { margin-right: 20px; }
+div.email_header span.date { float: right; text-align: right; font-weight: bold; }
+div.email_header span.time { float: right; text-align: right; font-weight: bold; }
+div.email_header div.header-separator { width: 100%; padding: 5px 0; margin-bottom: 20px; border-bottom: 2px solid #595959; }
+
+div.email_header span.email span { margin: 0; }
+
+
+/***** EMAIL PAGINATION *****/
+div.pagination {
+    padding: 10px;
+    position: fixed;
+    bottom: 38px;
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    text-decoration: none;
+    color: #2F75FA;
+}
+
+div.pagination a:hover, div.pagination a:active {
+    border-bottom: 1px solid #2F75FA;
+    color: #000;
+}
+
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #2F75FA;
+    font-weight: bold;
+    background-color: #2F75FA;
+    color: #FFF;
+}
+
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    color: #000;
+}
+
+/***** ATTACHMENTS *****/
+div.email_header div.attachments {
+    margin: 10px 0px -16px 0px
+}
+
+div.email_header div.attachments ul {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+
+div.email_header div.attachments ul li {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+div.email_header div.attachments ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+div.email_header div.attachments ul li a img {
+    float: left;
+    width: 100px;
+    width: 100px;
+}
+
+div.email_header div.attachments ul li a p {
+    clear: both;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+}

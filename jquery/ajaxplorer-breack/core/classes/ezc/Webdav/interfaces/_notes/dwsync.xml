@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="anonymous_authenticator.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="authorizer.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="backend.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="basic_authenticator.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="digest_authenticator.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="infrastructure_base.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="path_factory.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="property.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="property_live.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="property_storage.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="request.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+<file name="response.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703474200000000" />
+</dwsync>

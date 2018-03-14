@@ -1,0 +1,33 @@
+/*
+  CSS que sobrescreve algumas cores do css do Bootstrap para a cor LARANJA do RH
+*/
+/* 
+    Created on : 28/10/2014, 15:50:02
+    Author     : F71 Note 3
+*/
+.rh { color:#F58634; }
+.rh:hover,
+.rh:focus {
+    color:#B76427;
+}
+.nav-pills > li.active > .rh, .nav-pills > li.active > .rh:hover, .nav-pills > li.active > .rh:focus {
+    background-color: #F58634;
+    /*font-weight: normal;*/
+}
+.nav-pills .rh {
+    color: #333;
+    /*font-weight: bold;*/
+    /*background-color: #FEF7F2;*/
+}
+.nav-pills > li > .rh:hover {
+    color:#B76427;
+}
+
+.pagination > li > .rh {
+    color:#F58634;
+}
+.pagination > li > .rh:hover,
+.pagination > li > .rh:focus {
+    color:#B76427;
+}
+

@@ -1,0 +1,24 @@
+.hide, .hide_insa {
+    display: none;
+}
+
+select[readonly] {
+    pointer-events: none;
+    touch-action: none;
+}
+
+.bt-image{                
+    cursor: pointer;
+}
+
+#erro2, #textSuccess {
+    color: #F00;
+}
+
+#textSuccess{
+    font-size: 8pt;
+}
+
+textarea {
+    resize: none;
+}

@@ -1,0 +1,1 @@
+[28-Sep-2016 13:43:03 America/Sao_Paulo] PHP Fatal error:  Call to undefined function print_array() in /home/f71iabassp/public_html/intranet/rh/sefip/view/confirmacao.grrf.php on line 127

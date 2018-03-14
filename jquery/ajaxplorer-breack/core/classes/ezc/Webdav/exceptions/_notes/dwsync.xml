@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="bad_request.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="broken_base_uri.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="broken_request_uri.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="broken_storage_exception.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="exception.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="headers_not_validated.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="inconsistency.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_callback.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_header.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_hook.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_request_body.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_request_method.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="invalid_xml.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="missing_header.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="missing_transport_configuration.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="misssing_server_variable.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="no_transport_handler.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="plugin_precondition_failed.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="request_not_supported.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+<file name="unknown_header.php" server="ftp.netsorrindo.com/www/intranet/" local="129479670480000000" remote="129703473600000000" />
+</dwsync>

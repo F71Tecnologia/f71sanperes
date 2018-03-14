@@ -1,0 +1,138 @@
+body {
+	background-color: #EBEBEB;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table{
+	background:#FFF;
+}
+#entradas {
+	padding: 5px;
+	margin: 10px;
+	background-color: #FAFAFA;
+}
+
+#entradas table{
+	border: 1px solid #CCC;
+	width:100%;
+}
+
+h2.titulo {
+	margin: 5px;
+	padding: 0px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#saidas {
+	margin: 5px;
+	padding: 5px;
+	overflow: hidden;
+	text-align: center;
+}
+#saidas div {
+	text-align: left;
+}
+
+
+
+#base {
+	width: 998px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: left;
+	background-color: #FFF;
+}
+.bloco1 {
+	float: left;
+	width: 320px;
+	border: 1px solid #FFCECE;
+	display:block;
+	background-color: #FFE6E6;
+}
+
+.bloco2 {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 320px;
+	border: 1px solid #BFB;
+	display:block;
+	background-color: #E8FFDF;
+}
+.bloco3 {
+	width: 320px;
+	float: right;
+	border: 1px solid #CAD8FF;
+	display:block;
+	background-color: #DAE8FE;
+}
+
+span.totais{
+	font-weight: bold;
+
+}
+#totalizador, #totalizador table{
+	padding-bottom: 6px;
+}
+
+.linha_um_bloco1 {
+ background-color:#FFC1C1;
+}
+.linha_dois_bloco1 {
+ background-color:#FFF9F9;
+}
+.linha_um_bloco1 td, .linha_dois_bloco1 td {
+ border-bottom:1px solid #FFC1C1;
+}
+
+
+.linha_um_bloco2 {
+ background-color:#CAFFCA;
+}
+.linha_dois_bloco2 {
+ background-color:#F9FFFB;
+}
+.linha_um_bloco2 td, .linha_dois_bloco2 td {
+ border-bottom:1px solid #CAFFCA;
+}
+
+
+.linha_um_bloco3 {
+ background-color:#C1DFFF;
+}
+.linha_dois_bloco3 {
+ background-color:#F2F2FF;
+}
+.linha_um_bloco3 td, .linha_dois_bloco3 td {
+ border-bottom:1px solid #C1DFFF;
+}
+
+
+.linha_um {
+ background-color:#f5f5f5;
+}
+.linha_dois {
+ background-color:#ebebeb;
+}
+.linha_um td, .linha_dois td {
+ border-bottom:1px solid #ccc;
+}
+span.subtitulos{
+	text-align: center;
+	display: block;
+	font-weight: 600;
+	font-style: oblique;
+	font-variant: small-caps;
+	
+}
+#Detalhes{
+	width: 300px;
+	
+}

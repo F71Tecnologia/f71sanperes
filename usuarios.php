@@ -1,0 +1,41 @@
+<?php
+
+ // Configuração
+ include "conn.php";
+ 
+ // Seleciona os usuários
+ $result = mysql_query("SELECT * FROM rh_cbo WHERE nome LIKE '%".addslashes($_GET['login'])."%'");
+ $quantidade = mysql_num_rows($result);
+  
+ $Acao = mysql_query("SELECT * FROM rh_cbo WHERE nome LIKE '%".addslashes($_GET['login'])."%' LIMIT 0,100");
+ $Resultados = mysql_num_rows($Acao);
+ 
+ if($quantidade > 100){
+	 $texto = "+ de ";
+ }else{
+	 $texto = "";
+ }
+ 
+ // Faz loop dos resultados
+ while($row = mysql_fetch_array($Acao) ){
+  
+  $nome_texto = str_replace("á","a",$row['nome']);
+  $nome_texto = str_replace("é","e",$nome_texto);
+  $nome_texto = str_replace("í","i",$nome_texto);
+  $nome_texto = str_replace("ó","o",$nome_texto);
+  $nome_texto = str_replace("ú","u",$nome_texto);
+  $nome_texto = str_replace("ú","u",$nome_texto);
+  $nome_texto = str_replace("ã","a",$nome_texto);
+  $nome_texto = str_replace("õ","o",$nome_texto);
+  $nome_texto = str_replace("ç","c",$nome_texto);
+  $nome_texto = str_replace("Ç","C",$nome_texto);
+  $nome_texto = str_replace("â","a",$nome_texto);
+  $nome_texto = str_replace("ê","e",$nome_texto);
+  $nome_texto = str_replace("ô","o",$nome_texto);
+  $nome_texto = str_replace("É","E",$nome_texto);
+	 
+	 
+ echo "".$Resultados."\n".$row['0']."- ".$nome_texto."(".$row['cod'].")\n";
+ }
+ 
+?>

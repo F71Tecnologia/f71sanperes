@@ -1,0 +1,40 @@
+body {
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color:#F5F5F5;
+}
+#conteiner table{
+	margin-bottom:20px;
+	background-color: #FFF;
+}
+
+#conteiner table tr th {
+	font-weight: bold;
+	color: #666;
+	text-transform: uppercase;
+}
+span.titulo1 {
+	display: block;
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #F7F7F7;
+}
+#conteiner {
+	width: 100%;
+}
+.linha_um {
+ background-color:#f5f5f5;
+}
+.linha_dois {
+ background-color:#ebebeb;
+}
+.linha_um td, .linha_dois td, .linha_erro td{
+ border-bottom:1px solid #ccc;
+}
+.linha_erro{
+	background-color:#FF9797;
+}

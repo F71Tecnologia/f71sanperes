@@ -1,0 +1,60 @@
+body{
+	margin:0px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#conteiner{
+	text-align:left;
+	margin:10px auto;
+	width:550px;
+}
+legend{
+	font-size:16px;
+	text-transform: none;
+}
+#loading {
+	top: 30%;
+	position:fixed;
+	left: 40%;
+	display: none;
+	z-index:1000;
+}
+#cadastro_nomes{
+	width: 300px;
+}
+#lancamento_prestador{
+	background:#FBFBFB;
+	height:200px;
+	overflow:scroll;
+	text-align:center;
+}
+#lancamento_prestador div{
+	text-align:left;
+	padding:5px;
+	margin: 3px auto;
+	width:90%;
+	border: 1px #FFF solid;
+	cursor:pointer;
+	background:#FFF;
+	overflow:hidden;
+	
+}
+#lancamento_prestador div:hover{
+	border:solid #EAEAEA 1px;
+}
+#lancamento_prestador div span{
+	width:20%;
+	display:block;
+	float:left;
+}
+#title_lancamentos{
+	text-align:center;
+	font-size:14px;
+	color:#F20000;
+}
+.marcado {
+	background:#CCC !important;
+}
+.desmarcado {
+}

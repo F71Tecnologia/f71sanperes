@@ -1,0 +1,1 @@
+[13-Jun-2017 15:02:33 America/Chicago] PHP Fatal error:  Call to undefined method regiao::getRegioesAtivas() in /home/f71sanperes/public_html/intranet/adm/adm_notas/cadastronota.php on line 32

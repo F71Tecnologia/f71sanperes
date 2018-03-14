@@ -1,0 +1,1 @@
+[20-May-2016 15:36:36 America/Sao_Paulo] PHP Fatal error:  Call to undefined function getFuncoesSindicato() in /home/f71iabassp/public_html/intranet/rh_novaintra/sindicato/dissidio_calc.php on line 109

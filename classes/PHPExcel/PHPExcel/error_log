@@ -1,0 +1,15 @@
+[20-Jun-2017 09:40:06 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Autoloader.php on line 36
+[20-Jun-2017 09:40:10 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Comment.php on line 37
+[20-Jun-2017 09:40:13 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/RichText.php on line 37
+[20-Jun-2017 09:40:15 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Style.php on line 36
+[20-Jun-2017 09:40:16 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Worksheet.php on line 37
+[20-Jun-2017 10:17:43 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Worksheet.php on line 37
+[20-Jun-2017 10:17:43 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Style.php on line 36
+[20-Jun-2017 10:17:44 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/RichText.php on line 37
+[20-Jun-2017 10:17:46 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Autoloader.php on line 36
+[20-Jun-2017 10:18:29 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Comment.php on line 37
+[20-Jun-2017 10:22:44 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Autoloader.php on line 36
+[20-Jun-2017 10:22:46 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Comment.php on line 37
+[20-Jun-2017 10:22:48 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/RichText.php on line 37
+[20-Jun-2017 10:22:49 America/Chicago] PHP Fatal error:  Class 'PHPExcel_Style_Supervisor' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Style.php on line 36
+[20-Jun-2017 10:22:49 America/Chicago] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/f71sanperes/public_html/intranet/classes/PHPExcel/PHPExcel/Worksheet.php on line 37

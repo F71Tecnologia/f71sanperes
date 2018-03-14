@@ -1,0 +1,1 @@
+<?php $data_menor14 = date('Y-m-d', mktime(0,0,0, 01, 05, 2011 - 14)); echo $data_menor14;  ?>

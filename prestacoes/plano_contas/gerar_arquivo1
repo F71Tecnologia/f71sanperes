@@ -1,0 +1,49 @@
+<?php
+include ("../../conn.php");
+include ("../../wfunction.php");
+include ("../../classes/global.php");
+
+$usuario = carregaUsuario();
+
+$rowUser = montaQueryFirst("funcionario", "id_master", "id_funcionario = '{$_COOKIE['logado']}'");
+$currentUser = current($rowUser);
+
+$rowMaster = montaQuery("master", "*", "id_master = {$currentUser['id_master']}");
+$currentMaster = current($rowMaster);
+
+//SELECT BANCO POR REGIAO 
+$regiao_select = (isset($_REQUEST['regiao'])) ? $_REQUEST['regiao'] : $usuario['id_regiao'];
+
+//SELECT MÊS
+$meses = montaQuery('ano_meses', "num_mes,nome_mes");
+$optMeses = array();
+foreach ($meses as $valor) {
+    $optMeses[$valor['num_mes']] = $valor['nome_mes'];
+}
+$mesSel = (isset($_REQUEST['mes'])) ? $_REQUEST['mes'] : date('m');
+
+
+//SELECT ANO
+$optAnos = array();
+for ($i = 2009; $i <= date('Y'); $i++) {
+    $optAnos[$i] = $i;
+}
+$anoSel = (isset($_REQUEST['ano'])) ? $_REQUEST['ano'] : date('Y');
+?>
+   <div id="content">
+        <div class="row">
+            <form action="controle.php" method="post" name="form1" id ="form1">
+                    <p><label class="first">Região</label> <?php echo montaSelect(GlobalClass::carregaRegioes($currentMaster['id_master']),$regiao_select, array('name' => 'regiao', 'id' => 'regiao')); ?></p>
+                    <p><label class="first">Banco:</label> <?php echo montaSelect(GlobalClass::carregaBancosByRegiao($regiao_select),array("-1"=>"« Selecione o Banco »"), "id='banco' name='banco' class='required[custom[select]]'") ?></p>
+                    <p>
+                        <label class="first">Mês:</label> <?php echo montaSelect($optMeses, $mesSel, array('name' => 'mes', 'id' => 'mes')); ?>
+                        <label class="first">Ano:</label> <?php echo montaSelect($optAnos, $anoSel, array('name' => "ano", 'id' => 'ano')); ?></p>
+                    <p class="controls">
+                        <input type="submit"  name="gerar_arquivo" id="gerar_arquivo" value="Exportar arquivo"/> 
+                        <input type="submit"  name="arquivoDespesas" id="arq_despesa" value="Arquivo de Despesas .txt"/> 
+                        <input type="submit"  name="gerarReceitas" id="arq_receita" value="Exportar arquivo"/> 
+                    </p>
+            </form>  
+        </div>
+    </div>                                 
+    

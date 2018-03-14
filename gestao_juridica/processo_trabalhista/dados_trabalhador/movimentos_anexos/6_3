@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Roundcube Webmail :: Drafts</title>
+<link rel="index" href="./?_task=mail" />
+<link rel="shortcut icon" href="skins/default_backup/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="skins/default_backup/common.css?s=1330521027" />
+<link rel="stylesheet" type="text/css" href="skins/default_backup/mail.css?s=1330523465" />
+
+<script type="text/javascript" src="skins/default_backup/splitter.js?s=1330520318"></script>
+<script type="text/javascript" src="skins/default_backup/functions.js?s=1330520319"></script>
+<style type="text/css">
+#mailleftcontainer { width: 160px; }
+#mailrightcontainer { left: 170px;
+
+}
+</style>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="program/js/jquery.min.js?s=1327493055"></script>
+<script type="text/javascript" src="program/js/common.js?s=1327493044"></script>
+<script type="text/javascript" src="program/js/app.js?s=1327493038"></script>
+<script type="text/javascript" src="program/js/list.js?s=1327493057"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"mail","x_frame_options":"sameorigin","keep_alive":60,"action":"","comm_path":".\/?_task=mail","search_mods":{"*":{"subject":1,"from":1},"INBOX.Sent":{"subject":1,"to":1},"INBOX.Drafts":{"subject":1,"to":1},"INBOX":{"subject":1,"from":1}},"mailbox":"INBOX.Drafts","pagesize":40,"quota":true,"delimiter":".","threading":false,"threads":true,"preview_pane_mark_read":0,"read_when_deleted":true,"trash_mailbox":"INBOX.Trash","drafts_mailbox":"INBOX.Drafts","junk_mailbox":"INBOX.Junk","mailboxes":{"SU5CT1g":{"id":"INBOX","name":"Caixa de entrada","virtual":false},"SU5CT1guRHJhZnRz":{"id":"INBOX.Drafts","name":"Rascunhos","virtual":false},"SU5CT1guU2VudA":{"id":"INBOX.Sent","name":"Enviados","virtual":false},"SU5CT1guSnVuaw":{"id":"INBOX.Junk","name":"Spam","virtual":false},"SU5CT1guVHJhc2g":{"id":"INBOX.Trash","name":"Lixeira","virtual":false}},"collapsed_folders":"","col_movable":true,"autoexpand_threads":0,"sort_col":"from","sort_order":"ASC","messages":[],"coltypes":["threads","subject","to","attachment","date"],"blankpage":"skins\/default_backup\/watermark.html","request_token":"d9dee1d44e1bb12332b4ed251747a728"});
+rcmail.gui_container("taskbar","taskbar");
+rcmail.gui_container("listcontrols","listcontrols");
+rcmail.gui_container("toolbar","messagetoolbar");
+rcmail.gui_container("forwardmenu","forwardmenu");
+rcmail.gui_container("replyallmenu","replyallmenu");
+rcmail.gui_container("messagemenu","messagemenu");
+rcmail.gui_container("markmenu","markmessagemenu");
+rcmail.gui_container("mailboxoptions","mailboxoptionsmenu");
+rcmail.add_label({"loading":"Carregando...","servererror":"Erro no Servidor!","checkingmail":"Verificando se h\u00e1 novas mensagens...","deletemessage":"Excluir a mensagem","movemessagetotrash":"Mover a mensagem para a Lixeira","movingmessage":"Movendo mensagem...","copyingmessage":"Copiando mensagem...","deletingmessage":"Excluindo mensagem(s)...","markingmessage":"Marcando mensagem(s)...","copy":"Copiar","move":"Mover","quota":"Utiliza\u00e7\u00e3o","purgefolderconfirm":"Deseja realmente excluir todas mensagens desta pasta?","deletemessagesconfirm":"Deseja realmente excluir a(s) mensagem(s) selecionada(s)?","from":"Remetente","to":"Para","searching":"Pesquisando..."});
+rcmail.register_button('mail', 'rcmbtn100', 'link', '', '', '');
+rcmail.register_button('addressbook', 'rcmbtn101', 'link', '', '', '');
+rcmail.register_button('settings', 'rcmbtn102', 'link', '', '', '');
+rcmail.register_button('logout', 'rcmbtn103', 'link', '', '', '');
+rcmail.gui_object('message', 'message');
+rcmail.gui_object('mailboxlist', 'mailboxlist');
+rcmail.gui_object('messagelist', 'messagelist');
+rcmail.register_button('select-all', 'rcmbtn104', 'link', 'button all', 'button allsel', '');
+rcmail.register_button('select-all', 'rcmbtn105', 'link', 'button page', 'button pagesel', '');
+rcmail.register_button('select-all', 'rcmbtn106', 'link', 'button unread', 'button unreadsel', '');
+rcmail.register_button('select-all', 'rcmbtn107', 'link', 'button invert', 'button invertsel', '');
+rcmail.register_button('select-none', 'rcmbtn108', 'link', 'button none', 'button nonesel', '');
+rcmail.register_button('expand-all', 'rcmbtn109', 'link', 'button expand-all', 'button expand-allsel', '');
+rcmail.register_button('expand-unread', 'rcmbtn110', 'link', 'button expand-unread', 'button expand-unreadsel', '');
+rcmail.register_button('collapse-all', 'rcmbtn111', 'link', 'button collapse-all', 'button collapse-allsel', '');
+rcmail.register_button('lastpage', 'rcmbtn112', 'link', 'button lastpage', 'button lastpageSel', '');
+rcmail.register_button('nextpage', 'rcmbtn113', 'link', 'button nextpage', 'button nextpageSel', '');
+rcmail.gui_object('countdisplay', 'rcmcountdisplay');
+rcmail.register_button('previouspage', 'rcmbtn114', 'link', 'button prevpage', 'button prevpageSel', '');
+rcmail.register_button('firstpage', 'rcmbtn115', 'link', 'button firstpage', 'button firstpageSel', '');
+rcmail.register_button('checkmail', 'rcmbtn116', 'link', 'button checkmail', 'button checkmailSel', '');
+rcmail.register_button('compose', 'rcmbtn117', 'link', 'button compose', 'button composeSel', '');
+rcmail.register_button('reply', 'rcmbtn118', 'link', 'button reply', 'button replySel', '');
+rcmail.register_button('reply-all', 'rcmbtn119', 'link', 'button replyAll', 'button replyAllSel', '');
+rcmail.register_button('forward', 'rcmbtn120', 'link', 'button forward', 'button forwardSel', '');
+rcmail.register_button('delete', 'rcmbtn121', 'link', 'button delete', 'button deleteSel', '');
+rcmail.register_button('forward', 'rcmbtn122', 'link', 'forwardlink active', '', '');
+rcmail.register_button('forward-attachment', 'rcmbtn123', 'link', 'forwardattachmentlink active', '', '');
+rcmail.register_button('reply-all', 'rcmbtn124', 'link', 'replyalllink active', '', '');
+rcmail.register_button('reply-list', 'rcmbtn125', 'link', 'replylistlink active', '', '');
+rcmail.register_button('print', 'rcmbtn126', 'link', 'printlink active', '', '');
+rcmail.register_button('download', 'rcmbtn127', 'link', 'downloadlink active', '', '');
+rcmail.register_button('edit', 'rcmbtn128', 'link', 'editlink active', '', '');
+rcmail.register_button('viewsource', 'rcmbtn129', 'link', 'sourcelink active', '', '');
+rcmail.register_button('open', 'rcmbtn130', 'link', 'openlink active', '', '');
+rcmail.register_button('mark', 'rcmbtn131', 'link', 'readlink active', '', '');
+rcmail.register_button('mark', 'rcmbtn132', 'link', 'unreadlink active', '', '');
+rcmail.register_button('mark', 'rcmbtn133', 'link', 'flaggedlink active', '', '');
+rcmail.register_button('mark', 'rcmbtn134', 'link', 'unflaggedlink active', '', '');
+rcmail.gui_object('search_filter', 'rcmlistfilter');
+rcmail.gui_object('qsearchbox', 'quicksearchbox');
+rcmail.register_button('reset-search', 'searchreset', 'image', '', '', '');
+rcmail.register_button('moveto', 'rcmbtn135', 'link', 'active', '', '');
+rcmail.register_button('copy', 'rcmbtn136', 'link', 'active', '', '');
+rcmail.register_button('expunge', 'rcmbtn137', 'link', 'active', '', '');
+rcmail.register_button('purge', 'rcmbtn138', 'link', 'active', '', '');
+rcmail.register_button('settings.folders', 'rcmbtn139', 'link', 'active', '', '');
+rcmail.register_button('menu-open', 'listmenucancel', 'input', '', '', '');
+rcmail.register_button('menu-save', 'listmenusave', 'input', '', '', '');
+/* ]]> */
+</script>
+
+</head>
+<body onload="rcube_init_mail_ui()">
+
+<div id="taskbar">
+<a class="button-mail" id="rcmbtn100" href="./?_task=mail&amp;_action=" onclick="rcmail.switch_task('mail');return false">E-mail</a>
+<a class="button-addressbook" id="rcmbtn101" href="./?_task=addressbook&amp;_action=" onclick="rcmail.switch_task('addressbook');return false">Catálogo de endereços</a>
+
+<!--<a class="button-settings" id="rcmbtn102" href="./?_task=settings&amp;_action=" onclick="rcmail.switch_task('settings');return false">Configurações pessoais</a>
+<a class="button-logout" id="rcmbtn103" href="./?_task=logout&amp;_action=" onclick="rcmail.switch_task('logout');return false">Sair</a>-->
+</div>
+<!--<div id="header"><a href="./"><img src="skins/default_backup/images/roundcube_logo.png" id="logo" border="0" alt="Logo" /></a></div>-->
+
+<div id="message"></div>
+<ul id="mailboxlist"><li id="rcmliSU5CT1g" class="mailbox inbox"><a href="./?_task=mail&amp;_mbox=INBOX" onclick="return rcmail.command('list','INBOX',this)" rel="INBOX">Caixa de entrada</a></li>
+<li id="rcmliSU5CT1guRHJhZnRz" class="mailbox drafts selected"><a href="./?_task=mail&amp;_mbox=INBOX.Drafts" onclick="return rcmail.command('list','INBOX.Drafts',this)" rel="INBOX.Drafts">Rascunhos</a></li>
+<li id="rcmliSU5CT1guU2VudA" class="mailbox sent"><a href="./?_task=mail&amp;_mbox=INBOX.Sent" onclick="return rcmail.command('list','INBOX.Sent',this)" rel="INBOX.Sent">Enviados</a></li>
+<li id="rcmliSU5CT1guSnVuaw" class="mailbox junk"><a href="./?_task=mail&amp;_mbox=INBOX.Junk" onclick="return rcmail.command('list','INBOX.Junk',this)" rel="INBOX.Junk">Spam</a></li>
+<li id="rcmliSU5CT1guVHJhc2g" class="mailbox trash"><a href="./?_task=mail&amp;_mbox=INBOX.Trash" onclick="return rcmail.command('list','INBOX.Trash',this)" rel="INBOX.Trash">Lixeira</a></li>
+</ul>
+
+
+
+
+<script type="text/javascript">
+  var mailviewsplitv = new rcube_splitter({id:'mailviewsplitterv', p1: 'mailleftcontainer', p2: 'mailrightcontainer', orientation: 'v', relative: true, start: 165, callback: rcube_render_mailboxlist });
+  rcmail.add_onload('mailviewsplitv.init()');
+</script>
+
+</div>
+
+<div id="mailrightcontainer">
+<div id="mailrightcontent">
+<div id="mailcontframe">
+<div id="messagelistcontainer" class="boxlistcontent" style="top:0">
+<table id="messagelist" cellspacing="0" summary="Message list"><thead><tr><td class="threads" id="rcmthreads"><div onclick="return rcmail.command('menu-open', 'messagelistmenu')" class="listmenu" id="listmenulink" title="Opções de Exibição"></div></td>
+<td class="subject" id="rcmsubject"><a href="./#sort" onclick="return rcmail.command('sort','subject',this)" title="Ordenado por">Assunto</a></td>
+<td class="to" id="rcmto"><a href="./#sort" onclick="return rcmail.command('sort','to',this)" title="Ordenado por">Para</a></td>
+<td class="attachment" id="rcmattachment"><span class="attachment">&nbsp;</span></td>
+<td class="date" id="rcmdate"><a href="./#sort" onclick="return rcmail.command('sort','date',this)" title="Ordenado por">Data</a></td>
+</tr>
+</thead>
+<tbody></tbody></table>
+
+</div>
+<div class="boxfooter">
+    <div id="listcontrols" class="pagenav">
+        <span>Selecionar:&nbsp;</span>
+        <a title="Todas" class="buttonPas all" id="rcmbtn104" href="#" onclick="return rcmail.command('select-all','',this)"> </a>
+        <a title="Página atual" class="buttonPas page" id="rcmbtn105" href="#" onclick="return rcmail.command('select-all','page',this)"> </a>
+        <a title="Não lidas" class="buttonPas unread" id="rcmbtn106" href="#" onclick="return rcmail.command('select-all','unread',this)"> </a>
+        <a title="Inverter" class="buttonPas invert" id="rcmbtn107" href="#" onclick="return rcmail.command('select-all','invert',this)"> </a>
+        <a title="Nenhuma" class="buttonPas none" id="rcmbtn108" href="#" onclick="return rcmail.command('select-none','',this)"> </a>
+        
+            <span style="margin-left: 12px">Tópicos:&nbsp;</span>
+        <a title="Expandir Tudo" class="buttonPas expand-all" id="rcmbtn109" href="#" onclick="return rcmail.command('expand-all','',this)"> </a>
+        <a title="Expandir Não Lidas" class="buttonPas expand-unread" id="rcmbtn110" href="#" onclick="return rcmail.command('expand-unread','',this)"> </a>
+        <a title="Recolher Tudo" class="buttonPas collapse-all" id="rcmbtn111" href="#" onclick="return rcmail.command('collapse-all','',this)"> </a>
+                <label><span style="margin-left: 12px">Exibir pré-visualização:&nbsp;</span>
+        <input type="checkbox" onclick="rcmail_ui.switch_preview_pane(this)" /></label>
+        </div>
+    <div id="countcontrols" class="pagenav">
+        <a class="buttonPas lastpage" title="Última Página" id="rcmbtn112" href="#" onclick="return rcmail.command('lastpage','',this)"> </a>
+        <a class="buttonPas nextpage" title="Próxima Página" id="rcmbtn113" href="#" onclick="return rcmail.command('nextpage','',this)"> </a>
+        <span style="padding:0 .5em; float:right" id="rcmcountdisplay">A caixa de mensagens está vazia</span>
+        <a class="buttonPas prevpage" title="Página Anterior" id="rcmbtn114" href="#" onclick="return rcmail.command('previouspage','',this)"> </a>
+        <a class="buttonPas firstpage" title="Primeira Página " id="rcmbtn115" href="#" onclick="return rcmail.command('firstpage','',this)"> </a>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+  var mailviewsplit = new rcube_splitter({id:'mailviewsplitter', p1: 'mailcontframe', p2: 'mailpreviewframe', orientation: 'h', relative: true, start: 205});
+</script>
+
+<div id="mailpreviewframe" style="display:none">
+<iframe name="messagecontframe" id="messagecontframe" width="100%" height="100%" frameborder="0" src="skins/default_backup/watermark.html"></iframe>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="messagetoolbar">
+<a class="button checkmail" title="Verificar se há novas mensagens" id="rcmbtn116" href="#" onclick="return rcmail.command('checkmail','',this)"> </a>
+<a class="button compose" title="Criar nova mensagem" id="rcmbtn117" href="./?_task=mail&amp;_action=compose" onclick="return rcmail.command('compose','',this)"> </a>
+<a class="buttonPas reply" title="Responder para o remetente" id="rcmbtn118" href="#" onclick="return rcmail.command('reply','',this)"> </a>
+<span class="dropbutton">
+<a class="buttonPas replyAll" title="Responder para o remetente e todos destinatários" id="rcmbtn119" href="#" onclick="return rcmail.command('reply-all','',this)"> </a>
+<span id="replyallmenulink" onclick="rcmail_ui.show_popup('replyallmenu');return false"></span>
+</span>
+<span class="dropbutton">
+<a class="buttonPas forward" title="Encaminhar a mensagem" id="rcmbtn120" href="#" onclick="return rcmail.command('forward','',this)"> </a>
+<span id="forwardmenulink" onclick="rcmail_ui.show_popup('forwardmenu');return false"></span>
+</span>
+<a class="buttonPas delete" title="Excluir a mensagem" id="rcmbtn121" href="#" onclick="return rcmail.command('delete','',this)"> </a>
+
+<a id="markmenulink" class="button markmessage" title="Marcar mensagens" onclick="rcmail_ui.show_popup('markmenu');return false" href="#"> </a>                                                                   
+<a id="messagemenulink" class="button messagemenu" title="Mais ações..." onclick="rcmail_ui.show_popup('messagemenu');return false" href="#"> </a>
+</div>
+
+<div id="forwardmenu" class="popupmenu">
+    <ul class="toolbarmenu">
+        <li class="block">
+            <input type="radio" name="forwardtype" value="0" onchange="rcmail.command('save-pref', {name: 'forward_attachment', value: 0, env: 'forward_attachment'});" />
+            <a class="forwardlink" id="rcmbtn122" href="#" onclick="return rcmail.command('forward','sub',this)">Encaminhar junto ao corpo da mensagem</a>
+        </li>
+        <li class="block">
+            <input type="radio" name="forwardtype" value="1" onchange="rcmail.command('save-pref', {name: 'forward_attachment', value: 1, env: 'forward_attachment'})" />
+            <a class="forwardattachmentlink" id="rcmbtn123" href="#" onclick="return rcmail.command('forward-attachment','sub',this)">Encaminhar como anexo</a>
+        </li>    
+        
+    </ul>
+</div>
+
+<div id="replyallmenu" class="popupmenu">
+    <ul>
+        <li><a class="replyalllink" id="rcmbtn124" href="#" onclick="return rcmail.command('reply-all','sub',this)">Responder a todos</a></li>
+        <li><a class="replylistlink" id="rcmbtn125" href="#" onclick="return rcmail.command('reply-list','sub',this)">Responder para a lista</a></li>
+        
+    </ul>
+</div>
+
+
+<div id="messagemenu" class="popupmenu">
+  <ul class="toolbarmenu">
+    <li><a class="printlink" id="rcmbtn126" href="#" onclick="return rcmail.command('print','',this)">Imprimir a mensagem</a></li>
+    <li><a class="downloadlink" id="rcmbtn127" href="#" onclick="return rcmail.command('download','',this)">Download (.eml)</a></li>
+    <li><a class="editlink" id="rcmbtn128" href="#" onclick="return rcmail.command('edit','',this)">Editar como novo</a></li>
+    <li class="separator_below"><a class="sourcelink" id="rcmbtn129" href="#" onclick="return rcmail.command('viewsource','',this)">Exibir código-fonte</a></li>
+    <li><a class="openlink" target="_blank" id="rcmbtn130" href="#" onclick="return rcmail.command('open','',this)">Abrir em nova janela</a> </li>
+    
+  </ul>
+</div>
+
+<div id="markmessagemenu" class="popupmenu">
+  <ul class="toolbarmenu">
+    <li><a class="readlink" id="rcmbtn131" href="#" onclick="return rcmail.command('mark','read',this)">como lidas</a></li>
+    <li><a class="unreadlink" id="rcmbtn132" href="#" onclick="return rcmail.command('mark','unread',this)">como não lidas</a></li>
+    <li><a class="flaggedlink" id="rcmbtn133" href="#" onclick="return rcmail.command('mark','flagged',this)">como sinalizadas</a></li>
+    <li><a class="unflaggedlink" id="rcmbtn134" href="#" onclick="return rcmail.command('mark','unflagged',this)">como não sinalizadas</a></li>
+    
+  </ul>
+</div>
+
+
+<div id="searchmenu" class="popupmenu">
+  <ul class="toolbarmenu">
+    <li><input type="checkbox" name="s_mods[]" value="subject" id="s_mod_subject" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_subject">Assunto</label></li>
+    <li><input type="checkbox" name="s_mods[]" value="from" id="s_mod_from" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_from">Remetente</label></li>
+    <li><input type="checkbox" name="s_mods[]" value="to" id="s_mod_to" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_to">Para</label></li>
+    <li><input type="checkbox" name="s_mods[]" value="cc" id="s_mod_cc" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_cc">Cópia</label></li>
+    <li><input type="checkbox" name="s_mods[]" value="bcc" id="s_mod_bcc" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_bcc">Cópia Oculta (Bcc)</label></li>
+    <li><input type="checkbox" name="s_mods[]" value="text" id="s_mod_text" onclick="rcmail_ui.set_searchmod(this)" /><label for="s_mod_text">Mensagem inteira</label></li>
+  </ul>
+</div>
+
+<div id="quicksearchbar">
+<div id="searchfilter">
+  <label for="rcmlistfilter">Exibir</label>:
+  <select name="searchfilter" class="searchfilter" id="rcmlistfilter" onchange="rcmail.filter_mailbox(this.value)">
+<option value="ALL">Todas</option>
+<option value="UNSEEN">Não lidas</option>
+<option value="FLAGGED">Sinalizada</option>
+<option value="UNANSWERED">Não respondida</option>
+<option value="DELETED">Excluída</option>
+<option value="HEADER X-PRIORITY 1">Prioridade: Mais alta</option>
+<option value="HEADER X-PRIORITY 2">Prioridade: Alta</option>
+<option value="NOT HEADER X-PRIORITY 1 NOT HEADER X-PRIORITY 2 NOT HEADER X-PRIORITY 4 NOT HEADER X-PRIORITY 5">Prioridade: Normal</option>
+<option value="HEADER X-PRIORITY 4">Prioridade: Baixa</option>
+<option value="HEADER X-PRIORITY 5">Prioridade: Mais baixa</option>
+</select>
+
+</div>
+<br />
+<a onclick="rcmail_ui.show_popup('searchmenu');return false" href="#"><img src="skins/default_backup/images/icons/glass_roll.png" id="searchmenulink" title="Opções da pesquisa" alt="" /></a>
+<form name="rcmqsearchform" onsubmit="rcmail.command('search');return false;" style="display:inline" action="./" method="get"><input name="_q" id="quicksearchbox" type="text" /></form>
+
+<a href="#" onclick="return rcmail.command('reset-search','',this)"><img src="skins/default_backup/images/icons/reset.gif" id="searchreset" title="Limpar" alt="" /></a>
+</div>
+
+<div id="dragmessagemenu" class="popupmenu">
+  <ul>
+    <li><a onclick="return rcmail.drag_menu_action('moveto')" id="rcmbtn135" href="#">Mover</a></li>
+    <li><a onclick="return rcmail.drag_menu_action('copy')" id="rcmbtn136" href="#">Copiar</a></li>
+  </ul>
+</div>
+
+<div id="mailboxoptionsmenu" class="popupmenu">
+  <ul>
+    <li><a id="rcmbtn137" href="#" onclick="return rcmail.command('expunge','',this)">Compactar</a></li>
+    <li class="separator_below"><a id="rcmbtn138" href="#" onclick="return rcmail.command('purge','',this)">Esvaziar</a></li>
+    <li><a id="rcmbtn139" href="./?_task=settings&amp;_action=folders" class="active">Gerenciar pastas</a></li>
+    
+  </ul>
+</div>
+
+<div id="listmenu" class="popupmenu">
+<fieldset class="thinbordered"><legend>Modo da listagem</legend>
+  <ul class="toolbarmenu">
+    <li><input type="radio" name="view" value="list" id="view_default" /><label for="view_default">Lista</label></li>
+    <li><input type="radio" name="view" value="thread" id="view_thread" /><label for="view_thread">Tópicos</label></li>
+  </ul>
+</fieldset>
+<fieldset class="thinbordered"><legend>Lista de colunas</legend>
+  <ul class="toolbarmenu">
+    <li><input type="checkbox" name="list_col[]" value="threads" id="cols_threads" checked="checked" disabled="disabled" /><label for="cols_threads" class="disabled">Tópicos</label></li>
+    <li><input type="checkbox" name="list_col[]" value="subject" id="cols_subject" checked="checked" disabled="disabled" /><label for="cols_subject" class="disabled">Assunto</label></li>
+    <li><input type="checkbox" name="list_col[]" value="from" id="cols_fromto" /><label for="cols_fromto">Remetente/Destinatário</label></li>
+    <li><input type="checkbox" name="list_col[]" value="replyto" id="cols_replyto" /><label for="cols_replyto">Responder para</label></li>
+    <li><input type="checkbox" name="list_col[]" value="cc" id="cols_cc" /><label for="cols_cc">Cópia</label></li>
+    <li><input type="checkbox" name="list_col[]" value="date" id="cols_date" /><label for="cols_date">Data</label></li>
+    <li><input type="checkbox" name="list_col[]" value="size" id="cols_size" /><label for="cols_size">Tamanho</label></li>
+    <li><input type="checkbox" name="list_col[]" value="status" id="cols_status" /><label for="cols_status">Status de leitura</label></li>
+    <li><input type="checkbox" name="list_col[]" value="attachment" id="cols_attachment" /><label for="cols_attachment">Anexo</label></li>
+    <li><input type="checkbox" name="list_col[]" value="flag" id="cols_flag" /><label for="cols_flag">Marca</label></li>
+    <li><input type="checkbox" name="list_col[]" value="priority" id="cols_priority" /><label for="cols_priority">Prioridade</label></li>
+  </ul>
+</fieldset>
+<fieldset class="thinbordered"><legend>Coluna para ordenação</legend>
+  <ul class="toolbarmenu">
+    <li><input type="radio" name="sort_col" value="" id="sort_default" /><label for="sort_default">Nenhuma</label></li>
+    <li><input type="radio" name="sort_col" value="arrival" id="sort_arrival" /><label for="sort_arrival">Data de recebimento</label></li>
+    <li><input type="radio" name="sort_col" value="date" id="sort_date" /><label for="sort_date">Data de envio</label></li>
+    <li><input type="radio" name="sort_col" value="subject" id="sort_subject" /><label for="sort_subject">Assunto</label></li>
+    <li><input type="radio" name="sort_col" value="from" id="sort_fromto" /><label for="sort_fromto">Remetente/Destinatário</label></li>
+    <li><input type="radio" name="sort_col" value="to" id="sort_replyto" /><label for="sort_replyto">Responder para</label></li>
+    <li><input type="radio" name="sort_col" value="cc" id="sort_cc" /><label for="sort_cc">Cópia</label></li>
+    <li><input type="radio" name="sort_col" value="size" id="sort_size" /><label for="sort_size">Tamanho</label></li>
+  </ul>
+</fieldset>
+<fieldset><legend>Ordem da classificação</legend> 
+	  <ul class="toolbarmenu"> 
+	    <li><input type="radio" name="sort_ord" value="ASC" id="sort_asc" /><label for="sort_asc">crescente</label></li> 
+	    <li><input type="radio" name="sort_ord" value="DESC" id="sort_desc" /><label for="sort_desc">decrescente</label></li> 
+	  </ul> 
+</fieldset>
+<div>
+  <input id="listmenucancel" type="button" class="button" onclick="return rcmail.command('menu-open','',this)" value="Cancelar" disabled="disabled" />
+  <input id="listmenusave" type="button" class="button mainaction" onclick="return rcmail.command('menu-save','',this)" value="Salvar" disabled="disabled" />
+</div>
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+$(document).ready(function(){ 
+rcmail.init();
+});
+/* ]]> */
+</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.Accordion {
+	width:100%;
+	margin:0px auto;
+	overflow:hidden;
+	position:relative;
+	top:-18px;
+	*top:-12px;
+}
+
+.AccordionPanel {
+	margin:0px;
+	padding:0px;
+}
+
+.AccordionPanelTab {
+	height:13px;
+	padding:0px;
+	padding-bottom:-7px;
+	margin:0px;
+	cursor:pointer;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	background:url(../../imagens/abrir.gif) no-repeat center center #dfdfdf;
+	width:100%;
+}
+
+.AccordionPanelContent {
+	cursor:text;
+	background-color:#f3f3f3;
+	font-size:13px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:12px;
+	overflow:auto;
+	line-height:22px;
+	position:relative;
+	top:-13px;
+	*top:-24px;
+}
+
+.AccordionPanelOpen .AccordionPanelTab {
+	background:url(../../imagens/fechar.gif) no-repeat center center #dfdfdf;
+	position:relative;
+	top:112px;
+	*top:110px;
+}

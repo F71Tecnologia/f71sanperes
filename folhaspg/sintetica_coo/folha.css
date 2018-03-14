@@ -1,0 +1,222 @@
+body {
+	margin:15px; text-align:center; font-family:verdana; color:#222; background-color:#ddd;
+}
+a {
+	text-decoration:none; color:#222; outline:none;
+}
+p {
+	margin:0px;
+}
+img {
+	border:0px;
+}
+.clear {
+	clear:both;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.pequeno {
+	font-size:9px;
+}
+#corpo {
+	margin:0px auto; text-align:center; width:98%; background-color:#FFF; padding:10 0 10 0px; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;
+}
+#topo {
+	margin:0px auto; text-align:left; background-color:#f5f5f5; border:1px solid #ddd; width:98%; font-size:13px; margin-bottom:30px; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;
+}
+span.moeda, a.voltar, a.ancora, .legendas {
+	display:block; padding-left:11px; line-height:normal; font-weight:bold; color:#bbb; margin-bottom:10px;
+}
+span.moeda {
+	float:right; height:10px; display:none;
+}
+span.moeda:hover {
+	cursor:default; color:#666;
+}
+a.voltar {
+	background:url(voltar.gif) no-repeat left top; float:left; height:11px;
+}
+a.voltar:hover {
+	background:url(voltar.gif) no-repeat left bottom; color:#666;
+}
+a.ancora {
+	background:url(ancora.gif) no-repeat left top; float:left; height:11px; margin-top:7px;
+}
+a.ancora:hover {
+	background:url(ancora.gif) no-repeat left bottom; color:#666;
+}
+.legenda {
+	color:#777; font-style:italic; font-size:12px; margin-left:5px; float:left; width:100px;
+}
+.nota {
+	width:10px; height:10px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; margin-left:10px; float:left;
+}
+.legenda .entrada {
+	background-color:#C93;
+}
+.legenda .evento {
+	background-color:#363;
+}
+.legenda .ferias {
+	background-color:#369;
+}
+.legenda .rescisao {
+	background-color:#930;
+}
+.legenda .faltas {
+	background-color:#F30;	
+}
+.folha {
+	margin:0 auto; text-align:left; width:98%; font-size:11px; line-height:40px; clear:both;
+}
+tr.secao {
+	text-align:center; background-color:#555; color:#FFF; font-weight:bold; line-height:30px; font-size:11px;
+}
+a.participante {
+	display:block; width:99%; text-align:left; padding-left:5px; cursor:pointer;
+}
+a.participante:hover {
+	background:url(participante.gif) no-repeat right center;
+}
+.tooltip {
+	display:none; background-color:#fff; border:1px solid #777; padding:5px; font-size:13px; -moz-box-shadow:2px 2px 11px #666; -webkit-box-shadow:2px 2px 11px #666; text-align:left;
+}
+.entrada {
+	color:#C93;
+}
+.evento {
+	color:#363;
+}
+.ferias {
+	color:#369;
+}
+.rescisao {
+	color:#930;
+}
+.faltas {
+	color:#F30;
+}
+.normal {
+	color:inherit;
+}
+.linha_um, .linha_dois {
+	text-align:center;
+}
+.linha_um {
+	background-color:#f5f5f5;
+}
+.linha_dois {
+	background-color:#ebebeb;
+}
+tr.destaque:hover, tr.destaque_focus {
+	background-color:#FFFAF0; cursor:default;
+}
+.valor_update {
+	text-align:center; border:0; font-size:11px; color:#222; width:100%; font-family:verdana; outline:none; background-color:transparent; cursor:pointer;
+}
+.folha .linha_um td, .folha .linha_dois td {
+	border-bottom:1px solid #ccc;
+}
+tr.totais {
+	text-align:center; color:#333; font-weight:bold; line-height:30px;
+}
+#estatisticas {
+	clear:both; width:98%; margin:0px auto; margin-top:40px;
+}
+.secao_pai {
+	text-align:center; background-color:#999; color:#FFF; font-weight:bold; line-height:30px; font-size:16px;
+}
+#resumo {
+	width:63%; float:left; background-color:#fff; text-align:center;
+}
+#resumo table {
+    width:100%; border:1px solid #ddd; font-size:12px; line-height:22px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; margin-bottom:10px;
+}
+#resumo table .secao {
+	text-align:center; background-color:#555; color:#FFF; font-weight:bold; line-height:22px;
+}
+#resumo table .movimento {
+	text-align:left; padding-left:5px;
+}
+#totalizadores {
+	width:34%; margin:0 auto;
+}
+#totalizadores table {
+	background-color:#fff; border:1px solid #ddd; line-height:28px; font-size:12px; width:100%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+}
+#totalizadores table .secao {
+	text-align:right; padding-right:2px; width:55%;
+}
+#totalizadores table .valor {
+	text-align:left; padding-left:5px; width:45%; font-weight:bold;
+}
+#botoes {
+	margin:0px auto; margin-top:20px; width:201px;
+}
+a.add_remove, a.finaliza {
+	display:block; height:48px; width:201px; margin-top:8px;
+}
+a.add_remove {
+	background:url(add_remove.jpg) no-repeat left top; margin-right:15px;
+}
+a.add_remove:hover {
+	background:url(add_remove.jpg) no-repeat left bottom;
+}
+a.finaliza {
+	background:url(finaliza.jpg) no-repeat left top;
+}
+a.finaliza:hover {
+	background:url(finaliza.jpg) no-repeat left bottom;
+}
+
+/* Relatório */
+
+#relatorio {
+	margin:-12px auto; width:98%; font-size:11px; line-height:32px; text-align:left;
+}
+#relatorio td {
+	text-align:left;
+}
+#relatorio td.nome {
+	width:45%; font-weight:bold; padding-left:5px;
+}
+#relatorio td.valor {
+	width:15%;
+}
+#relatorio td.descricao {
+	width:40%; font-style:italic; font-size:10px;
+}
+#salario td, #rendimentos td, #descontos td, #liquido td {
+	font-weight:bold; color:#FFF; padding-left:5px;
+}
+#salario a, #rendimentos a, #descontos a, #liquido a {
+	float:right; color:#FFF; margin-right:5px;
+}
+#salario {
+	background-color:#C96; border:0px;
+}
+#rendimentos {
+	background-color:#033; border-top:1px solid #666;
+}
+#descontos {
+	background-color:#933; border-top:1px solid #666;
+}
+#liquido {
+	background-color:#036; border-top:1px solid #666;
+}
+
+/* Adicionar / Remover Participante */
+
+.botao, .botao_ativo {
+	padding:6px; background-color:#f2f2f2; font-size:13px; font-weight:bold; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border:1px; cursor:pointer;
+}
+.botao:hover {
+	background-color:#069; color:#FFF;
+}
+.botao_ativo {
+	background-color:#CCC;
+}

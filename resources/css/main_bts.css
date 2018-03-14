@@ -1,0 +1,499 @@
+/* 
+    Created on : 16/05/2014, 16:46:11
+    Author     : Ramon Lima
+*/
+
+/********************************* HEADER **********************************/
+.top-header{
+    min-height: 110px;
+}
+.top-header img{
+    width: 130px;
+    height: 80px;
+}
+.header-info{
+    float: left;
+    margin-top: 40px;
+    line-height: 11px;
+    display: table;
+}
+.top-header-default{
+    min-height: 0;
+}
+.top-header-default img{
+    width: 70px;
+    height: 40px;
+}
+.top-header-default .navbar-brand{
+    padding: 5px 15px;
+}
+.top-header-default .header-info{
+    margin-top: 8px;
+}
+.logo-border{
+    border: 1px solid #F3F3F3;
+}
+.container-top{
+    margin-top: 110px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+/********************************* BOXES **********************************/
+.box-metro{width: 100%; height: 200px; margin: 10px 5px -5px 0px; color: #FFFFFF; position: relative;}
+.box-metro a{color: #FFF; text-decoration: none;}
+.box-metro-last{margin-right: 0 !important;}
+.box-content{padding: 12px;}
+.box-imagem{display: inline-block; float: left; margin-top: 15px;}
+.box-info{position: absolute; top: 70px; right: 5px; text-align: right;  /*display: inline-block; float: right; text-align: right;*/}
+.box-info p{margin-bottom: 25px; line-height: 0; padding: 0;}
+.box-info p.box-p-grande{font-size: 33px; padding-bottom: 10px;}
+.box-info p.box-p-medio{font-size: 18px;}
+.box-metro-link{cursor: pointer;}
+.box-titulo {font-size: 30px; letter-spacing: 1px; text-align: left; height: 170px; line-height: 28px; }
+.box-titulo-footer {font-size: 30px; letter-spacing: 1px; text-align: left; background: #000000; opacity: 5;}
+.boxContato { width: 420px; height: 40px; padding: 10px 0px; }
+.minus{ display: none;}
+
+.box-color1 {background: #363435;}
+.box-color2 {background: #D7CB75;}
+.box-color3 {background: #5BC6D0;}
+.box-color4 {background: #F06278;}
+.box-color5 {background: #00A85A;}
+.box-color6 {background: #7A75B5;}
+.box-color7 {background: #F58634;}
+.box-color8 {background: #A35E4E;}
+
+.box-principal {background: url("../images/inicial/principal.png") 17px 44px no-repeat #026AB3;}
+.box-admin {background: url("../images/inicial/admin.jpg") 17px 70px no-repeat #A35E4E;}
+.box-rh {background: url("../images/inicial/rh.jpg") 17px 70px no-repeat #F58634;}
+.box-financeiro {background: url("../images/inicial/financeiro.jpg") 17px 60px no-repeat #7A75B5;}
+.box-juridico {background: url("../images/inicial/juridico.jpg") 10px 63px no-repeat #00A85A;}
+.box-compras {background: url("../images/inicial/compras.jpg") 20px 65px no-repeat #F06278;}
+.box-contabil {background: url("../images/inicial/contabil.jpg") 17px 53px no-repeat #5BC6D0;}
+.box-contas {background: url("../images/inicial/prestacao.jpg") 32px 47px no-repeat #D7CB75;}
+.box-sistema {background: url("../images/inicial/sistema.jpg") 17px 53px no-repeat #363435;} /*#000000*/
+
+.box-principal-now{position: absolute; top: 56px; left: 32px; width: 133px; height: 124px; text-align: center;}
+.box-principal-now span{font-size: 20px;}
+.box-principal-now div{font-size: 86px; margin: -10px 0 0 0;} /*margin: -10px 0 0 15px*/
+.box-principal-min {background: #026AB3;}
+.box-admin-min {background: #A35E4E;}
+.box-rh-min {background:#F58634;}
+.box-financeiro-min {background: #7A75B5;}
+.box-juridico-min {background: #00A85A;}
+.box-compras-min {background: #F06278;}
+.box-contabil-min {background: #5BC6D0;}
+.box-contas-min {background: #D7CB75;}
+.box-sistema-min {background: #363435;} /*#000000*/
+
+.box-principal-header {border-bottom: 8px solid #026AB3;padding-bottom: 0px;}
+.box-admin-header {border-bottom: 8px solid #A35E4E;padding-bottom: 0px;}
+.box-rh-header {border-bottom: 8px solid #F58634;padding-bottom: 0px;}
+.box-financeiro-header {border-bottom: 8px solid  #7A75B5;padding-bottom: 0px;}
+.box-juridico-header {border-bottom: 8px solid  #00A85A;padding-bottom: 0px;}
+.box-compras-header {border-bottom: 8px solid  #F06278;padding-bottom: 0px;}
+.box-contabil-header {border-bottom: 8px solid  #5BC6D0;padding-bottom: 0px;}
+.box-contas-header {border-bottom: 8px solid  #D7CB75;padding-bottom: 0px;}
+.box-sistema-header {border-bottom: 8px solid  #363435;padding-bottom: 0px;} /*#000000*/
+
+.bs-glyphicons a {
+    background: #f9f9f9;
+    text-decoration: none;
+}
+
+.bot_nv{
+    text-align: center; 
+    border-right: 2px solid #FFF; 
+    margin: 0 0 2px 0; 
+    padding: 10px; 
+    height: 115px;
+}
+
+.bs-glyphicons .box-principal-list a:hover { background-color: #026AB3; }
+.bs-glyphicons .box-admin-list a:hover {background: #A35E4E;}
+.bs-glyphicons .box-rh-list a:hover {background:#F58634;}
+.bs-glyphicons .box-financeiro-list a:hover {background: #7A75B5;}
+.bs-glyphicons .box-juridico-list a:hover {background: #00A85A;}
+.bs-glyphicons .box-compras-list a:hover {background: #F06278;}
+.bs-glyphicons .box-contabil-list a:hover {background: #5BC6D0;}
+.bs-glyphicons .box-contas-list a:hover {background: #D7CB75;}
+.bs-glyphicons .box-sistema-list a:hover {background: #363435;} 
+
+
+/**HACK BOX DIMINUI TAMANHO DA FONTE PARA BOTÕES COM NOME GRANDE***/
+.box-compras .box-titulo, .box-compras .box-contabil, .box-contas .box-titulo{ 
+    font-size: 25px !important;
+}
+
+/********************************* BOXES **********************************/
+
+
+/***************************** LOW MENU FIXO ******************************/
+.container-top #low-menu{
+    margin-top: 20px;
+}
+.nav-pills a{
+    color: #FFF;
+    padding: 5px;
+}
+.nav-pills > li > a{
+    border-radius: 8px;
+}
+.nav-pills > li > a:hover{
+    color:#000000;
+}
+/***************************** LOW MENU FIXO ******************************/
+
+
+/**************************** BOTOES PEQUENOS ******************************/
+.bs-glyphicons {
+    margin-left: 0;
+    margin-right: 0;
+    /*margin: 0 -19px 20px -16px;*/
+    overflow: hidden;
+}
+
+.bs-glyphicons-list {
+    padding-left: 0;
+    list-style: none;
+
+}
+.bs-glyphicons li {
+    float: left;
+    height: 115px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .bs-glyphicons li {
+        width: 25%;
+    }
+}
+@media (max-width: 992px) {
+    .bs-glyphicons li {
+        width: 20%;
+    }
+}
+@media (min-width: 992px) {
+    .bs-glyphicons li {
+        width: 16.6%;
+    }
+}
+@media (min-width: 1200px) {
+    .bs-glyphicons li {
+        width: 16.6%;
+    }
+    .col-lg-4 .bs-glyphicons li {
+        width: 30%;
+    }
+}
+
+.bs-glyphicons a:hover {
+    color: #fff;
+    background-color: #563d7c;
+}
+
+.bs-glyphicons a{
+    color: #000;
+}
+
+.bs-glyphicons .glyphicon, .bs-glyphicons .fa {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.bs-glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 13px;
+    font-weight: bold;
+}
+/**************************** BOTOES PEQUENOS ******************************/
+
+
+/**************************** CONTEUDO TELA ******************************/
+
+top-margin1{
+    margin-top: 10px;
+}
+
+.bt-image{
+    width: 18px;
+    cursor: pointer;
+}
+
+#file_cadsuporte, .msg_cadsuporte{
+    display: none;
+}
+
+#opt01_cadsuporte{
+    background:#FC9;
+    color: #FFF;
+}
+
+#opt02_cadsuporte{
+    background:#FC6;
+    color: #FFF;
+}
+
+#opt03_cadsuporte{
+    background:#F90;
+    color: #FFF;
+}
+
+#opt04_cadsuporte{
+    background:#F30;
+    color: #FFF;
+}
+
+.tit_projeto{
+    background: #F0F0F7;
+    text-align: center;
+}
+
+.margin_r5{
+    margin-right: 5px;
+}
+
+.margin_r10{
+    margin-right: 10px;
+}
+
+.margin_r15{
+    margin-right: 15px;
+}
+
+.margin_r20{
+    margin-right: 20px;
+}
+
+.margin_l5{
+    margin-right: 5px;
+}
+
+.margin_l10{
+    margin-right: 10px;
+}
+
+.margin_l15{
+    margin-right: 15px;
+}
+
+.margin_l20{
+    margin-right: 20px;
+}
+
+.text-semibold {
+    font-weight: 600!important;
+}
+
+.text-bold {
+    font-weight: 700!important;
+}
+
+.text-normal {
+    font-weight: 400!important;
+}
+
+.form-group-margin {
+    margin-bottom: 25px!important;
+}
+
+.text-bg {
+    font-size: 17px;
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+#notas{
+    display: none;
+    margin-top: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.ate{
+    background: #FFF;
+}
+
+.borda_titulo{
+    border-left: 1px solid #CCC;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+}
+
+.fundo_titulo{
+    background: #fafafa;
+}
+
+.artificio1{
+    color: #F0F0F0; margin: 0 0 0 5px;
+}
+
+.artificio2{
+    color: #F0F0F0; margin: 0 0 0 10px;
+}
+
+.m-bottom25{
+    margin-bottom: 25px;
+}
+
+.occ, .t_entrada, .t_saida, #intera_prestador, #nome_prestador, #nome_fornecedor, #nome_outros, #intera_nome, #add_nome, #intera_bens, #intera_boleto, #intera_numero, #cod_barra_consumo{
+    display: none;
+}
+
+.exibe{
+    display: block;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.back-finan{
+    background-color: #7A75B5;    
+}
+
+.color-finan{
+    color: #7A75B5;
+}
+
+.border-finan{
+    border-color: #7A75B5;
+}
+
+.border-niver{
+    border-color: #ececec;
+}
+
+#back_niver{
+/*    background-image: -webkit-linear-gradient(top, #ececec 0%, #ececec 100%);
+    background-image: linear-gradient(to bottom, #ececec 0%, #ececec 100%);*/
+    background: url('../images/feliz_aniversario.jpg') no-repeat #F8F8F5;
+    border-color: #ececec;
+}
+
+#back_niver strong{
+    color: #000;
+}
+
+#quad1, #quad2, #quad3, #quad4, #quad5{
+    background-image: -webkit-linear-gradient(top, #7A75B5 0%, #7A75B5 100%);
+    background-image: linear-gradient(to bottom, #7A75B5 0%, #7A75B5 100%);
+    border-color: #7A75B5;
+}
+
+.over-x{
+    overflow-x: hidden;
+}
+
+.overflow{overflow: auto;}
+
+#top{
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    color:#555;
+    text-decoration: none;
+
+    font-size: 40px;
+    opacity:0.3;
+    display:none;
+    -webkit-transition:.150s;
+    transition:.150s;
+}
+#top:hover{ 
+    opacity:0.8;
+}
+
+.ui-datepicker {
+    font-size: 12px;
+}
+
+.pb{
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0,0,0,.15);
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/************************************ BADGES **********************************/
+.panel-danger .panel-heading .badge{
+    background-color: #a94442;
+    color: #fff;
+}
+.panel-warning .panel-heading .badge{
+    background-color: #8a6d3b;
+    color: #fff;
+}
+.panel-info .panel-heading .badge{
+    background-color: #31708f;
+    color: #fff;
+}
+.panel-success .panel-heading .badge{
+    background-color: #3c763d;
+    color: #fff;
+}
+.panel-primary .panel-heading .badge{
+    background-color: #fff;
+    color: #428bca;
+}
+/************************************ BADGES **********************************/
+
+.bar_gr .bar_gr_i{
+    width: 120px;
+}
+
+.bar_gr .bar_gr_o{
+    width: 37px;
+}
+
+.bar_gr .bar_gr_a{
+    width: 69px;
+}
+
+.bar_gr .bar_gr_b{
+    width: 78px;
+}
+
+.bar_gr .bar_gr_u{
+    background: #FFF;
+    border: 0;
+}
+
+#cod_barra_geral, #intera_valest, #intera_descest{
+    display: none;
+}
+
+.text-lg {font-size: 23px;}
+
+.l-height-42{
+    line-height: 42px;
+}
+
+.text-default{color: #829091;}

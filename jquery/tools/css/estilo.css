@@ -1,0 +1,17 @@
+.tooltip {
+	display:none;
+	font-size:12px;
+	color:#333;
+	height:82px;
+	width:169px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	background-image: url(img/white_arrow.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 20px;
+}
+*html .tooltip {
+	height:122px;
+	width:209px;
+}

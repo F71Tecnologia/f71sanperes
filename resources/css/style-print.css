@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font9{
+    font-size: 9pt;
+}
+
+.font11 {
+    font-size:11pt;
+}
+
+.font22 {
+    font-size:22pt;
+}
+
+table{
+    width: 100%;
+}
+
+.pagina {
+    background-color: #fff;
+    page-break-after: always;
+    padding: 1cm 2cm;
+    position: relative;
+    width: 210mm;
+}
+
+.pagina2 {
+    background-color: #fff;
+    page-break-after: always;
+    padding: 1cm 1cm;
+    position: relative;
+    width: 210mm;
+}   
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 1.5cm;
+}
+.padding {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.padding2 {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+h1{font-size: 1.5em !important;}
+h2{font-size: 1.4em !important;}
+h3{font-size: 1.3em !important;}
+h4{font-size: 1.2em !important;}
+h5{font-size: 1.1em !important;}
+h6{font-size: 1em !important;}
+
+.assinatura {
+    position: absolute;
+}
+
+.text-bold {
+    font-weight: 700!important;
+}
+
+.borda {
+    width: 100%;
+    border:1px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.borda2 {
+    width: 100%;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.paragrafo {
+    text-indent: 50px;
+}
+
+.artigo482 {
+    line-height:85%;
+}
+
+
+.um {
+    float: left;
+    text-align: center;
+}
+.dois {
+    float: right;
+    text-align: center;
+}
+
+@media screen {
+    body {
+        background-color: #555;
+        margin-top: 80px;
+    }
+    .pagina, .pagina2 {
+        margin: 50px auto;
+        box-shadow: 0 0 10px #000;
+        -moz-shadow: 0 0 10px #000;
+        -webkit-box-shadow: 0 0 10px #000;
+        height: 295mm;
+    }
+    .master_logo {
+        max-width:60%;
+        display: block;
+        margin: 0 auto;
+    }
+    .assinatura {
+        bottom: 30px;
+    }
+}
+
+@media print{
+    .pagina, .pagina2 {
+         height: 275mm;
+    }
+    .pagina2 {
+        padding: 1cm 1cm 1cm 1.6cm;
+    }
+    .no-print {
+        display: none;
+    }
+    .masterDiv {
+        max-width:60%;
+        display: block;
+        margin: 0 auto;
+    }
+    .assinatura {
+        bottom: 15px;
+    }
+}

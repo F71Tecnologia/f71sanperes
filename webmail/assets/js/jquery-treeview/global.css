@@ -1,0 +1,59 @@
+nav.sidebar nav.sub-sidebar #lista-pastas {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 97%;
+    height: 157px;  
+    overflow-y: auto;
+    overflow-x: auto;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+
+nav.sidebar nav.sub-sidebar #lista-pastas li.active {
+    font-weight: 600;
+    background: #dbdbdb;
+}
+
+nav.sidebar nav.sub-sidebar #lista-pastas li a {
+    text-decoration: none;
+    color: #000;
+    width: 95%;
+    height: 100%;
+    display: block;
+    margin-left: 5px;
+}
+
+nav.sidebar nav.sub-sidebar #lista-pastas li a.active {
+    font-weight: bold;
+}
+
+nav.sidebar nav.sub-sidebar #lista-pastas li:hover {
+    background-color: #fff;
+}
+
+/* REDIMENSIONAR DIV PASTAS */
+
+.sidebar-pastas #lista-pastas{
+    resize: vertical;
+    min-height: 220px;
+    background: url('../images/icon-resize.gif') no-repeat bottom right;
+}
+
+
+.sidebar-pastas #lista-pastas li{
+}
+
+.sidebar-pastas #lista-pastas li a.arvore-sub-pasta{
+    margin-left: 12px;
+    padding-left: 15px;
+    background: url('../images/bg-arvore-pastas.gif') no-repeat;
+}
+
+
+nav.sidebar nav.sub-sidebar {
+    padding: 0;
+    width: 100%;
+    margin: 5px 0 0 0;
+}

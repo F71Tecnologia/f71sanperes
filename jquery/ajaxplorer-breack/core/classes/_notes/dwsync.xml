@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="class.AbstractTest.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AjxpRole.php" server="ftp.netsorrindo.com/www/intranet/" local="129696451660000000" remote="129703470600000000" />
+<file name="class.AJXP_Cache.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_Controller.php" server="ftp.netsorrindo.com/www/intranet/" local="129696683740000000" remote="129703470600000000" />
+<file name="class.AJXP_Exception.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_JSPacker.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_Logger.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_Node.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_Plugin.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_PluginsService.php" server="ftp.netsorrindo.com/www/intranet/" local="129684403220000000" remote="129703470600000000" />
+<file name="class.AJXP_Safe.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_Utils.php" server="ftp.netsorrindo.com/www/intranet/" local="129675799180000000" remote="129703470600000000" />
+<file name="class.AJXP_VarsFilter.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_WebdavAuth.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_WebdavBackend.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.AJXP_XMLWriter.php" server="ftp.netsorrindo.com/www/intranet/" local="129696451660000000" remote="129703470600000000" />
+<file name="class.AuthService.php" server="ftp.netsorrindo.com/www/intranet/" local="129696451660000000" remote="129703470600000000" />
+<file name="class.CaptchaProvider.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.ConfService.php" server="ftp.netsorrindo.com/www/intranet/" local="129684403220000000" remote="129703470600000000" />
+<file name="class.HTMLWriter.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.HttpClient.php" server="ftp.netsorrindo.com/www/intranet/" local="129528098400000000" remote="129703470600000000" />
+<file name="class.RecycleBinManager.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.Repository.php" server="ftp.netsorrindo.com/www/intranet/" local="129696540220000000" remote="129703470600000000" />
+<file name="class.SystemTextEncoding.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.UnixProcess.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="class.UserSelection.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703470600000000" />
+<file name="compat.php" server="ftp.netsorrindo.com/www/intranet/" local="129630188460000000" remote="129703471200000000" />
+<file name="dibi.compact.php" server="ftp.netsorrindo.com/www/intranet/" local="128848168460000000" remote="129703471200000000" />
+<file name="index.html" server="ftp.netsorrindo.com/www/intranet/" local="129224779520000000" remote="129703478400000000" />
+<file name="interface.AjxpWebdavProvider.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703478400000000" />
+<file name="interface.AjxpWrapper.php" server="ftp.netsorrindo.com/www/intranet/" local="129674890360000000" remote="129703478400000000" />
+<file name="pclzip.lib.php" server="ftp.netsorrindo.com/www/intranet/" local="129513156780000000" remote="129703478400000000" />
+</dwsync>

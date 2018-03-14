@@ -1,0 +1,495 @@
+<nfeProc versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe33141100274838000173550010000095951100000273" versao="2.00">
+            <ide>
+                <cUF>33</cUF>
+                <cNF>10000027</cNF>
+                <natOp>VENDA DE PRODUTOS</natOp>
+                <indPag>2</indPag>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>9595</nNF>
+                <dEmi>2014-11-13</dEmi>
+                <dSaiEnt>2014-11-13</dSaiEnt>
+                <tpNF>1</tpNF>
+                <cMunFG>3304557</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>3</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>3</procEmi>
+                <verProc>2.2.28</verProc>
+            </ide>
+            <emit>
+                <CNPJ>00274838000173</CNPJ>
+                <xNome>Lino Briote Produtos Farmaceuticos e Hospitalares Ltda</xNome>
+                <xFant>Sellerpharma</xFant>
+                <enderEmit>
+                    <xLgr>Rua Dias da Cruz</xLgr>
+                    <nro>203</nro>
+                    <xCpl>Loja 27</xCpl>
+                    <xBairro>Meier</xBairro>
+                    <cMun>3304557</cMun>
+                    <xMun>Rio de Janeiro</xMun>
+                    <UF>RJ</UF>
+                    <CEP>20720010</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                    <fone>32731147</fone>
+                </enderEmit>
+                <IE>85075349</IE>
+                <IM>01762460</IM>
+                <CNAE>4644301</CNAE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CNPJ>07813739000404</CNPJ>
+                <xNome>INSTITUTO LAGOS RIO</xNome>
+                <enderDest>
+                    <xLgr>ROD BR 493 S/Nº</xLgr>
+                    <nro>-</nro>
+                    <xBairro>MANILHA</xBairro>
+                    <cMun>3301900</cMun>
+                    <xMun>Itaborai</xMun>
+                    <UF>RJ</UF>
+                    <CEP>24800000</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                    <fone>0000000000</fone>
+                </enderDest>
+                <IE />
+            </dest>
+            <det nItem="1">
+                <prod>
+                    <cProd>MAT-001320</cProd>
+                    <cEAN />
+                    <xProd>AGUA OXIGENADA 1 LITRO Lt:M19929 F:01-10-13 V:01-10-16</xProd>
+                    <NCM>28470000</NCM>
+                    <CFOP>5405</CFOP>
+                    <uCom>Uni</uCom>
+                    <qCom>10.0000</qCom>
+                    <vUnCom>3.2000</vUnCom>
+                    <vProd>32.00</vProd>
+                    <cEANTrib />
+                    <uTrib>Uni</uTrib>
+                    <qTrib>10.0000</qTrib>
+                    <vUnTrib>3.2000</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>M19929</nLote>
+                        <qLote>10</qLote>
+                        <dFab>2013-10-01</dFab>
+                        <dVal>2016-10-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>0</orig>
+                            <CST>60</CST>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>32.00</vBC>
+                            <pPIS>0.65</pPIS>
+                            <vPIS>0.21</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>32.00</vBC>
+                            <pCOFINS>3</pCOFINS>
+                            <vCOFINS>0.96</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="2">
+                <prod>
+                    <cProd>MAT-001745</cProd>
+                    <cEAN />
+                    <xProd>HIPOCLORITO 1% BOMBONA 5 LITROS  Lt:14682 F:01-04-13 V:01-04-15</xProd>
+                    <NCM>38089419</NCM>
+                    <CFOP>5405</CFOP>
+                    <uCom>GAL</uCom>
+                    <qCom>2.0000</qCom>
+                    <vUnCom>15.5000</vUnCom>
+                    <vProd>31.00</vProd>
+                    <cEANTrib />
+                    <uTrib>GAL</uTrib>
+                    <qTrib>2.0000</qTrib>
+                    <vUnTrib>15.5000</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>14682</nLote>
+                        <qLote>2</qLote>
+                        <dFab>2013-04-01</dFab>
+                        <dVal>2015-04-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>0</orig>
+                            <CST>60</CST>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>31.00</vBC>
+                            <pPIS>0.65</pPIS>
+                            <vPIS>0.20</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>31.00</vBC>
+                            <pCOFINS>3</pCOFINS>
+                            <vCOFINS>0.93</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="3">
+                <prod>
+                    <cProd>MAT-001460</cProd>
+                    <cEAN />
+                    <xProd>LANCETA E LANCETADOR ESTÉRIL Lt:01-131201 F:01-11-13 V:01-11-18</xProd>
+                    <NCM>38220090</NCM>
+                    <CFOP>5102</CFOP>
+                    <uCom>CX</uCom>
+                    <qCom>2.0000</qCom>
+                    <vUnCom>62.0000</vUnCom>
+                    <vProd>124.00</vProd>
+                    <cEANTrib />
+                    <uTrib>CX</uTrib>
+                    <qTrib>2.0000</qTrib>
+                    <vUnTrib>62.0000</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>01-131201</nLote>
+                        <qLote>2</qLote>
+                        <dFab>2013-11-01</dFab>
+                        <dVal>2018-11-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS00>
+                            <orig>0</orig>
+                            <CST>00</CST>
+                            <modBC>0</modBC>
+                            <vBC>124.00</vBC>
+                            <pICMS>19.00</pICMS>
+                            <vICMS>23.56</vICMS>
+                        </ICMS00>
+                    </ICMS>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>124.00</vBC>
+                            <pPIS>0.65</pPIS>
+                            <vPIS>0.81</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>124.00</vBC>
+                            <pCOFINS>3</pCOFINS>
+                            <vCOFINS>3.72</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="4">
+                <prod>
+                    <cProd>MAT-001490</cProd>
+                    <cEAN />
+                    <xProd>SACO PARA VÔMITO Lt:S/L F:01-09-13 V:01-09-18</xProd>
+                    <NCM>39269090</NCM>
+                    <CFOP>5102</CFOP>
+                    <uCom>Uni</uCom>
+                    <qCom>41.0000</qCom>
+                    <vUnCom>0.8200</vUnCom>
+                    <vProd>33.62</vProd>
+                    <cEANTrib />
+                    <uTrib>Uni</uTrib>
+                    <qTrib>41.0000</qTrib>
+                    <vUnTrib>0.8200</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>S/L</nLote>
+                        <qLote>41</qLote>
+                        <dFab>2013-09-01</dFab>
+                        <dVal>2018-09-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS00>
+                            <orig>0</orig>
+                            <CST>00</CST>
+                            <modBC>0</modBC>
+                            <vBC>33.62</vBC>
+                            <pICMS>19.00</pICMS>
+                            <vICMS>6.39</vICMS>
+                        </ICMS00>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>04</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>04</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="5">
+                <prod>
+                    <cProd>MAT-001490</cProd>
+                    <cEAN />
+                    <xProd>SACO PARA VÔMITO Lt:077 F:01-01-14 V:01-01-17</xProd>
+                    <NCM>39269090</NCM>
+                    <CFOP>5102</CFOP>
+                    <uCom>Uni</uCom>
+                    <qCom>59.0000</qCom>
+                    <vUnCom>0.8200</vUnCom>
+                    <vProd>48.38</vProd>
+                    <cEANTrib />
+                    <uTrib>Uni</uTrib>
+                    <qTrib>59.0000</qTrib>
+                    <vUnTrib>0.8200</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>077</nLote>
+                        <qLote>59</qLote>
+                        <dFab>2014-01-01</dFab>
+                        <dVal>2017-01-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS00>
+                            <orig>0</orig>
+                            <CST>00</CST>
+                            <modBC>0</modBC>
+                            <vBC>48.38</vBC>
+                            <pICMS>19.00</pICMS>
+                            <vICMS>9.19</vICMS>
+                        </ICMS00>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>04</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>04</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="6">
+                <prod>
+                    <cProd>MAT-001491</cProd>
+                    <cEAN />
+                    <xProd>SERINGA DESCARTÁVEL 1ML Lt:S/L F:01-09-13 V:01-09-18</xProd>
+                    <NCM>90183190</NCM>
+                    <CFOP>5405</CFOP>
+                    <uCom>Uni</uCom>
+                    <qCom>1000.0000</qCom>
+                    <vUnCom>0.2900</vUnCom>
+                    <vProd>290.00</vProd>
+                    <cEANTrib />
+                    <uTrib>Uni</uTrib>
+                    <qTrib>1000.0000</qTrib>
+                    <vUnTrib>0.2900</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>S/L</nLote>
+                        <qLote>1000</qLote>
+                        <dFab>2013-09-01</dFab>
+                        <dVal>2018-09-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>0</orig>
+                            <CST>60</CST>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>04</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>04</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="7">
+                <prod>
+                    <cProd>MAT-001492</cProd>
+                    <cEAN />
+                    <xProd>SERINGA DESCARTÁVEL 3ML Lt:201148 F:01-10-11 V:01-10-16</xProd>
+                    <NCM>90183190</NCM>
+                    <CFOP>5405</CFOP>
+                    <uCom>Uni</uCom>
+                    <qCom>1000.0000</qCom>
+                    <vUnCom>0.1500</vUnCom>
+                    <vProd>150.00</vProd>
+                    <cEANTrib />
+                    <uTrib>Uni</uTrib>
+                    <qTrib>1000.0000</qTrib>
+                    <vUnTrib>0.1500</vUnTrib>
+                    <indTot>1</indTot>
+                    <med>
+                        <nLote>201148</nLote>
+                        <qLote>1000</qLote>
+                        <dFab>2011-10-01</dFab>
+                        <dVal>2016-10-01</dVal>
+                        <vPMC>0</vPMC>
+                    </med>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>0</orig>
+                            <CST>60</CST>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>04</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>04</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>206.00</vBC>
+                    <vICMS>39.14</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>709.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>1.22</vPIS>
+                    <vCOFINS>5.61</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>709.00</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>0</modFrete>
+                <transporta>
+                    <xNome>AEROMED TRANSPORTES LTDA</xNome>
+                </transporta>
+                <veicTransp>
+                    <placa>AER0000</placa>
+                    <UF>RJ</UF>
+                    <RNTC>Rio de Janeiro</RNTC>
+                </veicTransp>
+                <vol>
+                    <qVol>2114</qVol>
+                    <pesoL>0.000</pesoL>
+                    <pesoB>0.000</pesoB>
+                </vol>
+            </transp>
+            <cobr>
+                <fat>
+                    <nFat>9595</nFat>
+                    <vOrig>709.00</vOrig>
+                    <vLiq>709.00</vLiq>
+                </fat>
+            </cobr>
+            <infAdic>
+                <infAdFisco>ICMS ST RETIDO NA FASE ANTERIOR CONFORME ARTIGO 2 DO LIVRO II DECRETO 27427/2000. PIS/COFINS ALIQUOTA ZERO CONF DECRETO 6426/2008</infAdFisco>
+                <infCpl>POR ORDEM E RESPONSABILIDADE DO DESTINATARIO, OS PRODUTOS SERAO ENTREGUES E UTILIZADOS PELA UPA 24H DE ITABORAI, LOCALIZADA NA RODOVIA BR 493 MANILHA,ITABORAI,RIO DE JANEIRO CEP 2480 PED. CLI.:11/11/2014 N.N.:8357/14 L.S.:13-11-14</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="#NFe33141100274838000173550010000095951100000273">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                    <DigestValue>vapoi99uon5uEIUqzZJUpUye3Bw=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>DWyLNwk7dbTRfneK8kfA59GK3ew8s3ivOq6GBJ/jIBgjoaMD7Q8x7QQ5stgmmLkA84bAid0xWRDy
+zm5rdUIr1oPNVa/sWkZXMu9B5m159Fs/m8/0195P80C4JH2FUS9UJVTPftK7+vTYpo8f4xqzTx9e
+zXgdOSLQVB2uBIh6uLhjGcnuqaq6i90zbd8Bqy8kcTY3s7CM9Dh8x0DMoDPv19tHo4aEMrTQLAJ+
+2YG3kvd8mNGa9wRrTPwgYTtvuJf6drBumSkDJabNR76iTpS4iMv4DJ2MRGsx2nb3nlQwviPZNeqJ
+WCwx0M4PCnjcOO3j6WuyPeY9XgE6nmimKMVjVA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIeTCCBmGgAwIBAgIQV5jILBk5C+JBq609XZ4aszANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRv
+cmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTQw
+NzAxMDAwMDAwWhcNMTUwNjMwMjM1OTU5WjCB/DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1C
+cmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBE
+aWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gNjQ3MjEz
+MTE/MD0GA1UEAxM2TElOTyBCUklPVEUgUFJPRFVUT1MgRkFSTUFDRVVUSUNPUyBFIEhPU1BJVEFM
+QVJFUyBMVERBMSkwJwYJKoZIhvcNAQkBFhpzZXJnaW9yYXpldmVkb0Bob3RtYWlsLmNvbTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKp/pn9SAYe5qiAEA866d/FP1PiHa205TcYtxHAa
+OTAJzDTNBTedwKdsT+ihGF+uR/l+e9pzScEW3CiiLqQCvqMIbrOFSK4XLeQmMGy/jkpoYiJiMNaI
+3ohP9KSPqPbqsIXEHRYWsT2LJTyvtXJfyBvULF3dw2LGRWpfHQROhuggI2cFE0Hk5STAINpoRXO2
+5e+WcHDIKdBFphu9+vEtgZ0Bq7vgtArCzjHH+jnX8CC379kNaaidZXRTLQlYx4qdDwQwWhHar7nL
+XqLbNU6JQfwlOU1r7j8orViSOfDLYsnkB9kPhNk8cf6cjZZdBw/0umiLfGrtK+DjEfdvvEPZiqUC
+AwEAAaOCA3wwggN4MIHCBgNVHREEgbowgbegPQYFYEwBAwSgNAQyMDMwODE5NTQzMzY3NzE3NDc5
+MTAwMDAwMDAwMDAwMDAwMDAwMDMxNzcxOTc1SUZQUkqgJgYFYEwBAwKgHQQbU0VSR0lPIFJPRFJJ
+R1VFUyBERSBBWkVWRURPoBkGBWBMAQMDoBAEDjAwMjc0ODM4MDAwMTczoBcGBWBMAQMHoA4EDDAw
+MDAwMDAwMDAwMIEac2VyZ2lvcmF6ZXZlZG9AaG90bWFpbC5jb20wCQYDVR0TBAIwADAfBgNVHSME
+GDAWgBSdUM+9/yTKr7Ez6xfiQnqOaSqOUzAOBgNVHQ8BAf8EBAMCBeAwgYkGA1UdIASBgTB/MH0G
+BmBMAQIBCzBzMHEGCCsGAQUFBwIBFmVodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJy
+L3JlcG9zaXRvcmlvL2RwYy9BQ19DZXJ0aXNpZ25fTXVsdGlwbGEvRFBDX0FDX0NlcnRpU2lnbk11
+bHRpcGxhLnBkZjCCASUGA1UdHwSCARwwggEYMFygWqBYhlZodHRwOi8vaWNwLWJyYXNpbC5jZXJ0
+aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnbk11bHRpcGxhRzUvTGF0ZXN0
+Q1JMLmNybDBboFmgV4ZVaHR0cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRv
+cmlvL2xjci9BQ0NlcnRpc2lnbk11bHRpcGxhRzUvTGF0ZXN0Q1JMLmNybDBboFmgV4ZVaHR0cDov
+L3JlcG9zaXRvcmlvLmljcGJyYXNpbC5nb3YuYnIvbGNyL0NlcnRpc2lnbi9BQ0NlcnRpc2lnbk11
+bHRpcGxhRzUvTGF0ZXN0Q1JMLmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgaAG
+CCsGAQUFBwEBBIGTMIGQMGQGCCsGAQUFBzAChlhodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24u
+Y29tLmJyL3JlcG9zaXRvcmlvL2NlcnRpZmljYWRvcy9BQ19DZXJ0aXNpZ25fTXVsdGlwbGFfRzUu
+cDdjMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5jZXJ0aXNpZ24uY29tLmJyMA0GCSqGSIb3DQEB
+CwUAA4ICAQC6d4i7jYN+88F5VxxBVMrLsmVCX4ULoPEzchSqanWbOofYEOSNBJaqU4Iwhf1JPqt0
+3j3MmYjul1/gCV49ROHJkcfl1FmSu+OJgD0JpsGXT/wgBVayjA/dujd3UA0/yrx3skuFRatIP+l5
+8F3D8sj8tHeyG6qDG51onPaHd0C6YGQNyMW4KhB1ItBftlyJZfY8VX+2IaxWZlof9+z/ggy+s2cu
+8a122ySQzx28E/+0jnxg8xokSvFfGMEn8kVSxbiXaaSj/Ya7qfUgEyEw7w36DxXoaAcqDa3N9GFf
+STnHTKG6EIAdmtoZDtMCNHqDCQ4eIABvs91ht9rlbCjn939uf8jnXj/GIDTehRIzSX6r9zLfh9RM
+VAYdPUg8LFsBMNL2Ajggnc86ed6c0pKZoImt65ynXPRJUrXBlslAvxmh6lSs7L8qLtMyfLX51Di8
+6ylk9h8DVuJUfXEb46j4MTf0j5RP600g2rrvhMgOVahmylZhB2SlZVrqGUCqLovHvpAAUHSIANpi
+AlYYsXf7qVzIh53iC+frGSUm2uF5BYLRBBGZHAYgXl3DeFVAsqyiUadeWjJCmm9uW+WQcl0yNTHZ
+DtuIyuHjBRqIk9QDQ7gftokNGmt4/DuXn2F4dNPBHJtflbGMeoNpPywFkwHOVJkF+RoouaSf9SEQ
+t8zR19PPTQ==</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe"><infProt Id="ID333140153825395"><tpAmb>1</tpAmb><verAplic>SVRS20141112121448</verAplic><chNFe>33141100274838000173550010000095951100000273</chNFe><dhRecbto>2014-11-13T11:09:03</dhRecbto><nProt>333140153825395</nProt><digVal>vapoi99uon5uEIUqzZJUpUye3Bw=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>

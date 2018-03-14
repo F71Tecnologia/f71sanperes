@@ -1,0 +1,147 @@
+#lista_pontos{
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.lista_pontos{
+    width: 100%;
+    border: 1px solid #ccc; 
+}
+.lista_pontos th{
+    background: #DDD;
+    padding: 10px;
+    text-align: left;
+}
+.lista_pontos td{
+    padding: 5px;
+}
+.lista_movimentos{
+    width: 100%;
+    border: 1px solid #ccc; 
+    margin: 10px 0px;
+}
+.lista_movimentos th{
+    background: #DDD;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+.lista_movimentos td{
+    padding: 5px;
+}
+.campo_pequeno{
+    width: 20px;
+}
+.zebraUm{
+    background: #f1f1f1;
+}
+.zebraDois{
+    background: #f5f5f5;
+}
+.icon_detalhes{
+    width: 12px;
+    cursor: pointer;
+}
+#detalhes{
+    display: none;
+}
+.itens{
+    border: 1px solid #ccc;
+    padding: 6px;
+    box-sizing: border-box;
+    width: 228px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+.itens p{
+    font-weight: bold;
+    font-size: 12px;
+}
+.itens .valor{
+    font-weight: normal;
+}
+.itens .expressao{
+    font-style: italic;
+    font-size: 11px;
+    color:#D32D1F;
+    font-weight: 700;
+}
+.ajuste_botao{
+    float: right;
+    margin: 20px -2px;  
+}
+.ajuste_col_dir{
+    overflow: hidden;
+}
+.vermelho{
+    color: #D32D1F;
+}
+.alert{
+    width: 15px;
+}
+.message{
+    position: absolute;
+    background: #ddd;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 10px 11px 32px #999;
+    font-size: 12px;
+    color: #333;
+    font-family: verdana;
+}
+.padding_mov{
+    padding-left:89px;
+}
+.celula_destaque{
+    background: #D6D6D6;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #646464;
+}
+.destaque_titulo{
+    font-weight: bold;
+}
+.projeto{
+    border: 0px solid #ccc;
+    width: 201px;
+    height: 71px;
+    margin-left: 23px;
+}
+.projeto label{
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    height: 30px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    
+}
+.titleEsquerda{
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    background: #EBEEF1;
+    height: 38px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+
+
+.projeto select{
+    width: 201px;
+    height: 35px;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    padding: 0px 3px;
+    text-transform: uppercase;
+}
+.loading{
+    position: absolute;
+    right: 26px;
+}
